@@ -1,13 +1,17 @@
 var nested = false;
 
 $(document).ready(function() {
-    makeRequest();
+    requestInitial();
+
+    setInterval(function() {
+        requestTimeRated()
+    }, 15000);
 });
 
-function makeRequest(){
+function requestInitial(){
     $.ajax({
         type: "GET",
-        url: "http://10.8.235.166:5000/payable",
+        url: "http://10.8.220.169:5000/payable", // "http://192.168.0.14:5000/payable",
         crossDomain: true,
         contentType: "text/html; charset=utf-8",
         success: function(resp) {
@@ -22,9 +26,31 @@ function makeRequest(){
                     nested = true;
                     setTimeout(function() {
                         console.log("Making 2nd request...");
-                        makeRequest();
+                        requestInitial();
                     }, 2000);
                 }
+            }
+        },
+        failure: function(err) {
+            console.log("Failed to get data");
+            alert(err);
+        }
+    })
+}
+
+function requestTimeRated(){
+    $.ajax({
+        type: "GET",
+        url: "http://10.8.220.169:5000/payable/timerated", // "http://192.168.0.14:5000/payable/timerated",
+        crossDomain: true,
+        contentType: "text/html; charset=utf-8",
+        success: function(resp) {
+            console.log("Access maintained");
+            console.log(resp);
+        },
+        error: function(xhr, textStatus, errorThrown) {
+            if (xhr.status == 402) {
+                console.log("Access lost; payment required");
             }
         },
         failure: function(err) {
