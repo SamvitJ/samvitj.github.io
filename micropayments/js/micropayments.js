@@ -28,7 +28,7 @@ function requestInitial(){
                     setTimeout(function() {
                         console.log("Making 2nd request...");
                         requestInitial();
-                    }, 2000);
+                    }, 500);
                 }
             }
         },
