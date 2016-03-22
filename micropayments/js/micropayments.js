@@ -4,7 +4,8 @@ $(document).ready(function() {
     requestInitial();
 
     setInterval(function() {
-        requestTimeRated()
+        console.log("Requesting time-rated endpoint...");
+        requestTimeRated();
     }, 15000);
 });
 
