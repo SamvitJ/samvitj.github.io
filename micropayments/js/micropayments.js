@@ -1,3 +1,13 @@
+var isActive = true;
+
+window.onfocus = function() {
+  isActive = true;
+};
+
+window.onblur = function() {
+  isActive = false;
+};
+
 var nested = false;
 
 $(document).ready(function() {
@@ -17,9 +27,14 @@ function requestInitial(){
 
             /* Start time-rated payments */
             setInterval(function() {
-                console.log("Requesting time-rated endpoint...");
-                requestTimeRated();
-            }, 15000);
+                if (isActive) {
+                    console.log("Requesting time-rated endpoint...");
+                    requestTimeRated();
+                }
+                else {
+                    console.log("Tab inactive");
+                }
+            }, 3000);
         },
         error: function(xhr, textStatus, errorThrown) {
             if (xhr.status == 402) {
