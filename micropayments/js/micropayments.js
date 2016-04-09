@@ -1,3 +1,8 @@
+// session state
+var cookieName = "payments-cookie";
+var cookieValue = "session-tracker";
+
+// tab active state
 var isActive = true;
 
 window.onfocus = function() {
@@ -8,10 +13,19 @@ window.onblur = function() {
   isActive = false;
 };
 
+// request loop state
 var nested = false;
 
 $(document).ready(function() {
-    requestInitial();
+    if (!readCookie(cookieName)) {
+        requestInitial();
+    }
+    else {
+        console.log(readCookie(cookieName));
+
+        $(".adsbygoogle").remove();
+        startTimeRatedLoop();
+    }
 });
 
 function requestInitial(){
@@ -23,18 +37,9 @@ function requestInitial(){
         success: function(resp) {
             console.log("Access granted");
             console.log(resp);
-            $(".adsbygoogle").remove();
 
-            /* Start time-rated payments */
-            setInterval(function() {
-                if (isActive) {
-                    console.log("Requesting time-rated endpoint...");
-                    requestTimeRated();
-                }
-                else {
-                    console.log("Tab inactive");
-                }
-            }, 3000);
+            $(".adsbygoogle").remove();
+            startTimeRatedLoop();
         },
         error: function(xhr, textStatus, errorThrown) {
             if (xhr.status == 402) {
@@ -42,6 +47,10 @@ function requestInitial(){
                 if (!nested) {
                     nested = true;
                     setTimeout(function() {
+                        var expiration = xhr.getResponseHeader("expiration");
+                        createCookie(cookieName, cookieValue, expiration);
+                        console.log("Expiration:", expiration);
+
                         console.log("Making 2nd request...");
                         requestInitial();
                     }, 500);
@@ -59,6 +68,18 @@ function requestInitial(){
             alert(err);
         }
     })
+}
+
+function startTimeRatedLoop() {
+    setInterval(function() {
+        if (isActive) {
+            console.log("Requesting time-rated endpoint...");
+            requestTimeRated();
+        }
+        else {
+            console.log("Tab inactive");
+        }
+    }, 3000);
 }
 
 function requestTimeRated(){
