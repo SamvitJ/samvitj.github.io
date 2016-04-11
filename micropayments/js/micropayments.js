@@ -16,12 +16,13 @@ window.onblur = function() {
 // request loop state
 var nested = false;
 
+// page load behavior
 $(document).ready(function() {
     if (!readCookie(cookieName)) {
         requestInitial();
     }
     else {
-        console.log(readCookie(cookieName));
+        console.log("Existing cookie", document.cookie);
 
         $(".adsbygoogle").remove();
         startTimeRatedLoop();
@@ -47,9 +48,10 @@ function requestInitial(){
                 if (!nested) {
                     nested = true;
                     setTimeout(function() {
+                        var schemeID = xhr.getResponseHeader("scheme_id");
                         var expiration = xhr.getResponseHeader("expiration");
-                        createCookie(cookieName, cookieValue, expiration);
-                        console.log("Expiration:", expiration);
+                        createCookie(cookieName, schemeID, expiration);
+                        console.log("Created cookie", document.cookie);
 
                         console.log("Making 2nd request...");
                         requestInitial();
