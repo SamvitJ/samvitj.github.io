@@ -1,0 +1,3 @@
+baseurl: http://www.samvitjain.com/blog
+permalink: /:title/
+markdown: redcarpet
