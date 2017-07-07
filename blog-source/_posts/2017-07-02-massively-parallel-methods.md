@@ -16,7 +16,7 @@ The authors of *this* paper used Gorila to play 49 Atari 2600 games in two diffe
 
 Gorila achieves these results by introducing parallelization along three axes:
 
-  1. **Actors** - In an RL algorithm, actors are the agents that explore an environment, and reap a reward as they do so. Gorila supports \\(N_{act}\\) actors which operate in parallel on \\(N_{act}\\) instantiations of the *same* environment. Each actor generates its own trajectory of experience on the environment, which can be stored both in local memory and in a global memory.
+  1. **Actors** - In an RL algorithm, actors are the agents that explore an environment, and reap reward as they do so. Gorila supports \\(N_{act}\\) actors which operate in parallel on \\(N_{act}\\) instantiations of the *same* environment. Each actor generates its own trajectory of experience on the environment, which can be stored both in local memory and in a global memory.
 
   2. **Learners** - Learners sample experience from the local or global store, and apply an RL algorithm such as DQN to it, generating a gradient vector \\(g_i\\) to be communicated to the parameter server (see below). The parameter server uses these gradient vectors to update a master copy of the Q-network. Gorila supports \\(N_{learn}\\) concurrent learner processes, each of which contains a replica of the Q-network, and computes a gradient update from an independently drawn sample of experience at each iteration.
 
@@ -38,14 +38,20 @@ Actually, the contribution can be of one of two flavors:
 
     How is superlinear speedup possible? Here's a basic example: if an algorithm involves executing a computation on a large data set, parallelizing it (e.g. via a master-worker approach) could reduce or eliminate disk accesses, if the resulting data partitions now fit into each worker machine's main memory.
 
-    In the case of reinforcement learning, the experiments with asynchronous 1-step Q-learning showed that less training data was needed in aggregate to reach score parity as more parallel actor-learners were used. The authors believe this superlinear behavior stems from the use of different exploration policies on different processes, which leads to parameter updates that are less correlated in time than if a single agent were to explore the environment sequentially. In other words, using more actor-learners leads to collecting experience that is more "diverse," leading to faster convergence of stochastic gradient descent.
+    In the case of reinforcement learning, the experiments with asynchronous 1-step Q-learning showed that less training data was needed in aggregate to reach score parity as more parallel actor-learners were used. The authors believe this superlinear behavior stems from the use of different exploration policies on different processes, which leads to parameter updates that are less correlated in time than if a single agent were to explore the environment sequentially. In other words, using more actor-learners leads to collecting experience that is more "diverse," leading to faster convergence of stochastic gradient descent.[^2]
 
     As these examples indicate, superlinearity can stem from both systems and algorithmic optimizations unlocked by parallelization. Such papers are valuable because they suggest avenues toward substantially better (e.g. "10x") system architectures or algorithms.
 
     Note also that by Amdahl's law, superlinearity can only hold for so long; as the number of processors grows, the speedup achieved by parallelization approaches a fixed constant, with the non-parallelizable component of the task becoming the bottleneck. Even if a particular computation is completely parallelizable, the speedup factor approaches a linear asymptote.
+
+Of these two, Gorila falls in the first category, as it demonstrates how a parallelized implementation of the DQN algorithm can outperform the original, serial implementation, but does not claim any particular asymptotic behavior. Remarkably, the authors were able to beat the single GPU implementation, which was trained for 12-14 days, in 38 out of the 49 games considered after just 1.5 days of training!
+
+*Thanks to Robert Nishihara, Roy Fox, and Sanjay Jain for reviewing drafts of this post.*
 
 ### Footnotes
 
 [^1]: I used the Amazon ECU and vCPU designations as a rough benchmark for instance compute power. ECU is an abbreviation for Elastic Compute Unit, which Amazon is phasing out for the more standard vCPU (virtual CPU) designation.  
 The p2.xlarge GPU instance consists of 4 vCPUs and 12 ECUs. The closest comparable CPU instance I found, the m4.xlarge, consists of 4 vCPUs and 13 ECUs.  
 Note that the r3.xlarge, a comparable memory-optimized CPU instance (4 vCPUs, 13 ECUs), costs $0.333 per hour, compared to $0.90 per hour for the GPU instance.
+
+[^2]: To be completely precise, asynchronous 1-step Q-learning does not *require* the use of parallel execution threads. A similar effect would be seen if a serial machine were to *simulate* parallelism, by maintaining the state for multiple instantiations of the algorithm in memory, and running the exploration policies in a round-robin fashion on the instances. (Incidentally, this is also how a single-core machine would support the abstraction of multiple threads.) What precludes this in practice, however, is the lack of sufficient RAM on a single-core machine to keep so much state in memory.
