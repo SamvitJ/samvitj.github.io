@@ -1,8 +1,8 @@
 ---
 layout: post 
 title: "Massively Parallel Methods for Deep Reinforcement Learning"
-date: 2017-7-2
-comments: false 
+date: 2017-07-06
+comments: true
 ---
 
 In this post, I introduce the Google DeepMind [paper](https://arxiv.org/pdf/1507.04296.pdf) "Massively Parallel Methods for Deep Reinforcement Learning," published in ICML 2015, and discuss the motivation behind developing parallel implementations of powerful algorithms.
