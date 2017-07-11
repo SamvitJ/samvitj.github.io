@@ -29,9 +29,12 @@
 <p>Gorila achieves these results by introducing parallelization along three axes:</p>
 <ol type="1">
 <li><p><strong>Actors</strong> - In an RL algorithm, actors are the agents that explore an environment, and reap reward as they do so. Gorila supports \(N_{act}\) actors which operate in parallel on \(N_{act}\) instantiations of the <em>same</em> environment. Each actor generates its own trajectory of experience on the environment, which can be stored both in local memory and in a global memory.</p></li>
-<li><p><strong>Learners</strong> - Learners sample experience from the local or global store, and apply an RL algorithm such as DQN to it, generating a gradient vector \(g_i\) to be communicated to the parameter server (see below). The parameter server uses these gradient vectors to update a master copy of the Q-network. Gorila supports \(N_{learn}\) concurrent learner processes, each of which contains a replica of the Q-network, and computes a gradient update from an independently drawn sample of experience at each iteration.</p></li>
-<li><p><strong>Parameter server</strong> - The parameter server, which serves the role of a master node, maintains a distributed representation of the Q-network, with the parameter vector <span class="math inline"><em>θ</em></span> split across the \(N_{param}\) machines of the server. The parameter server receives gradient updates from the learners; each of the \(N_{param}\) machines applies the appropriate updates to the subset of <span class="math inline"><em>θ</em></span> that it is responsible for. This process of applying updates in a distributed manner follows an asynchronous variant of stochastic gradient descent. The parameter server periodically sends an updated copy of the Q-network to each learner.</p></li>
+<li><p><strong>Learners</strong> - Learners sample experience from the local or global store, and apply an RL algorithm such as DQN to it, generating a gradient vector \(g_i\) to be communicated to the parameter server (see third point). The parameter server uses these gradient vectors to update a master copy of the Q-network. Gorila supports \(N_{learn}\) concurrent learner processes, each of which contains a replica of the Q-network, and computes a gradient update from an independently drawn sample of experience at each iteration.</p></li>
+<li><p><strong>Parameter server</strong> - The parameter server, which serves the role of a master node, maintains a distributed representation of the Q-network, with the parameter vector <span class="math inline"><em>θ</em></span> split across the \(N_{param}\) machines of the server. The parameter server receives gradient updates from the learners, and each of the \(N_{param}\) machines applies the appropriate updates to the subset of <span class="math inline"><em>θ</em></span> that it is responsible for. This process of applying updates in a distributed manner follows an asynchronous variant of stochastic gradient descent. The parameter server periodically sends an updated copy of the Q-network to each learner.</p></li>
 </ol>
+<figure>
+<img src="../assets/Gorila-architecture.png" alt="Figure 1: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: original paper)" style="width:120.0%" /><figcaption><sup><strong>Figure 1</strong>: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: <a href="https://arxiv.org/pdf/1507.04296.pdf">original paper</a>)</sup></figcaption>
+</figure>
 <h3 id="so-what">So what?</h3>
 <p>Why is this significant? It seems obvious that if you throw more computational power at a problem (i.e. by running the algorithm on a cluster of CPUs, as opposed to a single node), performance (as measured by accuracy or head-to-head performance, given comparable training time) should improve, or alternatively, that the required training time should decrease (given comparable results). In general, what is the point of a paper that presents a distributed implementation of a well-known algorithm, and claims that performance improved?</p>
 <p>Actually, the contribution can be of one of two flavors:</p>
@@ -88,6 +91,11 @@ var disqus_config = function () {
 <div id="call-to-action">
 	<h3>Read More</h3>
 	<ul>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/hogwild/">Hogwild!: Parallelizing Stochastic Gradient Descent Without Locks</a>
+		(09 Jul 2017)
+	</li>
 	
 	</ul>
 </div>
