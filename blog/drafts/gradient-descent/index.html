@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>A Brief Primer: (Stochastic) Gradient Descent | Samvit Jain</title>
+	<link rel="stylesheet" href="http://www.samvitjain.com/blog/css/text.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/text.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+  <div id="header">
+    <h1><a href="http://www.samvitjain.com">Samvit Jain</a> :: <a href="http://www.samvitjain.com/blog">blog</a></h1>
+<span>Machine learning, distributed systems, and beyond</span>
+  </div>
+  <hr />
+<div class="content">
+    <div class="post">
+
+<h2 class="post-title"><a href="http://www.samvitjain.com/blog/gradient-descent/">A Brief Primer: (Stochastic) Gradient Descent</a></h2>
+
+<p class="date">14 Jul 2017</p>
+
+<p>Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - <a href="http://martin.zinkevich.org/publications/nips2010.pdf">parallel</a> SGD, <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf">asynchronous</a> SGD, and <a href="https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf">lock-free parallel</a> SGD, to name a few.</p>
+<p>To orient future discussion of these papers, I thought it might be useful to dedicate one blog post to briefly developing stochastic gradient descent from &quot;first principles.&quot; This discussion is supposed to be illustrative, and errs in favor of clarity, over rigor.</p>
+<h3 id="optimization-algorithms">Optimization algorithms</h3>
+<p>Stochastic gradient descent is an optimization algorithm. In machine learning, what exactly does a optimization algorithm optimize?</p>
+<p>As you may be familiar, supervised machine learning generally consists of two phases<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>: training (generating a model) and inference (making predictions based on that model). Training involves finding values for a model's <em>parameters</em>, <span class="math inline"><em>θ</em></span>, such that two, often conflicting, goals are met: 1) error on the set of training examples is minimized, and 2) the model generalizes to new data.</p>
+<p>Optimization algorithms are the means used to find these <em>optimal</em> parameters, and develop robust models. Some examples of optimization algorithms include gradient descent (for simpler linear models), the conjugate gradient method, BFGS, L-BFGS, and backpropagation (for neural networks).</p>
+<h3 id="from-the-beginning">From the beginning</h3>
+<p>Let's begin with stochastic gradient desecent's predecessor and cousin: <strong>gradient descent</strong>. Gradient descent is an algorithm that iteratively tweaks a model's parameters, with the goal of minimizing the discrepancy between the model's predictions and the &quot;true&quot; labels associated with a set of training examples.</p>
+<p>This discrepancy is commonly termed &quot;cost&quot; or &quot;loss&quot; and is quantified in a <em>cost function</em>. Here's a common cost function used with gradient descent: <br /><span class="math display">$$
+\begin{aligned}
+J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2
+\end{aligned}
+$$</span><br /></p>
+<p>Let's unpack this. Here \(m\) is the number of training examples, \(x^{(i)}\) is the \(i\)th training example, \(y^{(i)}\) is the \(i\)th corresponding label, and <span class="math inline"><em>θ</em></span> is a vector representation of our model's parameters. So <span class="math inline"><em>h</em><sub><em>θ</em></sub>(<em>x</em><sup>(<em>i</em>)</sup>)</span> is the prediction our model <span class="math inline"><em>h</em><sub><em>θ</em></sub></span> makes on example \(x^{(i)}\).</p>
+<p>Then <span class="math inline">(<em>h</em><sub><em>θ</em></sub>(<em>x</em><sup>(<em>i</em>)</sup>)−<em>y</em><sup>(<em>i</em>)</sup>)<sup>2</sup></span> is the square of the difference between our model's prediction and the actual label for the \(i\)th training example. We sum over all the training examples, and divide by \(m\) to compute the average, squared-error.</p>
+<p>So is <span class="math inline"><em>J</em>(<em>θ</em>)</span> just one <span class="math inline">$\frac{1}{2}$</span> of the <em>mean-squared error</em> on the training examples.</p>
+<p>Note that we could to aim to minimize any multiple of the mean-squared error, and we'd still be minimizing the actual mean-squared error in the process. Thus, it's reasonable to take <span class="math inline"><em>J</em>(<em>θ</em>)</span> as our particular cost function.</p>
+<p>Now back to gradient descent. At each iteration, we perform the following update step: <br /><span class="math display">$$
+\begin{aligned}
+\theta \leftarrow \theta - \gamma \nabla J(\theta) \\
+\end{aligned}
+$$</span><br /></p>
+<p>Here is <span class="math inline"><em>γ</em></span> is the learning rate, or step-size. Recall that <span class="math inline">∇<em>J</em>(<em>θ</em>)</span> is the vector derivative of <span class="math inline"><em>J</em>(<em>θ</em>)</span>, and points in the direction in which <span class="math inline"><em>J</em>(<em>θ</em>)</span> rises most rapidly. So to minimize <span class="math inline"><em>J</em>(<em>θ</em>)</span>, we simply take a step of size <span class="math inline"><em>γ</em></span> in the exact opposite direction.</p>
+<p>We do this repeatedly until we arrive at a point where <span class="math inline">∇<em>J</em>(<em>θ</em>)=0</span>. This represents a local or global minimum of our cost function <span class="math inline"><em>J</em>(<em>θ</em>)</span>. At such a point, we say gradient descent has <em>converged</em>. Note that if <span class="math inline"><em>J</em>(<em>θ</em>)</span> has certain properties, notably convexity, and <span class="math inline"><em>γ</em></span> is properly tuned, gradient descent will in fact converge at the global minimum.</p>
+<h3 id="stochastic-gradient-descent">Stochastic Gradient Descent</h3>
+<p>Gradient descent has a problem. Computing the gradient of the cost function, <span class="math inline">∇<em>J</em>(<em>θ</em>)</span>, is very costly in practice. Recall <br /><span class="math display">$$
+\begin{aligned}
+\nabla J(\theta) = (\frac{\partial}{\partial \theta_1} J(\theta), \frac{\partial}{\partial \theta_2} J(\theta), ..., \frac{\partial}{\partial \theta_n} J(\theta))
+\end{aligned}
+$$</span><br /></p>
+<p>where the subscripts represent an index on features. (So our model consists of \(n\) features.) Each partial derivative in this vector involves computing a sum over <em>every training example</em>: <br /><span class="math display">$$
+\begin{aligned}
+\frac{\partial}{\partial \theta_j} J(\theta) 
+&amp;= \frac{\partial}{\partial \theta_j} \left( \frac{1}{2m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2 \right) \\
+&amp;= \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) \frac{\partial}{\partial \theta_j} h_{\theta}(x^{(i)})
+\end{aligned}
+$$</span><br /></p>
+<p>For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for the left-hand side: <br /><span class="math display">$$
+\begin{aligned}
+(h_{\theta}(x^{(i)}) - y^{(i)}) \frac{\partial}{\partial \theta_j} h_{\theta}(x^{(i)})
+\end{aligned}
+$$</span><br /> where <span class="math inline">(<em>x</em><sup>(<em>i</em>)</sup>, <em>y</em><sup>(<em>i</em>)</sup>)</span> is any one particular training example.</p>
+<p>Then, in stochastic gradient descent, instead of summing over every training example at each step, and iterating until convergence, we cycle through the training examples in random order, using a <em>single</em> one at each iteration<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>: <br /><span class="math display">$$
+\begin{aligned}
+&amp; \text{for } i := 1, 2, ..., m \space \{ \\
+&amp; \quad \theta \leftarrow \theta - \gamma \left( (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)}) \right) \\
+&amp; \}
+\end{aligned}
+$$</span><br /></p>
+<p>Though it may not be imminently obvious, theory assures us that if the learning rate <span class="math inline"><em>γ</em></span> is reduced appropriately over time, and the cost function satisfies certain properties, stochastic gradient descent will <em>also</em> converge.</p>
+<h3 id="footnotes">Footnotes</h3>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>There is also an important intermediate stage: validation, used to determine the values of our model's hyperparameters. Hyperparameters are meta-parameters that dictate how we construct a particular model. In gradient descent, the learning rate <span class="math inline"><em>γ</em></span> is a key hyperparameter.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Note that there is a middle-ground beteen gradient descent and stochastic gradient descent, called mini-batch gradient descent, that uses a small subset of training examples at each iteration.<a href="#fnref2">↩</a></p></li>
+</ol>
+</section>
+
+
+
+<div id="follow"><i>You can follow me on
+Twitter <a href="https://twitter.com/Samvit_Jain">here</a>.</i></div>
+
+<hr />
+
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+	this.page.url = "http://www.samvitjain.com/blog/gradient-descent/"; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "/gradient-descent"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://samvit-jain.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<hr />
+
+<div id="call-to-action">
+	<h3>Read More</h3>
+	<ul>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/hogwild/">Hogwild!: Parallelizing Stochastic Gradient Descent Without Locks</a>
+		(14 Jul 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/massively-parallel-methods/">Massively Parallel Methods for Deep Reinforcement Learning</a>
+		(06 Jul 2017)
+	</li>
+	
+	</ul>
+</div>
+</div>
+
+
+
+
+</div>
+<script type="text/javascript"> var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-27366179-1']);
+_gaq.push(['_trackPageview']); (function() { var ga =
+document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ?
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s); })();</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript">
+ MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['\\(','\\)']],
+    processEscapes: true
+  }
+});</script>
+</body>
+</html>
