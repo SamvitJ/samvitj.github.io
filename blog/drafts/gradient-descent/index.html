@@ -36,10 +36,10 @@ J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2
 $$</span><br /></p>
 <p>Let's unpack this. Here \(m\) is the number of training examples, \(x^{(i)}\) is the \(i\)th training example, \(y^{(i)}\) is the \(i\)th corresponding label, and <span class="math inline"><em>θ</em></span> is a vector representation of our model's parameters. So <span class="math inline"><em>h</em><sub><em>θ</em></sub>(<em>x</em><sup>(<em>i</em>)</sup>)</span> is the prediction our model <span class="math inline"><em>h</em><sub><em>θ</em></sub></span> makes on example \(x^{(i)}\).</p>
 <p>Then <span class="math inline">(<em>h</em><sub><em>θ</em></sub>(<em>x</em><sup>(<em>i</em>)</sup>)−<em>y</em><sup>(<em>i</em>)</sup>)<sup>2</sup></span> is the square of the difference between our model's prediction and the actual label for the \(i\)th training example. We sum over all the training examples, and divide by \(m\) to compute the average, squared-error.</p>
-<p>So is <span class="math inline"><em>J</em>(<em>θ</em>)</span> just one \(\) of the <em>mean-squared error</em> on the training examples.</p>
+<p>So is <span class="math inline"><em>J</em>(<em>θ</em>)</span> just one-half of the <em>mean-squared error</em> on the training examples.</p>
 <p>Note that we could to aim to minimize any multiple of the mean-squared error, and we'd still be minimizing the actual mean-squared error in the process. Thus, it's reasonable to take <span class="math inline"><em>J</em>(<em>θ</em>)</span> as our particular cost function.</p>
-<p>Now back to gradient descent. At each iteration, we perform the following update operation on our parameter vector <span class="math inline"><em>θ</em></span>. The full algorithm:</p>
-<p>        <span style="font-variant: small-caps;">Gradient Descent</span> <br /><span class="math display">$$
+<p>Now back to gradient descent. At each iteration, we perform an update operation on our parameter vector <span class="math inline"><em>θ</em></span>. The full algorithm:</p>
+<p>    <span style="font-variant: small-caps;">Gradient Descent</span> <br /><span class="math display">$$
 \begin{aligned}
 &amp; \text{repeat until convergence } \{ \\
 &amp; \quad \theta \leftarrow \theta - \gamma \nabla J(\theta) \\
@@ -48,7 +48,7 @@ $$</span><br /></p>
 $$</span><br /></p>
 <p>Here is <span class="math inline"><em>γ</em></span> is the learning rate, or step-size. Recall that <span class="math inline">∇<em>J</em>(<em>θ</em>)</span> is the vector derivative of <span class="math inline"><em>J</em>(<em>θ</em>)</span>, and points in the direction in which <span class="math inline"><em>J</em>(<em>θ</em>)</span> rises most rapidly. So to minimize <span class="math inline"><em>J</em>(<em>θ</em>)</span>, we simply take a step of size <span class="math inline"><em>γ</em></span> in the exact opposite direction.</p>
 <figure>
-<img src="../../assets/gradient-descent/gradient-descent.png" alt="Figure 1: An illustration of gradient descent. Note that, at each iteration, the algoritmm moves the black marker (a representation of the parameter vector \theta) in the direction of steepest descent. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of \theta is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: Machine Learning | Coursera)" style="width:100.0%" /><figcaption><sup><strong>Figure 1</strong>: An illustration of gradient descent. Note that, at each iteration, the algoritmm moves the black marker (a representation of the parameter vector <span class="math inline"><em>θ</em></span>) in the direction of <em>steepest descent</em>. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of <span class="math inline"><em>θ</em></span> is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning | Coursera</a>)</sup></figcaption>
+<img src="../../assets/gradient-descent/gradient-descent.png" alt="Figure 1: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector \theta) in the direction of steepest descent. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of \theta is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: Machine Learning | Coursera)" style="width:100.0%" /><figcaption><sup><strong>Figure 1</strong>: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector <span class="math inline"><em>θ</em></span>) in the direction of <em>steepest descent</em>. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of <span class="math inline"><em>θ</em></span> is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning | Coursera</a>)</sup></figcaption>
 </figure>
 <p>We do this repeatedly until we arrive at a point where <span class="math inline">∇<em>J</em>(<em>θ</em>)=0</span>. This represents a local or global minimum of our cost function <span class="math inline"><em>J</em>(<em>θ</em>)</span>. At such a point, we say gradient descent has <em>converged</em>. Note that if <span class="math inline"><em>J</em>(<em>θ</em>)</span> has certain properties, notably convexity, and <span class="math inline"><em>γ</em></span> is properly tuned, gradient descent will in fact converge at the global minimum.</p>
 <h3 id="stochastic-gradient-descent">Stochastic Gradient Descent</h3>
@@ -70,7 +70,7 @@ $$</span><br /></p>
 \end{aligned}
 $$</span><br /> where <span class="math inline">(<em>x</em><sup>(<em>i</em>)</sup>, <em>y</em><sup>(<em>i</em>)</sup>)</span> is any one particular training example.</p>
 <p>Then, in stochastic gradient descent, instead of summing over every training example at each step, and iterating until convergence, we cycle through the training examples in random order, using a <em>single</em> one at each iteration in our cost function:<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
-<p>        <span style="font-variant: small-caps;">Stochastic Gradient Descent</span> <br /><span class="math display">$$
+<p>    <span style="font-variant: small-caps;">Stochastic Gradient Descent</span> <br /><span class="math display">$$
 \begin{aligned}
 &amp; \text{repeat until convergence } \{ \\
 &amp; \quad \text{for } i := 1, 2, ..., m \space \{ \\
@@ -128,6 +128,11 @@ var disqus_config = function () {
 <div id="call-to-action">
 	<h3>Read More</h3>
 	<ul>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/choosing-a-startup/">Choosing a Startup</a>
+		(16 Jul 2017)
+	</li>
 	
 	<li>
 		<a href="http://www.samvitjain.com/blog/hogwild/">Hogwild!: Parallelizing Stochastic Gradient Descent Without Locks</a>
