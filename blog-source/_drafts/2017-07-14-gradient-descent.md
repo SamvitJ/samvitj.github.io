@@ -34,7 +34,7 @@ Then $(h_{\theta}(x^{(i)}) - y^{(i)})^2$ is the square of the difference between
 
 So is $J(\theta)$ just one-half of the *mean-squared error* on the training examples.
 
-Note that we could to aim to minimize any multiple of the mean-squared error, and we'd still be minimizing the actual mean-squared error in the process. Thus, it's reasonable to take $J(\theta)$ as our particular cost function.
+Note that we could aim to minimize any multiple of the mean-squared error, and we'd still be minimizing the actual mean-squared error in the process. Thus, it's reasonable to take $J(\theta)$ as our particular cost function.
 
 Now back to gradient descent. At each iteration, we perform an update operation on our parameter vector $\theta$. The full algorithm:
 
@@ -47,11 +47,13 @@ $$
 \end{aligned}
 $$
 
-Here is $\gamma$ is the learning rate, or step-size. Recall that $\nabla J(\theta)$ is the vector derivative of $J(\theta)$, and points in the direction in which $J(\theta)$ rises most rapidly. So to minimize $J(\theta)$, we simply take a step of size $\gamma$ in the exact opposite direction. 
+Here is $\gamma$ is the learning rate, or step-size. Recall that $\nabla J(\theta)$ is the vector derivative of $J(\theta)$, and points in the direction in which $J(\theta)$ rises most rapidly. So to minimize $J(\theta)$, we simply take a step of size $\gamma$ in the exact opposite direction.
+
+We do this repeatedly until we arrive at a point where $\nabla J(\theta) = 0$. This represents a local or global minimum of our cost function $J(\theta)$. At such a point, we say gradient descent has *converged*. Note that if $J(\theta)$ has certain properties, notably convexity, and $\gamma$ is properly tuned, gradient descent will in fact converge at the global minimum.
 
 ![<sup>**Figure 1**: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector $\theta$) in the direction of *steepest descent*. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of $\theta$ is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: [Machine Learning | Coursera](https://www.coursera.org/learn/machine-learning/))</sup>](../assets/gradient-descent/gradient-descent.png){ width=100% }
 
-We do this repeatedly until we arrive at a point where $\nabla J(\theta) = 0$. This represents a local or global minimum of our cost function $J(\theta)$. At such a point, we say gradient descent has *converged*. Note that if $J(\theta)$ has certain properties, notably convexity, and $\gamma$ is properly tuned, gradient descent will in fact converge at the global minimum.
+To be totally clear, the update operation $\theta - \gamma \nabla J(\theta)$ is a *vector subtraction*. Both the parameter vector, $\theta$, and the gradient, $\nabla J(\theta)$, are \\(n\\)-dimensional vectors, where \\(n\\) denotes the number of features in our model. So every update operation in gradient descent is performed on the \\(n\\)-dimensional feature space of our model.
 
 ### Stochastic Gradient Descent
 
@@ -62,7 +64,7 @@ $$
 \end{aligned}
 $$
 
-where the subscripts represent an index on features. (So our model consists of \\(n\\) features.) Each partial derivative in this vector involves computing a sum over *every training example*:
+where the subscripts represent an index on features. Each partial derivative in this vector involves computing a sum over *every training example*:
 $$
 \begin{aligned}
 \frac{\partial}{\partial \theta_j} J(\theta) 
@@ -70,6 +72,8 @@ $$
 &= \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) \frac{\partial}{\partial \theta_j} h_{\theta}(x^{(i)})
 \end{aligned}
 $$
+
+(Note that we are using a different index, \\(j\\), for the partial derivatives, as they are taken with respect to the model's \\(n\\) features. The index \\(i\\) refers to the training examples.)
 
 For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for our partial derviative:
 $$
@@ -79,7 +83,7 @@ $$
 $$
 where $(x^{(i)}, y^{(i)})$ is any one particular training example.
 
-Then, in stochastic gradient descent, instead of summing over every training example at each step, and iterating until convergence, we cycle through the training examples in random order, using a *single* one at each iteration in our cost function:[^2]
+Then, in stochastic gradient descent, instead of summing over every training example at each step, and iterating until convergence, we cycle through the training examples in random order, using a *single* one at each iteration in our cost function:
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Stochastic Gradient Descent]{style="font-variant:small-caps;"}
 $$
@@ -105,8 +109,21 @@ Note that, in practice, the number of times we have to run the inner loop depend
 
 Though it may not be imminently obvious, theory assures us that if the learning rate $\gamma$ is reduced appropriately over time, and the cost function satisfies certain properties, stochastic gradient descent will *also* converge.
 
+Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent, that uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration (instead of just one). Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance too, given proper vectorization of the gradient computation.[^2]
+
+### Parallelization?
+
+Note that stochastic gradient descent, as we have described it thus far...
+
 ### Footnotes
 
 [^1]: There is also an important intermediate stage: validation, used to determine the values of our model's hyperparameters. Hyperparameters are meta-parameters that dictate how a particular model is constructed. In gradient descent, the learning rate $\gamma$ is a key hyperparameter.
 
-[^2]: Note that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent, that uses a small subset of training examples at each iteration.
+[^2]: Assuming the appropriate vectorization libraries are present, it may be possible to compute the following batch gradient in parallel on a multi-core machine:
+$$
+\begin{aligned}
+\nabla J(B) = \frac{1}{b} \sum_{i=1}^{b} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
+\end{aligned}
+$$
+
+
