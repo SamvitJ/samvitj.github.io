@@ -1,15 +1,17 @@
 ---
 layout: post 
 title: "A Brief Primer: Stochastic Gradient Descent"
-date: 2017-07-14
+date: 2017-07-18
 comments: true
 ---
 
-Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - [parallel](http://martin.zinkevich.org/publications/nips2010.pdf) SGD, [asynchronous](https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf) SGD, and [lock-free parallel](https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf) SGD, to name a few. 
+Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - [parallel](http://martin.zinkevich.org/publications/nips2010.pdf) SGD, [asynchronous](https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf) SGD, [lock-free parallel](https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf) SGD, and even [distributed synchronous](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h5.pdf?) SGD, to name a few.
 
-To orient future discussion of these papers, I thought it might be useful to dedicate one blog post to briefly developing stochastic gradient descent from "first principles." This discussion is supposed to be illustrative, and errs in favor of clarity, over rigor.
+This topic isn't just a theoretical curiosity. Parallelizing important optimization algorithms, like SGD, is the key to fast training and, by extension, fast model development. Not surprisingly, three out of the four papers I just referenced came out of industry research.
 
-### Optimization algorithms
+To orient a discussion of these papers, I thought it would be useful to dedicate one blog post to briefly developing stochastic gradient descent from "first principles." This discussion is supposed to be illustrative, and errs in favor of pedagogical clarity, over mathematical rigor.
+
+### Optimization
 
 Stochastic gradient descent is an optimization algorithm. In machine learning, what exactly does an optimization algorithm optimize?
 
@@ -75,7 +77,7 @@ $$
 
 (Note that we are using a different index, \\(j\\), for the partial derivatives, as they are taken with respect to the model's \\(n\\) features. The index \\(i\\) refers to the training examples.)
 
-For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for our partial derviative:
+For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for our partial derivative:
 $$
 \begin{aligned}
 \frac{\partial}{\partial \theta_j} J(\theta) \approx (h_{\theta}(x^{(i)}) - y^{(i)}) \frac{\partial}{\partial \theta_j} h_{\theta}(x^{(i)})
@@ -109,11 +111,23 @@ Note that, in practice, the number of times we have to run the inner loop depend
 
 Though it may not be imminently obvious, theory assures us that if the learning rate $\gamma$ is reduced appropriately over time, and the cost function satisfies certain properties, stochastic gradient descent will *also* converge.
 
-Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent, that uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration (instead of just one). Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance too, given proper vectorization of the gradient computation.[^2]
+Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^2]
 
 ### Parallelization?
 
-Note that stochastic gradient descent, as we have described it thus far...
+Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector $\theta$, and 2) writing to $\theta$ a modified value. So we cannot just naively execute a series of update operations in parallel.
+
+How would we go about parallelizing SGD? One could imagine an approach in which slightly stale reads of the parameter vector are tolerated, and updates based on a given read are periodically merged in a synchronization step.
+
+![<sup>**Figure 3**: Synchronous parallel SGD (Source: [Stanford](http://stanford.edu/~imit/tuneyourmomentum/theory/))</sup>](../assets/gradient-descent/parallel-sync.png){ width=50% }
+
+Alternatively, we could get rid of the synchronization step altogether, and have worker threads (or processes) read the parameter vector from a shared memory bus, compute a gradient, and then send back an update to a master. It would then be the master node's responsibility to incorporate the updates in some sensible total ordering.
+
+![<sup>**Figure 4**: Asynchronous parallel SGD (Source: [Stanford](http://stanford.edu/~imit/tuneyourmomentum/theory/))</sup>](../assets/gradient-descent/parallel-async.png){ width=50% }
+
+Is there any guarantee that SGD with stale reads (approach 1) or asynchronous writes (approach 2) would converge? What would be the impact on performance?
+
+These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.
 
 ### Footnotes
 
@@ -122,8 +136,8 @@ Note that stochastic gradient descent, as we have described it thus far...
 [^2]: Assuming the appropriate vectorization libraries are present, it may be possible to compute the following batch gradient in parallel on a multi-core machine:
 $$
 \begin{aligned}
-\nabla J(B) = \frac{1}{b} \sum_{i=1}^{b} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
+\nabla J(B) = \frac{1}{|B|} \sum_{i=1}^{|B|} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
 \end{aligned}
 $$
-
+In a [recent paper](https://research.fb.com/publications/ImageNet1kIn1h/), Facebook AI Research took this idea to the extreme, training ImageNet in 1 hour with a minibatch size of 8192 images on 256 GPUs.
 

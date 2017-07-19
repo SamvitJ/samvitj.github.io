@@ -7,6 +7,8 @@
 	<title>A Brief Primer: Stochastic Gradient Descent | Samvit Jain</title>
 	<link rel="stylesheet" href="http://www.samvitjain.com/blog/css/text.css" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="../css/text.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="http://www.samvitjain.com/blog/css/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen, projection" />
 </head>
 <body>
   <div id="header">
@@ -19,11 +21,12 @@
 
 <h2 class="post-title"><a href="http://www.samvitjain.com/blog/gradient-descent/">A Brief Primer: Stochastic Gradient Descent</a></h2>
 
-<p class="date">14 Jul 2017</p>
+<p class="date">18 Jul 2017</p>
 
-<p>Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - <a href="http://martin.zinkevich.org/publications/nips2010.pdf">parallel</a> SGD, <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf">asynchronous</a> SGD, and <a href="https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf">lock-free parallel</a> SGD, to name a few.</p>
-<p>To orient future discussion of these papers, I thought it might be useful to dedicate one blog post to briefly developing stochastic gradient descent from &quot;first principles.&quot; This discussion is supposed to be illustrative, and errs in favor of clarity, over rigor.</p>
-<h3 id="optimization-algorithms">Optimization algorithms</h3>
+<p>Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - <a href="http://martin.zinkevich.org/publications/nips2010.pdf">parallel</a> SGD, <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf">asynchronous</a> SGD, <a href="https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf">lock-free parallel</a> SGD, and even <a href="https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h5.pdf?">distributed synchronous</a> SGD, to name a few.</p>
+<p>This topic isn't just a theoretical curiosity. Parallelizing important optimization algorithms, like SGD, is the key to fast training and, by extension, fast model development. Not surprisingly, three out of the four papers I just referenced came out of industry research.</p>
+<p>To orient a discussion of these papers, I thought it would be useful to dedicate one blog post to briefly developing stochastic gradient descent from &quot;first principles.&quot; This discussion is supposed to be illustrative, and errs in favor of pedagogical clarity, over mathematical rigor.</p>
+<h3 id="optimization">Optimization</h3>
 <p>Stochastic gradient descent is an optimization algorithm. In machine learning, what exactly does an optimization algorithm optimize?</p>
 <p>As you may know, supervised machine learning generally consists of two phases<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>: training (generating a model) and inference (making predictions with that model). Training involves finding values for a model's <em>parameters</em>, <span class="math inline"><em>θ</em></span>, such that two, often conflicting, goals are met: 1) error on the set of training examples is minimized, and 2) the model generalizes to new data.</p>
 <p>Optimization algorithms are the means used to find these <em>optimal</em> parameters, and develop robust models. Some examples of optimization algorithms include gradient descent (for simpler linear models), the conjugate gradient method, BFGS, L-BFGS, and backpropagation (for neural networks).</p>
@@ -49,7 +52,7 @@ $$</span><br /></p>
 <p>Here is <span class="math inline"><em>γ</em></span> is the learning rate, or step-size. Recall that <span class="math inline">∇<em>J</em>(<em>θ</em>)</span> is the vector derivative of <span class="math inline"><em>J</em>(<em>θ</em>)</span>, and points in the direction in which <span class="math inline"><em>J</em>(<em>θ</em>)</span> rises most rapidly. So to minimize <span class="math inline"><em>J</em>(<em>θ</em>)</span>, we simply take a step of size <span class="math inline"><em>γ</em></span> in the exact opposite direction.</p>
 <p>We do this repeatedly until we arrive at a point where <span class="math inline">∇<em>J</em>(<em>θ</em>)=0</span>. This represents a local or global minimum of our cost function <span class="math inline"><em>J</em>(<em>θ</em>)</span>. At such a point, we say gradient descent has <em>converged</em>. Note that if <span class="math inline"><em>J</em>(<em>θ</em>)</span> has certain properties, notably convexity, and <span class="math inline"><em>γ</em></span> is properly tuned, gradient descent will in fact converge at the global minimum.</p>
 <figure>
-<img src="../../assets/gradient-descent/gradient-descent.png" alt="Figure 1: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector \theta) in the direction of steepest descent. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of \theta is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: Machine Learning | Coursera)" style="width:100.0%" /><figcaption><sup><strong>Figure 1</strong>: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector <span class="math inline"><em>θ</em></span>) in the direction of <em>steepest descent</em>. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of <span class="math inline"><em>θ</em></span> is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning | Coursera</a>)</sup></figcaption>
+<img src="../assets/gradient-descent/gradient-descent.png" alt="Figure 1: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector \theta) in the direction of steepest descent. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of \theta is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: Machine Learning | Coursera)" style="width:100.0%" /><figcaption><sup><strong>Figure 1</strong>: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector <span class="math inline"><em>θ</em></span>) in the direction of <em>steepest descent</em>. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of <span class="math inline"><em>θ</em></span> is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning | Coursera</a>)</sup></figcaption>
 </figure>
 <p>To be totally clear, the update operation <span class="math inline"><em>θ</em> − <em>γ</em>∇<em>J</em>(<em>θ</em>)</span> is a <em>vector subtraction</em>. Both the parameter vector, <span class="math inline"><em>θ</em></span>, and the gradient, <span class="math inline">∇<em>J</em>(<em>θ</em>)</span>, are \(n\)-dimensional vectors, where \(n\) denotes the number of features in our model. So every update operation in gradient descent is performed on the \(n\)-dimensional feature space of our model.</p>
 <h3 id="stochastic-gradient-descent">Stochastic Gradient Descent</h3>
@@ -66,7 +69,7 @@ $$</span><br /></p>
 \end{aligned}
 $$</span><br /></p>
 <p>(Note that we are using a different index, \(j\), for the partial derivatives, as they are taken with respect to the model's \(n\) features. The index \(i\) refers to the training examples.)</p>
-<p>For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for our partial derviative: <br /><span class="math display">$$
+<p>For large training sets (as most are), this is prohibitively expensive. The key idea in stochastic gradient descent is to drop the sum, and use the following as a very rough proxy for our partial derivative: <br /><span class="math display">$$
 \begin{aligned}
 \frac{\partial}{\partial \theta_j} J(\theta) \approx (h_{\theta}(x^{(i)}) - y^{(i)}) \frac{\partial}{\partial \theta_j} h_{\theta}(x^{(i)})
 \end{aligned}
@@ -88,12 +91,22 @@ $$</span><br /></p>
 $$</span><br /></p>
 <p>Note that, in practice, the number of times we have to run the inner loop depends on the size of the training set. If the number of training examples is huge, a single iteration through the training examples can suffice. Most data sets require between 1 to 10 runs though the inner loop.</p>
 <figure>
-<img src="../../assets/gradient-descent/comparison.png" alt="Figure 2: Unlike in gradient descent, the value of the cost function does not necessarily decrease with each iteration in stochastic gradient descent. Even if the error on one particular training example is reduced, it is possible (and in the beginning, almost as likely) that the error on the entire training set will increase. With proper tuning of the learning rate, however, stochastic gradient descent will approach the same minimum as gradient descent. (Source: BogoToBogo)" style="width:80.0%" /><figcaption><sup><strong>Figure 2</strong>: Unlike in gradient descent, the value of the cost function does not necessarily decrease with each iteration in stochastic gradient descent. Even if the error on one particular training example is reduced, it is possible (and in the beginning, almost as likely) that the error on the <em>entire</em> training set will increase. With proper tuning of the learning rate, however, stochastic gradient descent will approach the same minimum as gradient descent. (Source: <a href="http://www.bogotobogo.com/python/scikit-learn/images/Batch-vs-Stochastic-Gradient-Descent/stochastic-vs-batch-gradient-descent.png">BogoToBogo</a>)</sup></figcaption>
+<img src="../assets/gradient-descent/comparison.png" alt="Figure 2: Unlike in gradient descent, the value of the cost function does not necessarily decrease with each iteration in stochastic gradient descent. Even if the error on one particular training example is reduced, it is possible (and in the beginning, almost as likely) that the error on the entire training set will increase. With proper tuning of the learning rate, however, stochastic gradient descent will approach the same minimum as gradient descent. (Source: BogoToBogo)" style="width:80.0%" /><figcaption><sup><strong>Figure 2</strong>: Unlike in gradient descent, the value of the cost function does not necessarily decrease with each iteration in stochastic gradient descent. Even if the error on one particular training example is reduced, it is possible (and in the beginning, almost as likely) that the error on the <em>entire</em> training set will increase. With proper tuning of the learning rate, however, stochastic gradient descent will approach the same minimum as gradient descent. (Source: <a href="http://www.bogotobogo.com/python/scikit-learn/images/Batch-vs-Stochastic-Gradient-Descent/stochastic-vs-batch-gradient-descent.png">BogoToBogo</a>)</sup></figcaption>
 </figure>
 <p>Though it may not be imminently obvious, theory assures us that if the learning rate <span class="math inline"><em>γ</em></span> is reduced appropriately over time, and the cost function satisfies certain properties, stochastic gradient descent will <em>also</em> converge.</p>
-<p>Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent, that uses a randomly selected subset, or <em>mini-batch</em>, of \(b\) training examples at each iteration (instead of just one). Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance too, given proper vectorization of the gradient computation.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p>Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or <em>mini-batch</em>, of \(b\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
 <h3 id="parallelization">Parallelization?</h3>
-<p>Note that stochastic gradient descent, as we have described it thus far...</p>
+<p>Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector <span class="math inline"><em>θ</em></span>, and 2) writing to <span class="math inline"><em>θ</em></span> a modified value. So we cannot just naively execute a series of update operations in parallel.</p>
+<p>How would we go about parallelizing SGD? One could imagine an approach in which slightly stale reads of the parameter vector are tolerated, and updates based on a given read are periodically merged in a synchronization step.</p>
+<figure>
+<img src="../assets/gradient-descent/parallel-sync.png" alt="Figure 3: Synchronous parallel SGD (Source: Stanford)" style="width:50.0%" /><figcaption><sup><strong>Figure 3</strong>: Synchronous parallel SGD (Source: <a href="http://stanford.edu/~imit/tuneyourmomentum/theory/">Stanford</a>)</sup></figcaption>
+</figure>
+<p>Alternatively, we could get rid of the synchronization step altogether, and have worker threads (or processes) read the parameter vector from a shared memory bus, compute a gradient, and then send back an update to a master. It would then be the master node's responsibility to incorporate the updates in some sensible total ordering.</p>
+<figure>
+<img src="../assets/gradient-descent/parallel-async.png" alt="Figure 4: Asynchronous parallel SGD (Source: Stanford)" style="width:50.0%" /><figcaption><sup><strong>Figure 4</strong>: Asynchronous parallel SGD (Source: <a href="http://stanford.edu/~imit/tuneyourmomentum/theory/">Stanford</a>)</sup></figcaption>
+</figure>
+<p>Is there any guarantee that SGD with stale reads (approach 1) or asynchronous writes (approach 2) would converge? What would be the impact on performance?</p>
+<p>These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.</p>
 <h3 id="footnotes">Footnotes</h3>
 <section class="footnotes">
 <hr />
@@ -101,9 +114,9 @@ $$</span><br /></p>
 <li id="fn1"><p>There is also an important intermediate stage: validation, used to determine the values of our model's hyperparameters. Hyperparameters are meta-parameters that dictate how a particular model is constructed. In gradient descent, the learning rate <span class="math inline"><em>γ</em></span> is a key hyperparameter.<a href="#fnref1">↩</a></p></li>
 <li id="fn2"><p>Assuming the appropriate vectorization libraries are present, it may be possible to compute the following batch gradient in parallel on a multi-core machine: <br /><span class="math display">$$
 \begin{aligned}
-\nabla J(B) = \frac{1}{b} \sum_{i=1}^{b} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
+\nabla J(B) = \frac{1}{|B|} \sum_{i=1}^{|B|} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
 \end{aligned}
-$$</span><br /><a href="#fnref2">↩</a></p></li>
+$$</span><br /> In a <a href="https://research.fb.com/publications/ImageNet1kIn1h/">recent paper</a>, Facebook AI Research took this idea to the extreme, training ImageNet in 1 hour with a minibatch size of 8192 images on 256 GPUs.<a href="#fnref2">↩</a></p></li>
 </ol>
 </section>
 
@@ -137,16 +150,6 @@ var disqus_config = function () {
 <div id="call-to-action">
 	<h3>Read More</h3>
 	<ul>
-	
-	<li>
-		<a href="http://www.samvitjain.com/blog/choosing-a-startup/">Choosing a Startup</a>
-		(16 Jul 2017)
-	</li>
-	
-	<li>
-		<a href="http://www.samvitjain.com/blog/hogwild/">Hogwild!: Parallelizing Stochastic Gradient Descent Without Locks</a>
-		(14 Jul 2017)
-	</li>
 	
 	<li>
 		<a href="http://www.samvitjain.com/blog/massively-parallel-methods/">Massively Parallel Methods for Deep Reinforcement Learning</a>
