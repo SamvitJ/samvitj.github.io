@@ -15,7 +15,7 @@ To orient a discussion of these papers, I thought it would be useful to dedicate
 
 Stochastic gradient descent is an optimization algorithm. In machine learning, what exactly does an optimization algorithm optimize?
 
-As you may know, supervised machine learning generally consists of two phases[^1]: training (generating a model) and inference (making predictions with that model). Training involves finding values for a model's *parameters*, $\theta$, such that two, often conflicting, goals are met: 1) error on the set of training examples is minimized, and 2) the model generalizes to new data.
+As you may know, supervised machine learning generally consists of two phases:[^1] training (generating a model) and inference (making predictions with that model). Training involves finding values for a model's *parameters*, $\theta$, such that two, often conflicting, goals are met: 1) error on the set of training examples is minimized, and 2) the model generalizes to new data.
 
 Optimization algorithms are the means used to find these *optimal* parameters, and develop robust models. Some examples of optimization algorithms include gradient descent (for simpler linear models), the conjugate gradient method, BFGS, L-BFGS, and backpropagation (for neural networks).
 
@@ -117,15 +117,15 @@ Finally, it is worth noting that there is a middle-ground between gradient desce
 
 Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector $\theta$, and 2) writing to $\theta$ a modified value. So we cannot just naively execute a series of update operations in parallel.
 
-How would we go about parallelizing SGD? One could imagine an approach in which slightly stale reads of the parameter vector are tolerated, and updates based on a given read are periodically merged in a synchronization step.
+How would we go about parallelizing SGD? One could imagine an approach in which we take snapshot reads of the parameter vector, and periodically merge updates based on a given read in a synchronization step.
 
 ![<sup>**Figure 3**: Synchronous parallel SGD (Source: [Stanford](http://stanford.edu/~imit/tuneyourmomentum/theory/))</sup>](../assets/gradient-descent/parallel-sync.png){ width=50% }
 
-Alternatively, we could get rid of the synchronization step altogether, and have worker threads (or processes) read the parameter vector from a shared memory bus, compute a gradient, and then send back an update to a master. It would then be the master node's responsibility to incorporate the updates in some sensible total ordering.
+Alternatively, we could get rid of synchronization altogether, and have worker threads (or processes) read the parameter vector from a shared memory bus, compute a gradient, and then send back an update to a master. It would then be the master node's responsibility to incorporate the updates in some total ordering, while sensibly handling concurrent writes (e.g. via locks).
 
 ![<sup>**Figure 4**: Asynchronous parallel SGD (Source: [Stanford](http://stanford.edu/~imit/tuneyourmomentum/theory/))</sup>](../assets/gradient-descent/parallel-async.png){ width=50% }
 
-Is there any guarantee that SGD with stale reads (approach 1) or asynchronous writes (approach 2) would converge? What would be the impact on performance?
+Is there any guarantee that SGD with version reconciliation (approach 1) would converge? What would be the impact on performance of explicit synchronization (approach 1) and arbitrary locking (approach 2)?
 
 These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.
 
