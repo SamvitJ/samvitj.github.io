@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "A Brief Primer: Stochastic Gradient Descent"
-date: 2017-07-18
+date: 2017-07-20
 comments: true
 ---
 
