@@ -51,7 +51,7 @@ $$
 
 Here is $\gamma$ is the learning rate, or step-size. Recall that $\nabla J(\theta)$ is the vector derivative of $J(\theta)$, and points in the direction in which $J(\theta)$ rises most rapidly. So to minimize $J(\theta)$, we simply take a step of size $\gamma$ in the exact opposite direction.
 
-We do this repeatedly until we arrive at a point where $\nabla J(\theta) = 0$. This represents a local or global minimum of our cost function $J(\theta)$. At such a point, we say gradient descent has *converged*. Note that if $J(\theta)$ has certain properties, notably convexity, and $\gamma$ is properly tuned, gradient descent will in fact converge at the global minimum.
+We do this repeatedly until we arrive at a point where $\nabla J(\theta) = 0$. This represents a local or global minimum of our cost function $J(\theta)$. At such a point, we say gradient descent has *converged*. Note that if $J(\theta)$ has certain properties, notably convexity, and $\gamma$ is properly tuned, gradient descent will in fact converge at the global minimum.[^2]
 
 ![<sup>**Figure 1**: An illustration of gradient descent. Note that, at each iteration, the algorithm moves the black marker (a representation of the parameter vector $\theta$) in the direction of *steepest descent*. This process continues until the marker arrives at a local minimum. Note also how influential the initial value of $\theta$ is to the final outcome in this particular, non-convex gradient map. On such a terrain, a slight initial perturbation can lead to convergence at an entirely different minimum point. (Source: [Machine Learning | Coursera](https://www.coursera.org/learn/machine-learning/))</sup>](../assets/gradient-descent/gradient-descent.png){ width=100% }
 
@@ -109,9 +109,9 @@ Note that, in practice, the number of times we have to run the inner loop depend
 
 ![<sup>**Figure 2**: Unlike in gradient descent, the value of the cost function does not necessarily decrease with each iteration in stochastic gradient descent. Even if the error on one particular training example is reduced, it is possible (and in the beginning, almost as likely) that the error on the *entire* training set will increase. With proper tuning of the learning rate, however, stochastic gradient descent will approach the same minimum as gradient descent. (Source: [BogoToBogo](http://www.bogotobogo.com/python/scikit-learn/images/Batch-vs-Stochastic-Gradient-Descent/stochastic-vs-batch-gradient-descent.png))</sup>](../assets/gradient-descent/comparison.png){ width=80% }
 
-Though it may not be imminently obvious, theory assures us that if the learning rate $\gamma$ is reduced appropriately over time, and the cost function satisfies certain properties, stochastic gradient descent will *also* converge.
+Though it may not be immediately obvious, theory assures us that if the learning rate $\gamma$ is reduced appropriately over time, and the cost function satisfies certain properties (i.e. convexity), stochastic gradient descent will *also* converge.
 
-Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^2]
+Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^3]
 
 ### Parallelization?
 
@@ -129,11 +129,15 @@ Is there any guarantee that SGD with version reconciliation (approach 1) would c
 
 These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.
 
+*Thanks to Kiran Vodrahalli, Prem Nair, and Sanjay Jain for reviewing drafts of this post.*
+
 ### Footnotes
 
 [^1]: There is also an important intermediate stage: validation, used to determine the values of our model's hyperparameters. Hyperparameters are meta-parameters that dictate how a particular model is constructed. In gradient descent, the learning rate $\gamma$ is a key hyperparameter.
 
-[^2]: Assuming the appropriate vectorization libraries are present, it may be possible to compute the following batch gradient in parallel on a multi-core machine:
+[^2]: A function is convex if a line segment between any two points on its graph lies above or on the graph. An upward-facing parabola is a simple example of a convex function. The problem of minimizing convex functions, or [convex optimization](https://en.wikipedia.org/wiki/Convex_optimization), is an entire subfield of theoretical machine learning. See [these slides](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/05-gd-revisited.pdf) for a brief proof sketch that gradient descent converges on convex functions.
+
+[^3]: Assuming the appropriate vectorization libraries are present, it may be possible to compute the following batch gradient in parallel on a multi-core machine:
 $$
 \begin{aligned}
 \nabla J(B) = \frac{1}{|B|} \sum_{i=1}^{|B|} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
