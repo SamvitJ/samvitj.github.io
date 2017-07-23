@@ -23,6 +23,7 @@
 
 <p class="date">20 Jul 2017</p>
 
+<p><em>&quot;Nearly all of deep learning is powered by one very important algorithm: stochastic gradient descent.&quot; - Ian Goodfellow</em></p>
 <p>Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - <a href="http://martin.zinkevich.org/publications/nips2010.pdf">parallel</a> SGD, <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf">asynchronous</a> SGD, <a href="https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf">lock-free parallel</a> SGD, and even <a href="https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h5.pdf?">distributed synchronous</a> SGD, to name a few.</p>
 <p>This topic isn't just a theoretical curiosity. Parallelizing important optimization algorithms, like SGD, is the key to fast training and, by extension, fast model development. Not surprisingly, three out of the four papers I just referenced came out of industry research.</p>
 <p>To orient a discussion of these papers, I thought it would be useful to dedicate one blog post to briefly developing stochastic gradient descent from &quot;first principles.&quot; This discussion is supposed to be illustrative, and errs in favor of pedagogical clarity, over mathematical rigor.</p>
@@ -95,7 +96,7 @@ $$</span><br /></p>
 </figure>
 <p>Though it may not be immediately obvious, theory assures us that if the learning rate <span class="math inline"><em>γ</em></span> is reduced appropriately over time, and the cost function satisfies certain properties (i.e. convexity), stochastic gradient descent will <em>also</em> converge.</p>
 <p>Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or <em>mini-batch</em>, of \(b\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
-<h3 id="parallelization">Parallelization?</h3>
+<h3 id="parallelization">Parallelization</h3>
 <p>Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector <span class="math inline"><em>θ</em></span>, and 2) writing to <span class="math inline"><em>θ</em></span> a modified value. So we cannot just naively execute a series of update operations in parallel.</p>
 <p>How would we go about parallelizing SGD? One could imagine an approach in which we take snapshot reads of the parameter vector, and periodically merge updates based on a given read in a synchronization step.</p>
 <figure>
@@ -105,7 +106,7 @@ $$</span><br /></p>
 <figure>
 <img src="../assets/gradient-descent/parallel-async.png" alt="Figure 4: Asynchronous parallel SGD (Source: Stanford)" style="width:50.0%" /><figcaption><sup><strong>Figure 4</strong>: Asynchronous parallel SGD (Source: <a href="http://stanford.edu/~imit/tuneyourmomentum/theory/">Stanford</a>)</sup></figcaption>
 </figure>
-<p>Is there any guarantee that SGD with version reconciliation (approach 1) would converge? What would be the impact on performance of explicit synchronization (approach 1) and arbitrary locking (approach 2)?</p>
+<p>Is there any guarantee that SGD with version reconciliation would converge? What would be the impact on performance of explicit synchronization (approach 1) and arbitrary locking (approach 2)?</p>
 <p>These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.</p>
 <p><em>Thanks to Kiran Vodrahalli, Prem Nair, and Sanjay Jain for reviewing drafts of this post.</em></p>
 <h3 id="footnotes">Footnotes</h3>

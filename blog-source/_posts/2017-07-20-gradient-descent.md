@@ -5,6 +5,8 @@ date: 2017-07-20
 comments: true
 ---
 
+*"Nearly all of deep learning is powered by one very important algorithm: stochastic gradient descent." - Ian Goodfellow*
+
 Many machine learning papers reference various flavors of stochastic gradient descent (SGD) - [parallel](http://martin.zinkevich.org/publications/nips2010.pdf) SGD, [asynchronous](https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf) SGD, [lock-free parallel](https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf) SGD, and even [distributed synchronous](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h5.pdf?) SGD, to name a few.
 
 This topic isn't just a theoretical curiosity. Parallelizing important optimization algorithms, like SGD, is the key to fast training and, by extension, fast model development. Not surprisingly, three out of the four papers I just referenced came out of industry research.
@@ -113,7 +115,7 @@ Though it may not be immediately obvious, theory assures us that if the learning
 
 Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^3]
 
-### Parallelization?
+### Parallelization
 
 Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector $\theta$, and 2) writing to $\theta$ a modified value. So we cannot just naively execute a series of update operations in parallel.
 
@@ -125,7 +127,7 @@ Alternatively, we could get rid of synchronization altogether, and have worker t
 
 ![<sup>**Figure 4**: Asynchronous parallel SGD (Source: [Stanford](http://stanford.edu/~imit/tuneyourmomentum/theory/))</sup>](../assets/gradient-descent/parallel-async.png){ width=50% }
 
-Is there any guarantee that SGD with version reconciliation (approach 1) would converge? What would be the impact on performance of explicit synchronization (approach 1) and arbitrary locking (approach 2)?
+Is there any guarantee that SGD with version reconciliation would converge? What would be the impact on performance of explicit synchronization (approach 1) and arbitrary locking (approach 2)?
 
 These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.
 
