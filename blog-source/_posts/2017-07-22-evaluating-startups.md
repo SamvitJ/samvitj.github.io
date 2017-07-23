@@ -49,13 +49,19 @@ In the remainder of the post, I'll address each of these in turn, and provide a 
   <i class="star-5">★</i>
 </div>
 
-One fact that makes evaluating startups as a prospective employee particularly difficult is that most key metrics are not public information. Statistics such as the number of monthly or daily active users (MAUs/DAUs), annual revenue, and months of runway may not even be known to current employees, let alone available on the internet.
+One fact that makes evaluating startups as a prospective employee particularly difficult is that most key metrics are not public information. Statistics such as the number of monthly or daily active users (MAUs/DAUs), annual revenue, and months of runway are often not even known to current employees, let alone available on the internet.
 
-If you do get the chance to speak with upper management or a founder in the interview process, it is unlikely that they will share this information, though it is definitely worth a shot to ask.
+Moreover, the founders and upper management are unlikely to share this information in the interview process, even if you do get the chance to speak with them, but it is definitely worth a shot to ask.
 
-Even if these numbers are known, they may not actually be the strongest signals. Revenue, for example, is often an irrelevant measure for early-stage, consumer-facing companies (e.g. [Facebook in 2008](https://en.wikipedia.org/wiki/Template:Facebook_revenue)), while number of clients may be too coarse a metric for early-stage, enterprise tech companies (for many years, Palantir only had customer: the US government).
+<!-- If you do get the chance to speak with upper management or a founder in the interview process, it is unlikely that they will share this information, though it is definitely worth the chance to ask. -->
 
-...
+Even if these numbers are known, they may not actually be the strongest signals. Revenue, for example, is often an irrelevant measure for early-stage, consumer-facing companies (e.g. [Facebook in 2008](https://en.wikipedia.org/wiki/Template:Facebook_revenue)), while number of clients may be too coarse a metric for early-stage, enterprise tech companies (for many years, Palantir only had customer: the US government). <!-- So it is important to be looking at the appropriate growth markers for a particular company. -->
+
+You also have to be careful about companies cherry picking statistics that paint them in a favorable light. A mobile app company may choose to reveal total downloads, but not monthly active users, or their shockingly high churn (i.e. uninstall) rate.
+
+A famous example where these metrics sharply conflicted is [Draw Something](https://en.wikipedia.org/wiki/Draw_Something), a social drawing app, which, along with its parent company OMGPop, was acquired by Zynga in March 2012 for $180 million. Within two months of the purchase, daily active users had fallen by a third, from a peak of 15 million on the day of the sale to 10 million by early May. Draw Something relied on aggressive growth hacking, via close integration with Facebook, and sacrificed the opportunity to build a sustainable product for rapid growth.
+
+The result? One of the greatest "pops" of the social-local-mobile app era.
 
 #### Growth rate
 
@@ -67,9 +73,9 @@ Even if these numbers are known, they may not actually be the strongest signals.
   <i class="star-5">★</i>
 </div>
 
-This one is tricky. Growth figures, especially when measured over only two data points (metrics today vs. metrics last year), are often hard to evaluate, unless absolute numbers are known as well. A representative from Facebook could have reported a [2150% growth](https://en.wikipedia.org/wiki/Template:Facebook_revenue) in revenue in 2005. While Facebook was indeed growing incredibly fast at that time, that particular statistic is meaningless, as revenue was nearly zero in 2004 (and only $9 million in 2005).
+This one is tricky. Growth figures, especially when measured over only two data points (metrics today vs. metrics last year), are often hard to evaluate, unless absolute numbers are known as well. A representative from Facebook could have reported a [2150% growth](https://en.wikipedia.org/wiki/Template:Facebook_revenue) in revenue in 2005. While Facebook was indeed growing incredibly fast at that time, that particular statistic is meaningless, as revenue was nearly zero in 2004.
 
-This is not just a straw man argument. Various startups that I've interviewed with have claimed that they "doubled in revenue since last year," or even that they've been "doubling in revenue every year" when the company has only been in existence for 3 years, without providing a clear estimate of *current* revenue. In this talk by Dustin Moskovitz, co-founder of Facebook and founder of Asana...
+This is not just a straw man argument. Various startups that I've interviewed with have claimed that they "doubled in revenue since last year," or even that they've been "doubling in revenue every year" when the company has only been in existence for 3 years, without providing a clear estimate of *current* revenue. <!-- In this talk by Dustin Moskovitz, co-founder of Facebook and founder of Asana... -->
 
 You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot of more flattering to the company. But you should know: being a derivative of the yearly revenue (or total user base) graph, growth figures will almost always contain less information.
 
@@ -77,7 +83,7 @@ Of course, don't be pedantic. If a founder mentions that their service has over 
 
 #### Number of employees
 
-<div class="rating" data-rate="3">
+<div class="rating" data-rate="2">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -110,15 +116,15 @@ of the company. If the company is then acquired for $5 billion, you will stand t
 $$
 \begin{aligned}
 \text{Value of equity }
-&= \text{Fraction ownership } * (\text{Exit valuation} - \text{Entry valuation}) \\
-&= 0.0001 * (\text{\$5,000,000,000} - \text{\$500,000,000}) \\
-&= \$450,000
+&= \text{Fraction ownership } * \text{Exit valuation} \\
+&= 0.0001 * \text{\$5,000,000,000} \\
+&= \$500,000
 \end{aligned}
 $$
 
-(Here I'm implicitly assuming a strike price of $1.00 to exercise your stock options.) 
+(Here I'm not considering the strike price of your stock options, i.e. how much you'll need to pay the company to exercise them.)
 
-What evidence do I have that this is true? This equation correctly predicts (to within about 35%) the value of equity I was offered at the one company to which I applied to for a full-time job on graduation. (Its output was a bit conservative.) Its predictions also resemble those of this more [precise calculator](https://tldroptions.io/), which takes slightly different inputs.
+What evidence do I have that this is true? This equation correctly predicts (to within about 40%) the value of equity I was offered at the one company to which I applied to for a full-time job on graduation. (Its output was a bit conservative.) Its predictions also resemble those of this more [precise calculator](https://tldroptions.io/), which takes slightly different inputs.
 
 Finally, it has the following very nice property:
 $$
@@ -150,11 +156,11 @@ As a quick exercise, consider these short, 2-sentence bios of the founders of th
 
 - **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft offered up to $1 million to buy, while still in high school.[^2] At Harvard, Zuckerberg established a reputation for building popular social tools for his peers, including Facemash, the traffic from which crashed Harvard's servers and the security breaches involved in which nearly got him expelled.
 
-- **Amazon** - Jeff Bezos entered Princeton intending to study physics, intent on becoming a theoretical physicist or space entrepreneur, and exited an electrical engineering and computer science major, graduating near the top of his class. During his 8 year career on Wall Street, Bezos became the youngest vice president in the history of D. E. Shaw.
+- **Amazon** - Jeff Bezos entered Princeton intending to study physics, intent on becoming a theoretical physicist or space entrepreneur, and exited an electrical engineering and computer science major, graduating near the top of his class. During his 8 year career on Wall Street, Bezos rose to become D. E. Shaw's youngest ever vice president.
 
 - **Microsoft** - Bill Gates...
 
-- **Alphabet** - Larry Page and Sergey Brin began their PhD studies in computer science at Stanford in 1994. Among other topics, Page considered doing research on telepresence and autonomous cars, but along with Brin, eventually decided to explore the graph structure of the rapidly growing World Wide Web.
+- **Alphabet** - Larry Page and Sergey Brin began their PhD studies in computer science at Stanford in the mid-1990s. Among other topics, Page considered doing research on telepresence and autonomous cars, but along with Brin, eventually decided to explore the graph structure of the rapidly growing World Wide Web.
 
 - **Apple** - In high school, Steve Jobs demonstrated diverse interests, from Shakespeare and Plato, to creative writing, to electronics; by his senior year, he was taking a freshman English class at Stanford and working on an underground film project. Jobs dropped out of Reed College after 6 months, and later moved to India, where he lived in an ashram for seven months; later still, he became a practitioner of Zen Buddhism.
 
@@ -168,7 +174,7 @@ But what personal *qualities* come up repeatedly in these descriptions? Intensit
 
 In a [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination. <!-- an inextinguishable belief? -->
 
-Notice also that today Jeff Bezos is the owner of Blue Origin, one of the two leading space exploration companies, and Alphabet is the industry leader in the self-driving car space. Evidently, Bezos' early interest in space colonization and Page's attraction to autonomous cars weren't fake passions, but deeply-seated ambitions - visions for how the future should look like that they acted on as soon as they got the chance. <!-- While being the CEOs of $400+ billion companies definitely helps... -->
+Notice also that, today, Jeff Bezos is the owner of Blue Origin, one of the two leading space exploration companies, and Alphabet is the industry leader in the self-driving car space. Evidently, Bezos' early interest in space colonization and Page's attraction to autonomous cars weren't fake passions, but deeply-seated ambitions - visions for how the future should look like that they acted on as soon as they got the chance. <!-- While being the CEOs of $400+ billion companies definitely helps... -->
 
 While their biographies may sound impressive, none of these accomplishments are particularly uncommon, and I challenge you to hold the founders of your potential employer to the same high standard. Can you write a 2-sentence bio of each of the founders that reflects a similar caliber of achievement?
 
@@ -176,7 +182,7 @@ In your description, try to focus on concrete accomplishments, as opposed to pro
 
 This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention (as opposed to simply an interest in advancing herself). She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
 
-So Sarah may have what it takes to beat the great odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.
+So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.
 
 What kinds of past experience are signs of a great founder?
 
@@ -210,9 +216,7 @@ The second reflects a little less favorably, but is understandable. Recruiting s
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them, and clear enough in their articulation of the company's vision to convince smart people that the impossible might actually be possible.
 
-The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.
-
-With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.
+The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^4]
 
 #### Rounds of funding raised
 
@@ -281,3 +285,5 @@ With regards to my elite college theory: if you disagree that the top hackers at
 [^2]: There's a caveat here: the offers from Microsoft and AOL were more like acqui-hires. Zuck (and his co-founder, Adam D'Angelo) would have to defer college, and [agree to work](http://www.thecrimson.com/article/2003/10/23/not-so-artificial-intelligence-for-his-high-school/) at the acquiring company.
 
 [^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
+
+[^4]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.
