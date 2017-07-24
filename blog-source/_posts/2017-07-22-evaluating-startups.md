@@ -26,11 +26,11 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - Number of employees
 - Strength of founders
 - Strength of early employees
-- Rounds of funding raised
 - Investor pedigree (i.e. reputation, past record)
-- Problem domain
+- Rounds of funding raised
 - Location
 - Press coverage
+- Problem domain
 - Personal fit
 
 In the remainder of the post, I'll address each of these in turn, and provide a "star rating" to indicate how strongly you should consider each factor when making your decision.
@@ -178,11 +178,11 @@ Notice also that, today, Jeff Bezos is the owner of Blue Origin, one of the two 
 
 While their biographies may sound impressive, none of these accomplishments are particularly uncommon, and I challenge you to hold the founders of your potential employer to the same high standard. Can you write a 2-sentence bio of each of the founders that reflects a similar caliber of achievement?
 
-In your description, try to focus on concrete accomplishments, as opposed to proper nouns. Instead of writing, "Sarah graduated from Harvard as a public policy major, and worked at Goldman Sachs for two years," write: "Sarah graduated from Harvard, where she started the first intercollegiate journal focused on futuristic technologies, and spearheaded its expansion to over 15 schools. While at Goldman Sachs, she worked to build the bank's portfolio of consumer fintech companies, and personally oversaw late-stage financing for three bitcoin and blockchain-related companies."
+In your description, try to focus on concrete accomplishments, as opposed to proper nouns. Instead of writing, "Sarah graduated from Harvard as a public policy major, and worked at Goldman Sachs for two years," write: "Sarah graduated from Harvard, where she worked to develop novel financial instruments allowing emigrants from oppressive regimes to remotely liquidate their assets, even testing her research through a live study based in Syria. While at Goldman Sachs, she helped expand the bank's portfolio of consumer fintech companies, and personally spearheaded late-stage financing for three bitcoin and blockchain-related startups."
 
-This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention (as opposed to simply an interest in advancing herself). She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
+This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention, as opposed to simply an interest in advancing herself. She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
 
-So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.
+So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^4]
 
 What kinds of past experience are signs of a great founder?
 
@@ -212,21 +212,11 @@ In my experience, the best startups have a critical mass of junior employees who
 
 The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to students at top schools. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
 
-The second reflects a little less favorably, but is understandable. Recruiting smart people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed startup, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
+The second reflects a little less favorably, but is understandable. Recruiting smart people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them, and clear enough in their articulation of the company's vision to convince smart people that the impossible might actually be possible.
 
-The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^4]
-
-#### Rounds of funding raised
-
-<div class="rating" data-rate="3">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
-</div>
+The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^5]
 
 #### Investor pedigree
 
@@ -238,7 +228,31 @@ The one thing that distinguishes students at top schools is that they tend to ha
   <i class="star-5">★</i>
 </div>
 
-#### Problem domain
+If I was looking for a job, and I saw that a company was backed by Sequoia Capital, I would be tempted to go work for them - even if their founders were five years old.
+
+Here's a list of companies whose Series A or B rounds (or both) were led by Sequoia: Apple, Google, Yahoo!, Stripe, Dropbox, YouTube, Instagram, Airbnb, and WhatsApp.
+
+Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired and 69 have IPOed. Their [mission statment](https://www.sequoiacap.com/people/ethos/):
+
+> The creative spirits. The underdogs. The resolute. The determined. The outsiders. The defiant. The independent thinkers. The fighters and the true believers.
+
+> These are the founders with whom we partner. They’re extremely rare. And we’re ecstatic when we find them...
+
+> We’re serious about our work, and carefully choose the words to describe it. Terms like “deal” or “exit” are forbidden. And while we’re sometimes called investors, that is not our frame of mind. We consider ourselves partners for the long term.
+
+> We help the daring build legendary companies.
+
+If that doesn't capture the ethos of Silicon Valley, I don't know what does.
+
+This is a criteria that my intution would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
+
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^6] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show (on average) the highest returns.
+
+<!-- Even the best firms, however, often miss great deals... -->
+
+<!-- Other well-known firms include General Catalyst, NEA, and Lightspeed Ventures. -->
+
+#### Rounds of funding raised
 
 <div class="rating" data-rate="3">
   <i class="star-1">★</i>
@@ -268,6 +282,16 @@ The one thing that distinguishes students at top schools is that they tend to ha
   <i class="star-5">★</i>
 </div>
 
+#### Problem domain
+
+<div class="rating" data-rate="3">
+  <i class="star-1">★</i>
+  <i class="star-2">★</i>
+  <i class="star-3">★</i>
+  <i class="star-4">★</i>
+  <i class="star-5">★</i>
+</div>
+
 #### Personal fit
 
 <div class="rating" data-rate="4">
@@ -286,4 +310,14 @@ The one thing that distinguishes students at top schools is that they tend to ha
 
 [^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
 
-[^4]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.
+[^4]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
+Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
+Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and in most cases, the early employees.</br></br>
+Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds pretty risky to me.</br></br>
+Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
+
+[^5]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.
+
+[^6]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm that was started after 1995 on this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
+
+
