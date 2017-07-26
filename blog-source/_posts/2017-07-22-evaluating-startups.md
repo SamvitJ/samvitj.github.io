@@ -172,17 +172,17 @@ Yes, unfortunately, they were also all white males, born in most cases into priv
 
 But what personal *qualities* come up repeatedly in these descriptions? Intensity, ambition, clear passions - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
 
-In a [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination. <!-- an inextinguishable belief? -->
+In an [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination.[^4] <!-- an inextinguishable belief? -->
 
 Notice also that, today, Jeff Bezos is the owner of Blue Origin, one of the two leading space exploration companies, and Alphabet is the industry leader in the self-driving car space. Evidently, Bezos' early interest in space colonization and Page's attraction to autonomous cars weren't fake passions, but deeply-seated ambitions - visions for how the future should look like that they acted on as soon as they got the chance. <!-- While being the CEOs of $400+ billion companies definitely helps... -->
 
 While their biographies may sound impressive, none of these accomplishments are particularly uncommon, and I challenge you to hold the founders of your potential employer to the same high standard. Can you write a 2-sentence bio of each of the founders that reflects a similar caliber of achievement?
 
-In your description, try to focus on concrete accomplishments, as opposed to proper nouns. Instead of writing, "Sarah graduated from Harvard as a public policy major, and worked at Goldman Sachs for two years," write: "Sarah graduated from Harvard, where she worked to develop novel financial instruments allowing emigrants from oppressive regimes to remotely liquidate their assets, even testing her research through a live study based in Syria. While at Goldman Sachs, she helped expand the bank's portfolio of consumer fintech companies, and personally spearheaded late-stage financing for three bitcoin and blockchain-related startups."
+In your description, try to focus on concrete accomplishments, as opposed to proper nouns. Instead of writing, "Sarah graduated from Harvard as a public policy major, and worked at Goldman Sachs for two years," write: "Sarah graduated from Harvard, where she worked to develop novel financial instruments allowing emigrants from oppressive regimes to remotely liquidate their assets, even testing her research through a live study based in Syria. While at Goldman Sachs, she helped to expand the bank's portfolio of consumer fintech companies, and personally oversaw late-stage financing for three bitcoin and blockchain-related startups."
 
 This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention, as opposed to simply an interest in advancing herself. She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
 
-So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^4]
+So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^5]
 
 What kinds of past experience are signs of a great founder?
 
@@ -216,7 +216,7 @@ The second reflects a little less favorably, but is understandable. Recruiting s
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them, and clear enough in their articulation of the company's vision to convince smart people that the impossible might actually be possible.
 
-The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^5]
+The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^6]
 
 #### Investor pedigree
 
@@ -246,7 +246,7 @@ If that doesn't capture the ethos of Silicon Valley, I don't know what does.
 
 This is a criteria that my intution would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
-Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^6] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show (on average) the highest returns.
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show (on average) the highest returns.
 
 <!-- Even the best firms, however, often miss great deals... -->
 
@@ -310,14 +310,16 @@ Silicon Valley has a hierarchy in its investors. The top-tier is generally agree
 
 [^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
 
-[^4]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
+[^4]: “Jeff [Bezos] always wanted to make a lot of money,” says his high school girlfriend, Ursula “Uschi” Werner. She herself was an overachiever – valedictorian of the Miami Palmetto Senior High School class a year ahead of Bezos, winner of a full scholarship to Duke University, and a Rhodes Scholar – but she remains awed by Bezos’s commitment. “It wasn’t about money itself. It was about what he was going to do with the money, about changing the future.” (from a [1999 article](https://www.wired.com/1999/03/bezos-3/) by Wired)</br></br>
+Page grew up in East Lansing, Michigan, where his father taught computer science at Michigan State. He wanted to be an inventor, not simply because of his interests and abilities in math and technology but because, he says, “I really wanted to change the world.” ... Page’s ideas may have been fantastic, but his vision always extended to the commercial. “From when I was 12, I knew I was going to start a company,” he says. (from a [2011 article](https://www.wired.com/2011/03/mf_larrypage/) by Wired)
+
+[^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
 Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
-Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and in most cases, the early employees.</br></br>
+Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and in many cases, the early employees.</br></br>
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds pretty risky to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
-[^5]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.
+[^6]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
+Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful *founders*, I have reason to believe my assertion hints at the truth.
 
-[^6]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm that was started after 1995 on this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
-
-
+[^7]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
