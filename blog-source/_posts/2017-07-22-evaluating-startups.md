@@ -93,7 +93,7 @@ Of course, don't be pedantic. If a founder mentions that their service has over 
 
 Cisco Systems has 70,000 employees today, and its stock price has hovered between $15 and $30 for the last 16 years. When WhatsApp was acquired by Facebook for $19 billion in February 2014, it had 55 employees.
 
-Evidently, head count alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you a good idea for how much money you stand to make if you join.
+Evidently, headcount alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you a good idea for how much money you stand to make if you join.
 
 Here's the heuristic. Stocks generally vest over four years, and if you stay the four years, you'll ownership of the company will amount to the following:
 $$
@@ -190,7 +190,7 @@ What kinds of past experience are signs of a great founder?
 
 - **The fourth-time founder, aka the serial entrepreneur** - I have more mixed feelings about this one. Being a serial entrepreneur is considered a great resume item in some circles, and there are of course a few example of wildly successful born-again founders - notably, Elon Musk, and even Steve Jobs, who founded NeXT Computer between 1980s Apple and iPod/iPhone-era Apple. Entrepreneurship is a difficult journey, and the greatest founders tend to treat their companies as their life's work. A long history of eight-figure acquisitions doesn't speak very well to a founder's dedication, and their ability to navigate difficult times to take a company to greatness. Be especially wary if there's a trail of people who've worked with the founder in the past, and have felt screwed over.
 
-- **Domain expertise** - This is valuable, but probably not strictly neccesary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling buisness for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably overestimate how hard it is for smart people to immerse themselves in new, hard problems they care about.
+- **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably overestimate how hard it is for smart people to immerse themselves in new, hard problems they care about.
 
 #### Strength of early employees
 
@@ -232,7 +232,7 @@ If I was looking for a job, and I saw that a company was backed by Sequoia Capit
 
 Here's a list of companies whose Series A or B rounds (or both) were led by Sequoia: Apple, Google, Yahoo!, Stripe, Dropbox, YouTube, Instagram, Airbnb, and WhatsApp.
 
-Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired and 69 have IPOed. Their [mission statment](https://www.sequoiacap.com/people/ethos/):
+Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired and 69 have IPOed. Their [mission statement](https://www.sequoiacap.com/people/ethos/):
 
 > The creative spirits. The underdogs. The resolute. The determined. The outsiders. The defiant. The independent thinkers. The fighters and the true believers.
 
@@ -244,9 +244,11 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 If that doesn't capture the ethos of Silicon Valley, I don't know what does.
 
-This is a criteria that my intution would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
+This is a criteria that my intuition would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
-Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show (on average) the highest returns.
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show, on average, the highest returns.
+
+...
 
 <!-- Even the best firms, however, often miss great deals... -->
 
@@ -261,6 +263,40 @@ Silicon Valley has a hierarchy in its investors. The top-tier is generally agree
   <i class="star-4">★</i>
   <i class="star-5">★</i>
 </div>
+
+*The funding statistics in this section are based on a 2017 [article](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/) by TechCrunch that looked at 15,600 U.S.-based tech companies founded between 2003 and 2013.*
+
+*As a sanity check, I compared these numbers with those from a Business Insider [article](http://www.businessinsider.com/startup-matriculation-rate-mattermark-2016-9) from 2016, which considered 2,011 U.S.-based software companies that raised seed rounds between 2009 and 2012. The BI funding statistics are slightly more conservative.*
+
+The number of rounds of funding raised by a company is a decent indicator of how much risk the startup has neutralized, or in other words, how likely the company is to succeed at some level.
+
+This doesn't mean that it is always better to join a company that has raised a Series C round over a company that has only raised a Series B, because there is a tradeoff. The Series C company will be offering a smaller equity share, possibility significantly so, and thus less potential upside. In addition, some types of funding rounds can actually be indicative of *problems* in the company - notably, down rounds and debt financing.
+
+A company that has raised no external funding should be considered "extremely high risk", and not being offered founder-level equity at such a company should be met with extreme skepticism. (Especially because you are likely to be working for little to no pay for a while.)
+
+A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. In 2016, the [median seed round](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) size was $0.63 million, and the average size was $1.14 million. Investors typically take around 20% of the company in early funding rounds, so this indicates a post-money valuation of $2-8 million.
+
+A company that has raised a Series A round should be considered "moderate risk". Of companies that raise a Series A, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die.[^8] In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
+
+Series B companies should be considered "low risk"...
+
+...
+
+<!-- Discuss base salaries -->
+
+<!-- Discuss down rounds and debt financing -->
+
+<!-- Discuss YC companies -->
+
+Another important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. [not really a startup](http://www.paulgraham.com/growth.html)), or 2) in decline or dead.
+
+A highly prescient question to ask a founder or executive in the interview process is how much runway the company has at its current burn rate. This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending, were it not to raise any more capital. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
+
+...
+
+In this discussion, I've used terms such as "high risk" and "low risk", but defining risk is tricky, because the definition of success for a company's employees is stricter than the definition of success for the founders and early investors. As an example, consider a liquidity event, say a $250 million acquisition, that occurs after a Series B round that values the company at $350 million. A $250 million acquisition is great news for the founders, who will likely earn $25-50 million a piece on their equity, and for the seed-stage and Series A round investors, but bad news for the Series B round investors, and mixed news for the employees. Employees who joined after the Series B round were granted stock options worth $60,000 at the $350 million valuation, options now worth about $45,000. In the context of a $115,000 annual base salary, this is not a huge monetary loss, but for a talented engineer, spending four years at such a company entails a separate, much higher opportunity cost. After all, isn't earning equity that will be worth something significant in the future a big point of joining a startup in the first place?
+
+<!-- Discuss Atlassian, which only raised one round of funding -->
 
 #### Location
 
@@ -320,6 +356,9 @@ Startups can be risky, but you have to be precise about what you mean by "risk" 
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
 [^6]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
-Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful *founders*, I have reason to believe my assertion hints at the truth.
+Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful *founders*, I have reason to believe my assertion approximates the truth.
 
 [^7]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
+
+[^8]: I'm assuming that the probability of a company become financially self-sustaining or IPOing after raising only a Series A round is negligible.
+
