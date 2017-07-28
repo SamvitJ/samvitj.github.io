@@ -91,7 +91,7 @@ Of course, don't be pedantic. If a founder mentions that their service has over 
   <i class="star-5">★</i>
 </div>
 
-Cisco Systems has 70,000 employees today, and its stock price has hovered between $15 and $30 for the last 16 years. When WhatsApp was acquired by Facebook for $19 billion in February 2014, it had 55 employees.
+Cisco Systems has 70,000 employees today, and its stock price has hovered between $15 and $30 for the last 16 years. When WhatsApp was acquired by Facebook for $19 billion in February 2014, it had 55 employees. <!-- or about 1 employee per every y million users -->
 
 Evidently, headcount alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you a good idea for how much money you stand to make if you join.
 
@@ -156,7 +156,7 @@ As a quick exercise, consider these short, 2-sentence bios of the founders of th
 
 - **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft offered up to $1 million to buy, while still in high school.[^2] At Harvard, Zuckerberg established a reputation for building popular social tools for his peers, including Facemash, the traffic from which crashed Harvard's servers and the security breaches involved in which nearly got him expelled.
 
-- **Amazon** - Jeff Bezos entered Princeton intending to study physics, intent on becoming a theoretical physicist or space entrepreneur, and exited an electrical engineering and computer science major, graduating near the top of his class. During his 8 year career on Wall Street, Bezos rose to become D. E. Shaw's youngest ever vice president.
+- **Amazon** - Jeff Bezos entered Princeton intending to study physics, intent on becoming a theoretical physicist or space entrepreneur, and exited an electrical engineering and computer science major, graduating near the top of his class. During his 8 year career on Wall Street, Bezos rose to become the then two-year-old hedge fund D. E. Shaw's youngest vice president.
 
 - **Microsoft** - Bill Gates...
 
@@ -278,24 +278,17 @@ A company that has raised a seed round is officially a funded startup, but is st
 
 A company that has raised a Series A round should be considered "moderate risk". Of companies that raise a Series A, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die.[^8] In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
 
-Series B companies should be considered "low risk"...
+Series B companies should be considered "low risk".[^9] For one, companies that have raised a Series B round are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.
 
-...
+When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. [not really a startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^10]
 
-<!-- Discuss base salaries -->
+A point to note: companies that have raised a Series B round or beyond should be offering a base salary that is competitive with that offered by larger, public companies. For new college grads, the [average base salary](https://www.glassdoor.com/Salaries/san-francisco-software-engineer-new-grad-salary-SRCH_IL.0,13_IM759_KO14,40.htm) offered by top-tier tech companies based in San Francisco was $110,000, as of mid-2017. Take this figure with a grain of salt (and, of course, don't neglect cost of living adjustments), but if you're being offered much less, you're either at a company with an unusual compensation structure (and should be offered a significantly above-average equity grant), or are not being made a fair offer.[^11]
 
-<!-- Discuss down rounds and debt financing -->
-
-<!-- Discuss YC companies -->
-
-Another important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. [not really a startup](http://www.paulgraham.com/growth.html)), or 2) in decline or dead.
+Finally, as I mentioned earlier, there are two kinds of funding rounds that could actually be indicative of problems in a company. The first is down rounds. These are almost always bad, as they imply that a company was obliged to raise funding to stay alive, but had to do so at a lower valuation than in its previous round of funding - something that is bad for all existing shareholders of the company. The second kind is debt financing. In such a round, a company raises debt, which must be paid back with interest, instead of ordinary capital. This has become a common practice among very mature private companies, such as [Uber](https://www.theverge.com/2016/6/14/11936316/uber-leveraged-loan-two-billion-valuation-travis-kalanick) and [Snapchat](https://www.recode.net/2016/9/8/12845890/snapchat-banking-debt-credit-line-morgan-stanley) (before its IPO), which often need more cash, but either do not want to further dilute shareholders or cannot find a bank willing or able to invest at their current valuation. This may not necessarily be a bad sign, but raising debt can be dangerous, especially if the company later hits a rough patch.
 
 A highly prescient question to ask a founder or executive in the interview process is how much runway the company has at its current burn rate. This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending, were it not to raise any more capital. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
 
-...
-
-In this discussion, I've used terms such as "high risk" and "low risk", but defining risk is tricky, because the definition of success for a company's employees is stricter than the definition of success for the founders and early investors. As an example, consider a liquidity event, say a $250 million acquisition, that occurs after a Series B round that values the company at $350 million. A $250 million acquisition is great news for the founders, who will likely earn $25-50 million a piece on their equity, and for the seed-stage and Series A round investors, but bad news for the Series B round investors, and mixed news for the employees. Employees who joined after the Series B round were granted stock options worth $60,000 at the $350 million valuation, options now worth about $45,000. In the context of a $115,000 annual base salary, this is not a huge monetary loss, but for a talented engineer, spending four years at such a company entails a separate, much higher opportunity cost. After all, isn't earning equity that will be worth something significant in the future a big point of joining a startup in the first place?
-
+<!-- Discuss YC -->
 <!-- Discuss Atlassian, which only raised one round of funding -->
 
 #### Location
@@ -351,7 +344,7 @@ Page grew up in East Lansing, Michigan, where his father taught computer science
 
 [^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
 Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
-Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and in many cases, the early employees.</br></br>
+Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds pretty risky to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
@@ -362,3 +355,8 @@ Considering that students from these schools are so [overrepresented](https://qz
 
 [^8]: I'm assuming that the probability of a company become financially self-sustaining or IPOing after raising only a Series A round is negligible.
 
+[^9]: In this discussion, I've used terms such as "high risk" and "low risk", but as I mentioned in an earlier footnote, defining risk is tricky, because the definition of success for a company's employees is stricter than the definition of success for the founders and early investors. As an example, consider a liquidity event, say a $250 million acquisition, that occurs after a Series B round that values the company at $350 million. A $250 million acquisition is great news for the founders, who will likely earn $25-50 million a piece on their equity, and for the seed-stage and Series A round investors. But it is definitely *not* good news for the Series B round investors, and may not be a win for later employees, either. Employees who joined after the Series B round were granted four years of stock options worth $60,000 at the $350 million valuation, options now worth about $45,000. In the context of a $115,000 annual base salary, this is not a huge monetary loss, but for a talented engineer, spending several years at such a company entails a separate, much higher opportunity cost. After all, isn't earning equity that will be worth something significant in the future a big point of joining a startup in the first place?
+
+[^10]: An example of a startup that has done very well without raising much external capital is Atlassian, a Sydney, Australia-based company that builds productivity software (e.g. Jira, Confluence) for developers. Founded in 2002, Atlassian has been profitable since 2005, and in 2015, IPOed on the NASDAQ stock exchange at a $4.3 billion valuation. In 2010, Atlassian raised $60 million in secondary financing from Accel Partners. This was a [very unusual](http://www.businessinsider.com/atlassian-ceo-mike-cannon-brookes-accel-partners-2016-9) kind of funding round - the company already had $55 million in the bank, and raised the money as a way to offer employees liquidity for their options, and to bring in an external board member from Accel.
+
+[^11]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradeable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise, or strike price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buy-back program.
