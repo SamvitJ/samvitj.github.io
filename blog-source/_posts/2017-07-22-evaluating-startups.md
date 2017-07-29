@@ -156,13 +156,15 @@ As a quick exercise, consider these short, 2-sentence bios of the founders of th
 
 - **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft offered up to $1 million to buy, while still in high school.[^2] At Harvard, Zuckerberg established a reputation for building popular social tools for his peers, including Facemash, the traffic from which crashed Harvard's servers and the security breaches involved in which nearly got him expelled.
 
-- **Amazon** - Jeff Bezos entered Princeton intending to study physics, intent on becoming a theoretical physicist or space entrepreneur, and exited an electrical engineering and computer science major, graduating near the top of his class. During his 8 year career on Wall Street, Bezos rose to become the then two-year-old hedge fund D. E. Shaw's youngest vice president.
+- **Amazon** - Jeff Bezos entered Princeton intending to study physics, with the goal of becoming a theoretical physicist, but exited an electrical engineering and computer science major, graduating near the top of his class, and as president of the Princeton chapter of Students for the Exploration and Development of Space. During his 8 year career on Wall Street, Bezos rose to become the then two-year-old hedge fund D. E. Shaw's youngest ever vice president.
 
-- **Microsoft** - Bill Gates...
+- **Microsoft** - Bill Gates began programming in 8th grade on a computer donated to his high school, which he used for everything from writing simple games, to exploiting bugs in the timesharing system - an exploit which temporarily cost him his computer privileges, to developing a payroll program for the donating company. While at Harvard, he solved a minor, open combinatorics problem, and after prematurely promising the company a demonstration, implemented a BASIC language interpreter for MITS' Altair mini-computer.
 
-- **Alphabet** - Larry Page and Sergey Brin began their PhD studies in computer science at Stanford in the mid-1990s. Among other topics, Page considered doing research on telepresence and autonomous cars, but along with Brin, eventually decided to explore the graph structure of the rapidly growing World Wide Web.
+<!-- as a proof-of-concept, implemented a interpreter for the BASIC language for the Altair 8800 mini-computer.-->
 
-- **Apple** - In high school, Steve Jobs demonstrated diverse interests, from Shakespeare and Plato, to creative writing, to electronics; by his senior year, he was taking a freshman English class at Stanford and working on an underground film project. Jobs dropped out of Reed College after 6 months, and later moved to India, where he lived in an ashram for seven months; later still, he became a practitioner of Zen Buddhism.
+- **Alphabet** - A computer science and mathematics major at the University of Maryland, Sergey Brin began his PhD studies in computer science at Stanford in 1994; a computer engineering major at the University of Michigan, and an inventive engineering student, Larry Page began his PhD at Stanford in 1995. Among other topics, Page considered doing research on telepresence and autonomous cars, but along with Brin, decided to focus on exploring the graph structure of the rapidly growing World Wide Web.
+
+- **Apple** - In high school, Steve Jobs demonstrated diverse interests, from Shakespeare and Plato, to creative writing, to electronics, enrolling in a freshman English class at Stanford during his senior year, and then dropping out of Reed College after 6 months. Jobs later moved to India, where he lived in an ashram for seven months; later still, he took up a contract project for Atari, enlisting the help of Steve Wonziak to construct a highly-optimized circuit board for an arcade game, a deal that earned him $5,000.
 
 What do you notice about these six founders?
 
