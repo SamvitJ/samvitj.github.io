@@ -29,9 +29,12 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - Investor pedigree (i.e. reputation, past record)
 - Rounds of funding raised
 - Location
+- Personal fit
+
+<!--
 - Press coverage
 - Problem domain
-- Personal fit
+-->
 
 In the remainder of the post, I'll address each of these in turn, and provide a "star rating" to indicate how strongly you should consider each factor when making your decision.
 
@@ -156,11 +159,11 @@ As a quick exercise, consider these short, 2-sentence bios of the founders of th
 
 - **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft offered up to $1 million to buy, while still in high school.[^2] At Harvard, Zuckerberg established a reputation for building popular social tools for his peers, including Facemash, the traffic from which crashed Harvard's servers and the security breaches involved in which nearly got him expelled.
 
-- **Amazon** - Jeff Bezos entered Princeton intending to study physics, with the goal of becoming a theoretical physicist, but exited an electrical engineering and computer science major, graduating near the top of his class, and as president of the Princeton chapter of Students for the Exploration and Development of Space. During his 8 year career on Wall Street, Bezos rose to become the then two-year-old hedge fund D. E. Shaw's youngest ever vice president.
+- **Amazon** - Jeff Bezos entered Princeton intending to study physics, with the goal of becoming a theoretical physicist, but exited an electrical engineering and computer science major, graduating near the top of his class, and as president of the Princeton chapter of Students for the Exploration and Development of Space. During his 8 year career on Wall Street, Bezos rose to become the then two-year-old hedge fund D. E. Shaw's youngest vice president.
 
-- **Microsoft** - Bill Gates began programming in 8th grade on a computer donated to his high school, which he used for everything from writing simple games, to exploiting bugs in the timesharing system - an exploit which temporarily cost him his computer privileges, to developing a payroll program for the donating company. While at Harvard, he solved a minor, open combinatorics problem, and after prematurely promising the company a demonstration, implemented a BASIC language interpreter for MITS' Altair mini-computer.
+- **Microsoft** - Bill Gates began programming in 8th grade on a computer donated to his high school, which he used for everything from writing simple games, to exploiting bugs in the timesharing system - an exploit which temporarily cost him his computer privileges, to developing a payroll program for the donating company. While at Harvard, he solved a minor, open combinatorics problem, and as a proof-of-concept aimed at hobbyists, implemented a interpreter for the BASIC language for the Altair 8800 mini-computer.
 
-<!-- as a proof-of-concept, implemented a interpreter for the BASIC language for the Altair 8800 mini-computer.-->
+<!-- after prematurely promising the company a demonstration, implemented a BASIC language interpreter for MITS' Altair mini-computer. -->
 
 - **Alphabet** - A computer science and mathematics major at the University of Maryland, Sergey Brin began his PhD studies in computer science at Stanford in 1994; a computer engineering major at the University of Michigan, and an inventive engineering student, Larry Page began his PhD at Stanford in 1995. Among other topics, Page considered doing research on telepresence and autonomous cars, but along with Brin, decided to focus on exploring the graph structure of the rapidly growing World Wide Web.
 
@@ -250,15 +253,15 @@ This is a criteria that my intuition would award 4.5 stars to, but that even inv
 
 Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show, on average, the highest returns.
 
+<!-- Other well-known firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed Ventures. -->
+
 ...
 
 <!-- Even the best firms, however, often miss great deals... -->
 
-<!-- Other well-known firms include General Catalyst, NEA, and Lightspeed Ventures. -->
-
 #### Rounds of funding raised
 
-<div class="rating" data-rate="3">
+<div class="rating" data-rate="3.5">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -303,25 +306,15 @@ A highly prescient question to ask a founder or executive in the interview proce
   <i class="star-5">★</i>
 </div>
 
-#### Press coverage
+Every year, Wealthfront identifies a set of "career-launching" tech companies for aspiring young professionals by surveying the partners of 14 top venture capital firms. The qualifications for making the list are: 1) a revenue run rate between $20-300 million, and 2) a growth trajectory of over 50% over the next three to four years.
 
-<div class="rating" data-rate="2">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
-</div>
+Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-companies-list/), its fifth such annual list, identifies 132 companies. Of these, 81, or about 61%, are located in the San Francisco Bay Area, followed by 10% in New York, 5% in Boston, another 5% in Southern California, and 4% in Seattle. Of the Bay Area companies, about 58% are located in San Francisco itself.
 
-#### Problem domain
+I've included the full table below for reference:
 
-<div class="rating" data-rate="3">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
-</div>
+![<sup>**Figure 1**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% }
+
+Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area, New York, Boston, LA, or Seattle is going to be a fighting an uphill battle finding investors, attracting and retaining strong employees, and connecting with its early adopters.
 
 #### Personal fit
 
@@ -332,6 +325,32 @@ A highly prescient question to ask a founder or executive in the interview proce
   <i class="star-4">★</i>
   <i class="star-5">★</i>
 </div>
+
+### Closing thoughts
+
+<!-- Quote Ben Horowitz book? -->
+
+While I've addressed the most common critera for evaluating startups, some of the most <!-- wc --> important markers of a company's destiny cannot be captured in numbers.
+
+  1. How much do users love the product? Do they tell their friends about it?
+
+  2. What kind of a product is the company building? The most audacious [researchers](http://futuredata.stanford.edu/#) and [entreprenuers](http://zerotoonebook.com/) pursue two kinds of problems:
+
+    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas ("Uber for pet sitting").
+
+    - **10x systems.** These are products that are at least an order of magnitude better than whatever is used instead today.
+
+The great paradox of entreprenuership is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these are the ideas that excite and attract smart people, and that inspire loyalty in trying times.
+
+That said, do not discount products that seem like toys as trivialities. Facebook was once just a tool for Harvard students to stalk each other, and Snapchat was [something worse](https://techcrunch.com/2012/12/26/inside-snapchat-the-little-photo-sharing-app-that-launched-a-sexting-scare/). Today, Facebook connects two billion people around the world, and Snapchat enables a hundred million to communicate more authentically.
+
+This is where the first criteria becomes useful. Early Facebook users [spent hours](https://www.youtube.com/watch?v=Lb4IcGF5iTQ) clicking from profile to profile (okay, maybe some people still do this), so engrossing was the data that Facebook had made available on their friends. Just over a year after launch, Snapchat users [were sending](https://blog.hubspot.com/marketing/history-of-snapchat) each other about 20 million snaps per day.
+
+Through the dot com boom and the great recession, three great companies emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based communication), the camera (i.e. the dual-facing recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snapchat, and Uber.
+
+In a similar way, each technological wave spawns companies of all kinds, but the most persisting are the ones that capture the most fundamental, the lowest-hanging fruit. This is always easier to spot in retrospect, of course. The best companies tend to execute on ruthlessly narrow domains to start out, and then expand rapidly to realize a wider potential. Early Google ranked textual pages. Early Facebook connected college students. Early Amazon sold books. Today, Google is using AI to drive cars, Facebook is beaming down wifi to the world's disconnected, and Amazon is launching drones to automate delivery. Their operations span continents, and each wields power rivaling that of the Roman Empire at its height.
+
+...
 
 ### Footnotes
 
@@ -347,7 +366,7 @@ Page grew up in East Lansing, Michigan, where his father taught computer science
 [^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
 Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
 Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
-Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds pretty risky to me.</br></br>
+Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
 [^6]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
@@ -361,4 +380,4 @@ Considering that students from these schools are so [overrepresented](https://qz
 
 [^10]: An example of a startup that has done very well without raising much external capital is Atlassian, a Sydney, Australia-based company that builds productivity software (e.g. Jira, Confluence) for developers. Founded in 2002, Atlassian has been profitable since 2005, and in 2015, IPOed on the NASDAQ stock exchange at a $4.3 billion valuation. In 2010, Atlassian raised $60 million in secondary financing from Accel Partners. This was a [very unusual](http://www.businessinsider.com/atlassian-ceo-mike-cannon-brookes-accel-partners-2016-9) kind of funding round - the company already had $55 million in the bank, and raised the money as a way to offer employees liquidity for their options, and to bring in an external board member from Accel.
 
-[^11]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradeable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise, or strike price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buy-back program.
+[^11]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradeable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise (strike) price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buy-back program.
