@@ -1,13 +1,13 @@
 ---
 layout: post 
-title: "On the Electrodynamics of Promising Startups"
+title: "On the Electrodynamics of Promising Startups - A Guidebook"
 date: 2017-07-22
 comments: true
 ---
 
 *This blog post is based on my experience interviewing with a range of tech companies for a software internship for my last summer as an undergrad at Princeton. At the end of the process, I had to make a choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.*
 
-*This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups.*
+*This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.*
 
 Choosing a company to work for is an investment. While a venture capitalist might put in a large amount of money and a small amount of their time (i.e. in monthly board meetings) in a portfolio company, as an employee, the *primary* asset you invest is your time.
 
@@ -58,7 +58,7 @@ Moreover, the founders and upper management are unlikely to share this informati
 
 <!-- If you do get the chance to speak with upper management or a founder in the interview process, it is unlikely that they will share this information, though it is definitely worth the chance to ask. -->
 
-Even if these numbers are known, they may not actually be the strongest signals. Revenue, for example, is often an irrelevant measure for early-stage, consumer-facing companies (e.g. [Facebook in 2008](https://en.wikipedia.org/wiki/Template:Facebook_revenue)), while number of clients may be too coarse a metric for early-stage, enterprise tech companies (for many years, Palantir only had customer: the US government). <!-- So it is important to be looking at the appropriate growth markers for a particular company. -->
+Even if these numbers are known, they may not actually be the strongest signals. Revenue, for example, is often an irrelevant measure for early-stage, consumer-facing companies (e.g. [Facebook in 2008](https://en.wikipedia.org/wiki/Template:Facebook_revenue)), while number of clients may be too coarse a metric for early-stage, enterprise tech companies (for many years, Palantir only had one customer: the US government). <!-- So it is important to be looking at the appropriate growth markers for a particular company. -->
 
 You also have to be careful about companies cherry picking statistics that paint them in a favorable light. A mobile app company may choose to reveal total downloads, but not monthly active users, or their shockingly high churn (i.e. uninstall) rate.
 
@@ -80,7 +80,7 @@ This one is tricky. Growth figures, especially when measured over only two data 
 
 This is not just a straw man argument. Various startups that I've interviewed with have claimed that they "doubled in revenue since last year," or even that they've been "doubling in revenue every year" when the company has only been in existence for 3 years, without providing a clear estimate of *current* revenue. <!-- In this talk by Dustin Moskovitz, co-founder of Facebook and founder of Asana... -->
 
-You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot of more flattering to the company. But you should know: being a derivative of the yearly revenue (or total user base) graph, growth figures will almost always contain less information.
+You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot of more flattering to the company. But you should know: being a derivative of the yearly revenue (or total users) graph, growth figures will almost always contain less information.
 
 Of course, don't be pedantic. If a founder mentions that their service has over a million users, and is sporting 200% year-over-year growth, but won't give exact numbers, that is probably enough information to judge that the business is going rapidly.
 
@@ -211,7 +211,7 @@ What kinds of past experience are signs of a great founder?
 
 I have a controversial heuristic for judging the quality of the early employees at a company. I get on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weak schools and worked for companies I've never heard of. This sounds at best naive and at worst prejudiced, so let me defend myself.
 
-In my experience, the best startups have a critical mass of junior employees who attended schools like Stanford, MIT, and Harvard. This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, SpaceX, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
+In my experience, the best startups have at least some junior employees who attended schools like Stanford, MIT, and Harvard. This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, SpaceX, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
 
 1. The founders and their first hires do not have a network that extends to new grads from these schools.
 
@@ -349,9 +349,9 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
 
   2. What kind of a product is the company building? The most audacious [researchers](http://futuredata.stanford.edu/#) and [entrepreneurs](http://zerotoonebook.com/) pursue two kinds of problems:
 
-    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas ("Uber for pet sitting").
+    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas (e.g. "Uber for pet sitting").
 
-    - **10x systems.** These are products that are at least an order of magnitude better than whatever is used instead today.
+    - **10x systems.** These are products that are at least an order of magnitude better than whatever is used instead today (e.g. Google search vs. Yahoo/Alta Vista).
 
 The great paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these are the ideas that excite and attract smart people, and that inspire loyalty in trying times.
 
@@ -359,13 +359,13 @@ That said, do not discount products that seem like toys as trivialities. Faceboo
 
 This is where the first criteria becomes useful. Early Facebook users [spent hours](https://www.youtube.com/watch?v=Lb4IcGF5iTQ) clicking from profile to profile (okay, maybe [some people](https://www.google.com/search?q=why+does+my+mom+use+facebook+so+much) still do this), so engrossing was the data that Facebook had made available on their friends. Just over a year after launch, Snapchat users [were sending](https://blog.hubspot.com/marketing/history-of-snapchat) each other about 20 million snaps per day.
 
-Through the dot com bust and the rise of mobile phones, three consummate survivors emerged out of the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based message exchange), the camera (i.e. the dual-facing, integrated recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snap, and Uber.
+Through the dot com bust and the rise of mobile phones, three survivors emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based message exchange), the camera (i.e. the dual-facing, integrated recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snap, and Uber.
 
 In a similar way, each technological wave spawns companies of all kinds, but the most persisting are the ones that capture the most fundamental, the lowest-hanging fruit. This is always easier to spot in retrospect, of course. The best companies tend to execute on ruthlessly narrow domains to start out, and then expand rapidly to realize a wider potential. Early Google ranked textual pages. Early Facebook connected college students. Early Amazon sold books. Today, Google is using AI to drive cars, Facebook is beaming down wifi to the world's disconnected, and Amazon is launching drones to automate delivery. Their operations span continents, and each wields power rivaling that of the Roman Empire at its height.
 
 Though each of the three had humble origins, I suspect that even in their early days you would have found markers of greatness. The best consumer companies are like child prodigies - they grow faster than you would think possible, surpassing milestones that other, more mature companies, run by professional CEOs and seasoned C-suites, struggled to reach, at breakneck speed. Of course, like child prodigies, some flame out early (e.g. Yik Yak), while others fail to mature into healthy, cash-flow positive adults (e.g. Twitter). But every decade, two or three chart their way to adulthood fame.
 
-Successful enterprise and hard tech companies tend to have less glamorous, and often more labored, origin stories. Five years after its founding, and one year into the Great Recession, Tesla approached the brink of bankruptcy. The company was burning $4 million a month, and Elon Musk had been reduced to soliciting personal investments from wealthy friends, and luminaries like Sergey Brin. At about the same time, SpaceX was in [dire straits](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/). Between 2006 and 2008, three separate attempted rocket launches by the company had failed. In September 2008, SpaceX prepared for its fourth and likely last launch attempt. In an event that was broadcast to millions worldwide, employees and onlookers alike burst into tears as the Falcon 1 shut down as planned, the first privately built, liquid-fueled rocket to ever reach Earth orbit.
+Successful enterprise and hard tech companies tend to have less glamorous, and often more labored, origin stories. Five years after its founding, and one year into the Great Recession, Tesla approached the brink of bankruptcy. The company was burning $4 million a month, and Elon Musk had been reduced to soliciting personal investments from wealthy friends, and luminaries like Sergey Brin. At about the same time, SpaceX was in [dire straits](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/). Between 2006 and 2008, three separate attempted rocket launches by the company had failed. In September 2008, SpaceX prepared for its fourth and likely last launch attempt. In an event that was broadcast to millions worldwide, employees and onlookers alike burst into tears as the Falcon 1 successfully entered Earth orbit, the first privately built, liquid-fueled rocket to ever achieve the feat.
 
 But the trials were not over. Three months later, in December 2008, Elon Musk was contemplating financial ruin. Musk had already poured nearly his entire $180 million fortune from the sale of PayPal into SpaceX and Tesla, and both were now at the end of the rope. Only two months earlier, Musk had assumed the role of CEO of Tesla and laid off 25% of its workforce. In what he describes as the [worst year](http://www.cbsnews.com/news/billionaire-elon-musk-on-2008-the-worst-year-of-my-life/) of his life:
 
@@ -373,7 +373,7 @@ But the trials were not over. Three months later, in December 2008, Elon Musk wa
 
 > I remember waking up the Sunday before Christmas in 2008, and thinking to myself, 'Man, I never thought I was someone who could ever be capable of a nervous breakdown.' I felt this is the closest I've ever come...
 
-Then, on December 23, 2008, Musk received a phone call from NASA, informing him that SpaceX had won a $1.6 billion contract to launch 20 metric tons of cargo to the International Space Station over 12 flights. Two days later, on Christmas Eve, Musk was notified that a $40 million financing round of convertible debt had been approved, hours before Tesla would have burned through its last cash.
+Then, on December 23, 2008, Musk received a phone call from NASA, informing him that SpaceX had won a $1.6 billion contract to launch 20 metric tons of cargo to the International Space Station over 12 flights. Two days later, on Christmas Eve, Musk was notified that a $40 million financing round of convertible debt for Tesla had been approved, hours before the company would have burned through its last cash.
 
 Moral of the story: some like to live on the edge, and you can't compare every company to Instagram, which [crossed](https://techcrunch.com/2010/10/13/instagram-users/) 100,000 users less than a week after its launch in October 2010. I hope this piece serves as a useful guide at least for the common cases, if not for spotting the next Apple Computer in its infancy.
 
@@ -396,7 +396,7 @@ Many, many companies get acquired in the $5-200 million range. Many of these dea
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
-[^6]: With regards to my elite college theory: if you disagree that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
+[^6]: With regards to my elite college theory: if it is not true that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
 Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful founders, I have reason to believe my assertion approximates the truth.
 
 [^7]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
