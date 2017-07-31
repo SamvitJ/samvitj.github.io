@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "How to Pick Your Next Gig - Evaluating Startups"
+title: "On the Electrodynamics of Promising Startups"
 date: 2017-07-22
 comments: true
 ---
@@ -83,6 +83,8 @@ This is not just a straw man argument. Various startups that I've interviewed wi
 You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot of more flattering to the company. But you should know: being a derivative of the yearly revenue (or total user base) graph, growth figures will almost always contain less information.
 
 Of course, don't be pedantic. If a founder mentions that their service has over a million users, and is sporting 200% year-over-year growth, but won't give exact numbers, that is probably enough information to judge that the business is going rapidly.
+
+<!-- Joining a company that is growing incredibly rapidly is probably one of the smartest career decisions you can make early on...-->
 
 #### Number of employees
 
@@ -251,13 +253,11 @@ If that doesn't capture the ethos of Silicon Valley, I don't know what does.
 
 This is a criteria that my intuition would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
-Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] These are the venture capital firms that, in general, attract the best founders, win the best deals, and show, on average, the highest returns.
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
-<!-- Other well-known firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed Ventures. -->
+Even the best firms, however, often miss great deals, so the failure to raise funding from one of these groups does not necessarily imply weakness. This is particularly true of companies founded outside of the U.S., and of very promising founders who may have weaker connections to Silicon Valley's old guard (though these firms have gotten pretty good at identifying unknown upstarts).
 
-...
-
-<!-- Even the best firms, however, often miss great deals... -->
+On the flip side, not all companies funded by top-tier venture firms are excellent places to work. It is the nature of their business that venture capital firms will invest in a large number of companies that will fail. More than that, promising companies can sometimes degenerate if their growth is achieved at the cost of their culture or values. Even if Sequoia is behind them, such startups should still be avoided.
 
 #### Rounds of funding raised
 
@@ -289,12 +289,11 @@ When evaluating a startup on its funding history, an important factor to conside
 
 A point to note: companies that have raised a Series B round or beyond should be offering a base salary that is competitive with that offered by larger, public companies. For new college grads, the [average base salary](https://www.glassdoor.com/Salaries/san-francisco-software-engineer-new-grad-salary-SRCH_IL.0,13_IM759_KO14,40.htm) offered by top-tier tech companies based in San Francisco was $110,000, as of mid-2017. Take this figure with a grain of salt (and, of course, don't neglect cost of living adjustments), but if you're being offered much less, you're either at a company with an unusual compensation structure (and should be offered a significantly above-average equity grant), or are not being made a fair offer.[^11]
 
-Finally, as I mentioned earlier, there are two kinds of funding rounds that could actually be indicative of problems in a company. The first is down rounds. These are almost always bad, as they imply that a company was obliged to raise funding to stay alive, but had to do so at a lower valuation than in its previous round of funding - something that is bad for all existing shareholders of the company. The second kind is debt financing. In such a round, a company raises debt, which must be paid back with interest, instead of ordinary capital. This has become a common practice among very mature private companies, such as [Uber](https://www.theverge.com/2016/6/14/11936316/uber-leveraged-loan-two-billion-valuation-travis-kalanick) and [Snapchat](https://www.recode.net/2016/9/8/12845890/snapchat-banking-debt-credit-line-morgan-stanley) (before its IPO), which often need more cash, but either do not want to further dilute shareholders or cannot find a bank willing or able to invest at their current valuation. This may not necessarily be a bad sign, but raising debt can be dangerous, especially if the company later hits a rough patch.
+Finally, as I mentioned earlier, there are two kinds of funding rounds that could actually be indicative of problems in a company. The first is down rounds. These are almost always bad, as they imply that a company was obliged to raise funding to stay alive, but had to do so at a lower valuation than in its previous round of funding - something that is bad for all existing shareholders of the company. The second kind is debt financing. In such a round, a company raises debt, which must be paid back with interest, instead of ordinary capital. This has become a common practice among very mature private companies, such as [Uber](https://www.theverge.com/2016/6/14/11936316/uber-leveraged-loan-two-billion-valuation-travis-kalanick) and [Snap](https://www.recode.net/2016/9/8/12845890/snapchat-banking-debt-credit-line-morgan-stanley) (before its IPO), which often need more cash, but either do not want to further dilute shareholders or cannot find a bank willing or able to invest at their current valuation. This may not necessarily be a bad sign, but raising debt can be dangerous, especially if the company later hits a rough patch.
 
 A highly prescient question to ask a founder or executive in the interview process is how much runway the company has at its current burn rate. This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending, were it not to raise any more capital. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
 
 <!-- Discuss YC -->
-<!-- Discuss Atlassian, which only raised one round of funding -->
 
 #### Location
 
@@ -326,6 +325,20 @@ Treat location as a fairly grainy, but binary signal of a company's prospects. A
   <i class="star-5">★</i>
 </div>
 
+I left this critera for last, because though it is important, I think it already gets enough attention as it is.
+
+I want to play devil's advocate and argue that what the company builds may not be actually be that indicative of whether a company would be a good fit for you. Let's say you are interested in machine learning, but you think enterprise tech is super boring.
+
+You could find a job at a MLaaS company in which you build tools to help genomics researchers more efficiently construct data pipelines, and visualize their results.[^12] You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
+
+You could also find a job at a consumer-facing company that uses machine learning to personalize the content it serves users, and to customize the ad copy it shows them based on the cookie-infested websites they visit. You realize that linear regressions still do pretty well on these kinds of tasks, and though you were initially very excited about contributing to a service that your friends use, it is not actually super riveting in the day-to-day to work there.
+
+On a related note, in [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Facebook and co-founder of Asana, makes the very relevant point that intelligent young people often overvalue working on the most challenging problems. I thought this was such a good point, actually, that I reproduced his exact words here:
+
+> A lot of graduating students think I just want to work on the hardest problems. If you are one of these people, I predict that you're going to change your perspective over time. I think that's kind of like a student mentality, of like challenging yourself, and proving that you're capable of it. But as you get older, other things start to become important, like personal fullfilment, what are you going to be proud of, what are you going to want to tell your kids about, or your grandkids about, one day.
+
+How will the work that you do add value to the world? This is not a given for every startup, and as Moskovitz says, there are enough companies out there that you don't have to compromise on any of the other criteria to find a company that does work that matters to you, and that matters period.
+
 ### Closing thoughts
 
 <!-- Quote Ben Horowitz book? -->
@@ -346,11 +359,25 @@ That said, do not discount products that seem like toys as trivialities. Faceboo
 
 This is where the first criteria becomes useful. Early Facebook users [spent hours](https://www.youtube.com/watch?v=Lb4IcGF5iTQ) clicking from profile to profile (okay, maybe some people still do this), so engrossing was the data that Facebook had made available on their friends. Just over a year after launch, Snapchat users [were sending](https://blog.hubspot.com/marketing/history-of-snapchat) each other about 20 million snaps per day.
 
-Through the dot com boom and the great recession, three great companies emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based communication), the camera (i.e. the dual-facing recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snapchat, and Uber.
+Through the dot com boom and the great recession, three great companies emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based communication), the camera (i.e. the dual-facing recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snap, and Uber.
 
 In a similar way, each technological wave spawns companies of all kinds, but the most persisting are the ones that capture the most fundamental, the lowest-hanging fruit. This is always easier to spot in retrospect, of course. The best companies tend to execute on ruthlessly narrow domains to start out, and then expand rapidly to realize a wider potential. Early Google ranked textual pages. Early Facebook connected college students. Early Amazon sold books. Today, Google is using AI to drive cars, Facebook is beaming down wifi to the world's disconnected, and Amazon is launching drones to automate delivery. Their operations span continents, and each wields power rivaling that of the Roman Empire at its height.
 
-...
+Though each of the three had humble origins, I suspect that even in their early days you would have found markers of greatness. The best consumer companies are like child prodigies - they grow faster than you would think possible, reaching milestones that other, more mature companies, run by professional CEOs and seasoned C-suites, struggled to reach, at breakneck speed. Of course, like child prodigies, some flame out early (Yik Yak), while others fail to mature into healthy, cash-flow positive adults (Twitter). But every decade, two or three chart their way to adulthood fame.
+
+Successful enterprise and hard tech companies tend to have less glamorous, and often more labored, origin stories. Five years after its founding, and one year into the Great Recession, Tesla approached the brink of bankrupty. The company was burning $4 million a month, and Musk had been reduced to soliciting personal investments from wealthy friends, and luminaries like Sergey Brin. At about the same time, SpaceX was in [dire straits](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/). Between 2006 and 2008, three separate attempted rocket launches by the company had failed. In September 2008, SpaceX prepared for its fourth and likely last launch attempt. In an event that was broadcast to millions worldwide, employees and onlookers alike burst into tears as the Falcon 1 shut down as planned, the first privately built, liquid-fueled rocket to ever reach Earth orbit.
+
+But the trials were not over. Three months later, in December 2008, Elon Musk was contemplating financial ruin. Musk had already pored his entire $180 million fortune from PayPal into both companies, and both were now at the end of the rope. Only two months earlier, Musk had assumed the role of CEO of Tesla and laid off 25% of its workforce. In what he describes as the [worst year](http://www.cbsnews.com/news/billionaire-elon-musk-on-2008-the-worst-year-of-my-life/) of his life:
+
+> I remember waking up the Sunday before Christmas in 2008, and thinking to myself, 'Man, I never thought I was someone who could ever be capable of a nervous breakdown.' I felt this is the closest I've ever come, because it seemed...pretty dark.
+
+Then, on December 23, 2008, Musk received a phone call from NASA, informing him that SpaceX had won a $1.6 billion contract to launch 20 metric tons of cargo to the International Space Station over 12 flights. Two days later, on Christmas Eve, Musk received notification that a $40 million financing round of convertible debt had been approved, hours before Tesla would have burned through its last capital.
+
+Moral of the story: some like to live on the edge, and you can't compare every company to Instagram, which [crossed](https://techcrunch.com/2010/10/13/instagram-users/) 100,000 users less than a week after its launch in October 2010. Nevertheless, I hope this piece serves as a useful guide for the common cases, and maybe even for spotting the next Apple Computer in its infancy.
+
+<!-- The deal, which had [almost been bungled](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/) by a conniving investor, was saved by a last-minute bluff by Musk, who suggested that could fund the entire round himself via a $40 million loan from SpaceX. -->
+
+<!--Tesla evolved on a slower timeframe than Instagram.-->
 
 ### Footnotes
 
@@ -381,3 +408,6 @@ Considering that students from these schools are so [overrepresented](https://qz
 [^10]: An example of a startup that has done very well without raising much external capital is Atlassian, a Sydney, Australia-based company that builds productivity software (e.g. Jira, Confluence) for developers. Founded in 2002, Atlassian has been profitable since 2005, and in 2015, IPOed on the NASDAQ stock exchange at a $4.3 billion valuation. In 2010, Atlassian raised $60 million in secondary financing from Accel Partners. This was a [very unusual](http://www.businessinsider.com/atlassian-ceo-mike-cannon-brookes-accel-partners-2016-9) kind of funding round - the company already had $55 million in the bank, and raised the money as a way to offer employees liquidity for their options, and to bring in an external board member from Accel.
 
 [^11]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradeable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise (strike) price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buy-back program.
+
+[^12]: Okay, I made this term up (MLaaS = machine learning as a service), but a quick [google search](https://www.google.com/search?q=mlaas) indicates that we may not actually be too far off from this phrase entering the canon.
+
