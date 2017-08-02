@@ -135,7 +135,8 @@ Finally, it has the following very nice property:
 $$
 \begin{aligned}
 \text{Total ownership }
-&= \int_1^\infty \frac{1}{n^2} \text{dn} \\
+&= \int_1^\infty \text{Fraction ownership} \\
+&= \int_1^\infty \frac{1}{n^2} \text{ dn} \\
 &= -\frac{1}{n} \bigg|_1^\infty \\
 &= 1
 \end{aligned}
@@ -230,6 +231,8 @@ Note that I'm definitely not suggesting that great early employees come only fro
 Why do I use credentials like past school and company affiliation to judge that? Mostly for efficiency reasons. Looking up each employee's open source contribution history seems like overkill, and incidentally, would only work for technical recruits. That level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be neccessary for getting a sense for the backgrounds of the early employees.
 
 Of course, please take my advice with a grain of salt. There are people with a lot more experience than me who would disagree with me on this point.
+
+You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and as the startup scales, it is the early employees who will become the company's leaders. Besides the founders, they will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early hires, for example, will very likely build a company that is rowdy and misogynistic.
 
 #### Investor pedigree
 
@@ -343,7 +346,7 @@ On a related note, in [this talk](https://vimeo.com/145221295), Dustin Moskovitz
 
 > A lot of graduating students think I just want to work on the hardest problems. If you are one of these people, I predict that you're going to change your perspective over time. I think that's kind of like a student mentality, of like challenging yourself, and proving that you're capable of it. But as you get older, other things start to become important, like personal fulfillment, what are you going to be proud of, what are you going to want to tell your kids about, or your grandkids about, one day.
 
-How will the work that you do add value to the world? This is not a given for every startup, and as Moskovitz says, there are enough companies out there that you don't have to compromise on any of the other criteria to find a company that does work that matters to you, and that matters period.
+How will the work that you do add value to the world? As Moskovitz says, this is not a given for every startup. Life is too short to work for a company that does not do work that matters to you, and that matters period.
 
 ### Closing thoughts
 
