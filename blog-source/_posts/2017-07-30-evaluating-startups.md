@@ -84,7 +84,7 @@ You should ask yourself why a company is choosing to share growth numbers, but n
 
 Of course, don't be pedantic. If a founder mentions that their service has over a million users, and is sporting 200% year-over-year growth, but won't give exact numbers, that is probably enough information to judge that the business is going rapidly.
 
-<!-- Cynicism aside, joining a company that is growing incredibly rapidly is probably one of the smartest career decisions you can make early on. -->
+Cynicism aside, joining a company that is growing incredibly rapidly is one of the smartest career decisions you can make early on. Such a startup will offer many opportunities to take charge and exhibit leadership, and will be filled with intelligent and ambitious young employees - people who may become your business partners or even co-founders one day. Finally, as many [have](https://blog.wealthfront.com/hot-mid-size-silicon-valley-companies/) [said](https://blog.samaltman.com/advice-for-ambitious-19-year-olds), getting a win on your record early in your career is incredibly valuable, and as I discuss in the last section, early hypergrowth is one of the strongest signals that a company will do very, very well in the future. Of course, true hypergrowth is rare, and identifying such companies when they are relatively small and unheard of is challenging. But it is this, or the even harder problem of trying to turn around a slow-growing company as employee #50.
 
 #### Number of employees
 
@@ -257,7 +257,7 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 If that doesn't capture the ethos of Silicon Valley, I don't know what does.
 
-This is a criteria that my intuition would award 4.5 stars to, but that even investors themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
+This is a criteria that my intuition would award 4.5 stars to, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
 Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^7] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
