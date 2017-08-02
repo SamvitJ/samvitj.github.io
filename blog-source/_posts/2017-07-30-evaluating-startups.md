@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "On the Electrodynamics of Promising Startups - A Guidebook"
+title: "How to Pick Your Next Gig - Evaluating Startups"
 date: 2017-07-22
 comments: true
 ---
