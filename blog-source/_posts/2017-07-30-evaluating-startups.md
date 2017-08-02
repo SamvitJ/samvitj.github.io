@@ -211,7 +211,7 @@ What kinds of past experience are signs of a great founder?
 
 I have a controversial heuristic for judging the quality of the early employees at a company. I get on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weak schools and worked for companies I've never heard of. This sounds at best naive and at worst prejudiced, so let me defend myself.
 
-In my experience, the best startups have at least some junior employees who attended schools like Stanford, MIT, and Harvard. This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, SpaceX, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
+In my experience, the best startups have at least some junior employees who attended schools like Stanford, MIT, and Harvard. This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, Airbnb, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
 
 1. The founders and their first hires do not have a network that extends to new grads from these schools.
 
@@ -221,9 +221,15 @@ The first is more benign than the second. Great founders come from lots of diffe
 
 The second reflects a little less favorably, but is understandable. Recruiting smart people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
 
-Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them, and clear enough in their articulation of the company's vision to convince smart people that the impossible might actually be possible.
+Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^6] and clear enough in their articulation of the company's vision to convince smart people that they have a shot at success.
 
-The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.[^6]
+The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.
+
+Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring very strong people, and is successful at it.
+
+Why do I use credentials like past school and company affiliation to judge that? Mostly for efficiency reasons. Looking up each employee's open source contribution history seems like overkill, and incidentally, would only work for technical recruits. That level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be neccessary for getting a sense for the backgrounds of the early employees.
+
+Of course, please take my advice with a grain of salt. There are people with a lot more experience than me who would disagree with me on this point.
 
 #### Investor pedigree
 
@@ -329,7 +335,7 @@ I left this criteria for last, because though I do agree that it is important, I
 
 I want to play devil's advocate and argue that what the company builds may not be actually be that indicative of whether a company would be a good fit for you. Let's say you are interested in machine learning, but you think enterprise tech is super boring.
 
-You could find a job at a MLaaS company in which you build tools to help genomics researchers more efficiently construct data pipelines, and visualize their results.[^12] You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
+You could find a job at a MLaaS company[^12] in which you build tools to help genomics researchers more efficiently construct data pipelines, and visualize their results. You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
 
 You could also find a job at a consumer-facing company that uses machine learning to personalize the content it serves users, and to customize the ad copy it shows them based on the cookie-infested websites they visit. You realize that linear regressions still do pretty well on these kinds of tasks, and though you were initially very excited about contributing to a service that your friends use, it is not actually super riveting in the day-to-day to work there.
 
@@ -396,8 +402,9 @@ Many, many companies get acquired in the $5-200 million range. Many of these dea
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 
-[^6]: With regards to my elite college theory: if it is not true that the top hackers at places like Stanford, MIT, and Harvard form a disproportionate fraction of the pool of "great early employees" at large, then of course my argument is invalid.</br></br>
-Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful founders, I have reason to believe my assertion approximates the truth.
+<!--[^6]: Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful *founders*, I have reason to believe my assertion may have some truth to it.-->
+
+[^6]: The first and only time I've seen this seemingly obvious idea expressed in this way in writing is in Ben Horowitz's excellent book about the heartache of starting a company, *The Hard Thing About Hard Things*.
 
 [^7]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
 
