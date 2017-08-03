@@ -280,7 +280,7 @@ On the flip side, not all companies funded by top-tier venture firms are excelle
 
 *The funding statistics in this section are based on a 2017 [article](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/) by TechCrunch that looked at 15,600 U.S.-based tech companies founded between 2003 and 2013.*
 
-*As a sanity check, I compared these numbers with those from a Business Insider [article](http://www.businessinsider.com/startup-matriculation-rate-mattermark-2016-9) from 2016, which considered 2,011 U.S.-based software companies that raised seed rounds between 2009 and 2012. The BI funding statistics are slightly more conservative.*
+*As a sanity check, I also compared these numbers with those from a similar Business Insider [article](http://www.businessinsider.com/startup-matriculation-rate-mattermark-2016-9) from 2016. The BI funding statistics are slightly more conservative.*
 
 The number of rounds of funding raised by a company is a decent indicator of how much risk the startup has neutralized, or in other words, how likely the company is to succeed at some level.
 
@@ -290,9 +290,11 @@ A company that has raised no external funding should be considered "extremely hi
 
 A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. In 2016, the [median seed round](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) size was $0.63 million, and the average size was $1.14 million. Investors typically take around 20% of the company in early funding rounds, so this indicates a post-money valuation of $2-8 million.
 
+![<sup>**Figure 1**: Startup funding drop-off curve, not including acquisitions (Source: [TechCrunch](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/))</sup>](../assets/evaluating-startups/techcrunch-funding.png){ width=100% }
+
 A company that has raised a Series A round should be considered "moderate risk". Of companies that raise a Series A, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die.[^8] In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
 
-Series B companies should be considered "low risk".[^9] For one, companies that have raised a Series B round are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.
+Series B companies should be considered "low risk". For one, companies that have raised a Series B round are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.[^9]
 
 When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. [not really a startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^10]
 
@@ -320,7 +322,7 @@ Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-
 
 I've included the full table below for reference:
 
-![<sup>**Figure 1**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% }
+![<sup>**Figure 2**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% }
 
 Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area, New York, Boston, LA, or Seattle is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and connecting with its early adopters.
 
