@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Massively Parallel Methods for Deep Reinforcement Learning"
+title: "Why Parallelism? An Example from Deep Reinforcement Learning"
 date: 2017-07-06
 comments: true
 ---
