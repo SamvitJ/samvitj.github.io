@@ -392,6 +392,8 @@ Moral of the story: some like to live on the edge, and you can't compare every c
 
 <!-- The deal, which had [almost been bungled](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/) by a conniving investor, was saved by a last-minute bluff by Musk, who suggested that could fund the entire round himself via a $40 million loan from SpaceX. -->
 
+*Thanks to Chris Kuenne, Hansen Qian, Andrew Ng, and Sanjay Jain for reviewing drafts of this post.*
+
 ### Footnotes
 
 [^1]: The [number one rule](http://www.paulgraham.com/swan.html) of startup investing is that nearly all of an investor's returns are concentrated in a few big winners. As of 2012, three-quarters of Y Combinator's $10 billion portfolio value was concentrated in two companies: Dropbox and Airbnb. This, combined with the difficulty of identifying the biggest winners in their infancy, means that early-stage investors go out of their way to court a large number of companies with a small chance at astronomical success.
