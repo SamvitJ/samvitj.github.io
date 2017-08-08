@@ -113,7 +113,7 @@ Note that, in practice, the number of times we have to run the inner loop depend
 
 Though it may not be immediately obvious, theory assures us that if the learning rate $\gamma$ is reduced appropriately over time, and the cost function satisfies certain properties (i.e. convexity), stochastic gradient descent will *also* converge.
 
-Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to minibatch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^3]
+Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to mini-batch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^3]
 
 ### Parallelization
 
@@ -145,5 +145,5 @@ $$
 \nabla J(B) = \frac{1}{|B|} \sum_{i=1}^{|B|} (h_{\theta}(x^{(i)}) - y^{(i)}) \nabla h_{\theta}(x^{(i)})
 \end{aligned}
 $$
-In a [recent paper](https://research.fb.com/publications/ImageNet1kIn1h/), Facebook AI Research took this idea to the extreme, training ImageNet in 1 hour with a minibatch size of 8192 images on 256 GPUs.
+In a [recent paper](https://research.fb.com/publications/ImageNet1kIn1h/), Facebook AI Research took this idea to the extreme, training ImageNet in 1 hour with a mini-batch size of 8192 images on 256 GPUs.
 
