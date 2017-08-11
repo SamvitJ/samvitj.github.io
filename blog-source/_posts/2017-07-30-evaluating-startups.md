@@ -21,15 +21,15 @@ The brand recognition of a company, the capital raised, the prestige of the inve
 
 Here's a laundry list of potential criteria that you might consider in evaluating a startup:
 
-- Current traction (i.e. users, revenue)
-- Growth rate (i.e. users, revenue)
-- Number of employees
-- Strength of founders
-- Strength of early employees
-- Investor pedigree (i.e. reputation, past record)
-- Rounds of funding raised
-- Location
-- Personal fit
+- [Current traction](#current-traction) (i.e. users, revenue)
+- [Growth rate](#growth-rate) (i.e. users, revenue)
+- [Number of employees](#number-of-employees)
+- [Strength of founders](#strength-of-founders)
+- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups-2/#strength-of-early-employees)
+- [Investor pedigree](http://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
+- [Rounds of funding raised](http://www.samvitjain.com/blog/evaluating-startups-2/#rounds-of-funding-raised)
+- [Location](http://www.samvitjain.com/blog/evaluating-startups-2/#location)
+- [Personal fit](http://www.samvitjain.com/blog/evaluating-startups-2/#personal-fit)
 
 <!--
 - Press coverage
