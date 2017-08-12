@@ -86,6 +86,8 @@ Of course, don't be pedantic. If a founder mentions that their service has over 
 
 Cynicism aside, joining a company that is growing at breakneck pace is one of the smartest career decisions you can make early on. Such a startup will offer many opportunities to take charge and grow into leadership roles, and will be filled with intelligent and ambitious young people - colleagues who may become your business partners and co-founders one day. Finally, as many [have](https://blog.wealthfront.com/hot-mid-size-silicon-valley-companies/) [said](https://blog.samaltman.com/advice-for-ambitious-19-year-olds), getting a win on your record early in your career is incredibly valuable, and as I discuss in the last section, early hypergrowth is one of the strongest signals that a company will do very, very well in the future. Of course, true hypergrowth is rare, and identifying such companies when they are relatively small and unheard of is challenging. But your alternative is the even harder problem of trying to turn around a slow-growing company as employee #50.
 
+On the flip side, joining a startup that "fails" a year or two after you join is not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are less likely to regret time spent on the incredibly formative experience of building a company as a founder than as employee #50.
+
 #### Number of employees
 
 <div class="rating" data-rate="2">
@@ -98,7 +100,7 @@ Cynicism aside, joining a company that is growing at breakneck pace is one of th
 
 Cisco Systems has 70,000 employees today, and its stock price has hovered between $15 and $30 for the past 16 years. When WhatsApp was acquired by Facebook for $19 billion in February 2014, it had 55 employees. <!-- or about 1 employee per every y million users --> <!-- its market cap has hovered between $60 and $160 billion for the last 16 years -->
 
-Evidently, headcount alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you a good idea for how much money you stand to make if you join.
+Evidently, headcount alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you some idea for how much money you stand to make if you join.
 
 Here's the heuristic. Stocks generally vest over four years, and if you stay the four years, you'll ownership of the company will amount to the following:
 $$
@@ -142,7 +144,7 @@ $$
 \end{aligned}
 $$
 
-Must be true, right?
+Take this formula for what it is: a *heuristic* for your ownership stake in a startup. Note also that percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a range of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
 
 #### Strength of founders
 
@@ -213,7 +215,7 @@ What kinds of past experience are signs of a great founder?
 [^4]: “Jeff [Bezos] always wanted to make a lot of money,” says his high school girlfriend, Ursula “Uschi” Werner. She herself was an overachiever – valedictorian of the Miami Palmetto Senior High School class a year ahead of Bezos, winner of a full scholarship to Duke University, and a Rhodes Scholar – but she remains awed by Bezos’s commitment. “It wasn’t about money itself. It was about what he was going to do with the money, about changing the future.” (from a [1999 article](https://www.wired.com/1999/03/bezos-3/) by Wired)</br></br>
 Page grew up in East Lansing, Michigan, where his father taught computer science at Michigan State. He wanted to be an inventor, not simply because of his interests and abilities in math and technology but because, he says, “I really wanted to change the world.” ... Page’s ideas may have been fantastic, but his vision always extended to the commercial. “From when I was 12, I knew I was going to start a company,” he says. (from a [2011 article](https://www.wired.com/2011/03/mf_larrypage/) by Wired)
 
-[^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot rosier.</br></br>
+[^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot better</br></br>
 Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
 Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
