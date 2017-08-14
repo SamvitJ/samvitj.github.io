@@ -11,7 +11,7 @@ comments: true
 
 Choosing a company to work for is an investment. While a venture capitalist might put in a large amount of money and a small amount of their time (i.e. in monthly board meetings) in a portfolio company, as an employee, the *primary* asset you invest is your time.
 
-The returns you make can take a number of forms - career advancement, personal growth and fulfillment, and financial reward. Making any decision comes with an opportunity cost - the foregone returns of another choice you could have made.
+The returns you make can take a number of forms - career advancement, personal growth and fulfillment, and financial payoff. Making any decision comes with an opportunity cost - the foregone returns of another choice you could have made.
 
 Finally, unlike a venture capitalist, as an employee, you commit to work at a single place, so you can only make *one* investment at any given point in time. So while Marc Andreessen might be okay with a 1-in-10 hit rate,[^1] you have to set the bar a little higher.
 
@@ -37,6 +37,10 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 -->
 
 In the remainder of the post, I'll address each of these in turn, and provide a "star rating" to indicate how strongly you should consider each factor when making your decision.
+
+I assume that you are interested in some combination of the following: personal growth, career growth, and financial upside. A convenient truth is that these three goals tend to be tightly correlated, and joining an early-stage, fast-growing startup with strong founders and talented employees is likely to satisfy all three.
+
+This post is about how to identify such companies.
 
 <!-- These aren't tips for how to find the next circa-2001 Google -->
 
@@ -86,7 +90,7 @@ Of course, don't be pedantic. If a founder mentions that their service has over 
 
 Cynicism aside, joining a company that is growing at breakneck pace is one of the smartest career decisions you can make early on. Such a startup will offer many opportunities to take charge and grow into leadership roles, and will be filled with intelligent and ambitious young people - colleagues who may become your business partners and co-founders one day. Finally, as many [have](https://blog.wealthfront.com/hot-mid-size-silicon-valley-companies/) [said](https://blog.samaltman.com/advice-for-ambitious-19-year-olds), getting a win on your record early in your career is incredibly valuable, and as I discuss in the last section, early hypergrowth is one of the strongest signals that a company will do very, very well in the future. Of course, true hypergrowth is rare, and identifying such companies when they are relatively small and unheard of is challenging. But your alternative is the even harder problem of trying to turn around a slow-growing company as employee #50.
 
-On the flip side, joining a startup that "fails" a year or two after you join is not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are less likely to regret time spent on the incredibly formative experience of building a company as a founder than as employee #50.
+On the flip side, joining a startup that "fails" a year or two after you join is not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are less likely to regret time spent working on a problem you deeply care about as a founder than as employee #50.
 
 #### Number of employees
 
