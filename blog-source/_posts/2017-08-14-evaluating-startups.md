@@ -13,9 +13,9 @@ Choosing a company to work for is an investment. While a venture capitalist migh
 
 The returns you make can take a number of forms - career advancement, personal growth and fulfillment, and financial payoff. Making any decision comes with an opportunity cost - the foregone returns of another choice you could have made.
 
-Finally, unlike a venture capitalist, as an employee, you commit to work at a single place, so you can only make *one* investment at any given point in time. So while Marc Andreessen might be okay with a 1-in-10 hit rate,[^1] you have to set the bar a little higher.
+Finally, unlike a venture capitalist, as an employee, you commit to work at a single place, so you can only make one investment at any given point in time. So while Marc Andreessen might be okay with a 1-in-10 hit rate,[^1] you have to set the bar a little higher.
 
-All of this is not to paint the decision as a paralyzingly difficult one, but to place it in its proper context - as a prospective employee, *you* are an investor, and you are evaluating companies as much as they are evaluating you.
+All of this is not to paint the decision as a paralyzingly difficult one, but to place it in its proper context - as a prospective employee, *you* are an investor, and you evaluate companies as much as they evaluate you.
 
 The brand recognition of a company, the capital raised, the prestige of the investors, your friends' opinion - all of these might matter, but perhaps only as secondary signals of a company's future prospects. What, then, should you look for, and how much weight should you put on each factor?
 
