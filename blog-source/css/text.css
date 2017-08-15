@@ -26,3 +26,4 @@ sup { bottom: 1ex; }
 .boundedbox20 { margin-top: -.75em; display:inline-block; height: 17em; overflow:auto; }
 .post h4 { font-size: 100%; background-color: #efefef; margin-top: .5cm; margin-bottom: 0; margin-right: -1cm; padding: .2cm 0 .2cm .3cm;}
 ol li p { width: 38em; }
+footer { border-top: 1px solid #d5d5d5; font-size: 80%; }

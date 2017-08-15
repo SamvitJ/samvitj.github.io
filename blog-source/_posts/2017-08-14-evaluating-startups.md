@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "How to Pick Your Next Gig: Evaluating Startups - Part I"
-date: 2017-08-10
+date: 2017-08-14
 comments: true
 ---
 
