@@ -9,7 +9,7 @@ comments: true
 
 *This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.*
 
-Choosing a company to work for is an investment. While a venture capitalist might put in a large amount of money and a small amount of their time (i.e. in monthly board meetings) in a portfolio company, as an employee, the *primary* asset you invest is your time.
+Choosing a company to work for is an investment. While a venture capitalist might put in a large amount of money and a small amount of their time (i.e. in monthly board meetings) into a portfolio company, as an employee, the *primary* asset you invest is your time.
 
 The returns you make can take a number of forms - career advancement, personal growth and fulfillment, and financial payoff. Making any decision comes with an opportunity cost - the foregone returns of another choice you could have made.
 
@@ -58,7 +58,7 @@ This post is about how to identify such companies.
 
 One fact that makes evaluating startups as a prospective employee particularly difficult is that most key metrics are not public information. Statistics such as the number of monthly or daily active users (MAUs/DAUs), annual revenue, and months of runway are often not even known to current employees, let alone available on the internet.
 
-Moreover, the founders and upper management are unlikely to share this information in the interview process, even if you do get the chance to speak with them, but it is definitely worth a shot to ask.
+Moreover, the founders and upper management are unlikely to share this information in the interview process, but if you do get the chance to speak with them, it is definitely worth a shot to ask.
 
 <!-- If you do get the chance to speak with upper management or a founder in the interview process, it is unlikely that they will share this information, though it is definitely worth the chance to ask. -->
 
@@ -82,15 +82,15 @@ The result? One of the greatest "pops" of the social-local-mobile app era.
 
 This one is tricky. Growth figures, especially when measured over only two data points (metrics today vs. metrics last year), are often hard to evaluate, unless absolute numbers are known as well. A representative from Facebook could have reported a [2150% growth](https://en.wikipedia.org/wiki/Template:Facebook_revenue) in revenue in 2005. While Facebook was indeed growing incredibly fast at that time, that particular statistic is meaningless, as revenue was nearly zero in 2004.
 
-This is not just a straw man argument. Various startups that I've interviewed with have claimed that they "doubled in revenue since last year," or even that they've been "doubling in revenue every year" when the company has only been in existence for 3 years, without providing a clear estimate of *current* revenue. <!-- In this talk by Dustin Moskovitz, co-founder of Facebook and founder of Asana... -->
+This is not just a straw man argument. Various startups that I've interviewed with have claimed that they "doubled in revenue since last year," or even that they've been "doubling in revenue every year" when the company has only been in existence for 3 years, without providing a clear estimate of current revenue. <!-- In this talk by Dustin Moskovitz, co-founder of Facebook and founder of Asana... -->
 
-You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot of more flattering to the company. But you should know: being a derivative of the yearly revenue (or total users) graph, growth figures will almost always contain less information.
+You should ask yourself why a company is choosing to share growth numbers, but not any absolute figures. It's likely because growth statistics are a lot more flattering to the company. But you should know: being a derivative of the yearly revenue (or total users) graph, growth figures will almost always contain less information.
 
-Of course, don't be pedantic. If a founder mentions that their service has over a million users, and is sporting 200% year-over-year growth, but won't give exact numbers, that is probably enough information to judge that the business is growing rapidly.
+Of course, don't be pedantic. If a founder mentions that their service has over a million users, and is sporting 200% year-over-year growth, but won't give exact numbers, you probably have enough information to judge that the business is growing rapidly.
 
-Cynicism aside, joining a company that is growing at breakneck pace is one of the smartest career decisions you can make early on. Such a startup will offer many opportunities to take charge and grow into leadership roles, and will be filled with intelligent and ambitious young people - colleagues who may become your business partners and co-founders one day. Finally, as many [have](https://blog.wealthfront.com/hot-mid-size-silicon-valley-companies/) [said](https://blog.samaltman.com/advice-for-ambitious-19-year-olds), getting a win on your record early in your career is incredibly valuable, and as I discuss in the last section, early hypergrowth is one of the strongest signals that a company will do very, very well in the future. Of course, true hypergrowth is rare, and identifying such companies when they are relatively small and unheard of is challenging. But your alternative is the even harder problem of trying to turn around a slow-growing company as employee #50.
+Cynicism aside, joining a company that is growing at breakneck pace is one of the smartest career decisions you can make early on. Such a startup will offer many opportunities to take charge and grow into leadership roles, and will be filled with intelligent and ambitious young people - colleagues who may become your business partners and co-founders one day. Finally, as many [have](https://blog.wealthfront.com/hot-mid-size-silicon-valley-companies/) [said](https://blog.samaltman.com/advice-for-ambitious-19-year-olds), getting a win on your record early in your career is incredibly valuable, and as I discuss in the last section, early hypergrowth is one of the strongest signals that a company will do very, very well in the future. Of course, true hypergrowth is rare, and identifying such companies when they're relatively small and unheard of is challenging. But your alternative is the even harder problem of trying to turn around a slow-growing company as employee #50.
 
-On the flip side, joining a startup that "fails" a year or two after you join is not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are less likely to regret time spent working on a problem you deeply care about as a founder than as employee #50.
+On the flip side, joining a startup that "fails" a year or two after you join is not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are probably less likely to regret time spent working on a problem you deeply care about as a founder than as employee #50.
 
 #### Number of employees
 
@@ -106,7 +106,7 @@ Cisco Systems has 70,000 employees today, and its stock price has hovered betwee
 
 Evidently, headcount alone says little about a company's quality. But the number of employees, combined with the most recent valuation of the company, can give you some idea for how much money you stand to make if you join.
 
-Here's the heuristic. Stocks generally vest over four years, and if you stay the four years, you'll ownership of the company will amount to the following:
+Here's the heuristic. Stocks generally vest over four years, and if you stay the four years, your ownership of the company will amount to the following:
 $$
 \begin{aligned}
 \text{Fraction ownership } = \frac{1}{\text{(Number of employees)}^2}
@@ -148,7 +148,7 @@ $$
 \end{aligned}
 $$
 
-Take this formula for what it is: a *heuristic* for your ownership stake in a startup. Note also that percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a range of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
+Take this formula for what it is: a heuristic for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a range of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
 
 #### Strength of founders
 
@@ -160,7 +160,7 @@ Take this formula for what it is: a *heuristic* for your ownership stake in a st
   <i class="star-5">★</i>
 </div>
 
-Full disclosure: this is the only criteria in this list that I gave the full five stars to. And for good reason too. As venture capitalists have said for time immemorial, it is the founding team, more than any other aspect of a company, that really determines its eventual fate. 
+Full disclosure: this is the only criteria in this list that I gave the full five stars to. And for good reason too. As venture capitalists have said for time immemorial, it is the founding team, of all aspects of a company, that has the strongest bearing on its eventual fate.
 
 <!-- It is the founders that do the critical groundwork, launching the startup on a promising path. It is the founders that, through their smarts and drive, attract early employees to build a company with them. And it is the founders who, through their fanatic devotion to a clearly articulated mission, pull their team through hard times. -->
 
@@ -184,7 +184,7 @@ Three dropped out of college, and one pair dropped out of grad school. Five out 
 
 Yes, unfortunately, they were also all white males, born in most cases into privilege and into supportive, two-parent households.[^3]
 
-But what personal *qualities* come up repeatedly in these descriptions? Intensity, ambition, clear passions - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
+But what personal qualities come up repeatedly in these descriptions? Intensity, ambition, clear passions - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
 
 In an [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination.[^4] <!-- an inextinguishable belief? -->
 
@@ -221,7 +221,7 @@ Page grew up in East Lansing, Michigan, where his father taught computer science
 
 [^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot better</br></br>
 Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
-Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its *last* round of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
+Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its later rounds of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
 Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
 

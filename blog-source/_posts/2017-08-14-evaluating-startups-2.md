@@ -93,19 +93,19 @@ On the flip side, not all companies funded by top-tier venture firms are excelle
 
 The number of rounds of funding raised by a company is a decent indicator of how much risk the startup has neutralized, or in other words, how likely the company is to succeed at some level.
 
-This doesn't mean that it is always better to join a company that has raised a Series C round over a company that has only raised a Series B, because there is a tradeoff. The Series C company will be offering a smaller equity share, possibility significantly so, and thus less potential upside. In addition, some types of funding rounds can actually be indicative of problems in the company - notably, down rounds and debt financing.[^4]
+This doesn't mean that it is always better to join a company that has raised a Series C round over a company that has only raised a B round, because there is a tradeoff. The Series C company will be offering a smaller equity share, possibility significantly so, and thus less potential upside. In addition, some types of funding rounds can actually be indicative of problems in the company - notably, down rounds and debt financing.[^4]
 
 A company that has raised no external funding should be considered "extremely high risk", and not being offered founder-level equity at such a company should be met with extreme skepticism. (Especially because you are likely to be working for little to no pay for a while.)
 
-A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. Seeds rounds are usually raised from individual investors (i.e. angels) or specialized funds, such as Y Combinator, Founders Fund, and SV Angel, and generally [involve](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) on the order of $0.5-$1 million in capital. <!--In 2016, the [median seed round] size was $0.63 million, and the average size was $1.14 million. Investors typically take around 20% of the company in early funding rounds, so this indicates a post-money valuation of $2-8 million.-->
+A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. Seeds rounds are usually raised from individual investors (i.e. angels) or specialized funds, such as Y Combinator, Founders Fund, and SV Angel, and generally [involve](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) on the order of $0.5-1 million in capital. <!--In 2016, the [median seed round] size was $0.63 million, and the average size was $1.14 million. Investors typically take around 20% of the company in early funding rounds, so this indicates a post-money valuation of $2-8 million.-->
 
 ![<sup>**Figure 1**: Startup funding drop-off curve, not including acquisitions (Source: [TechCrunch](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/))</sup>](../assets/evaluating-startups/techcrunch-funding.png){ width=100% }
 
 ![<sup>**Figure 2**: Startup cumulative acquisition graph (Source: [TechCrunch](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/))</sup>](../assets/evaluating-startups/techcrunch-acquisitions.png){ width=100% }
 
-A company that has raised a Series A round should be considered "moderate risk". Of companies that raise a Series A, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die. In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
+A company that has raised a Series A round should be considered "moderate risk". Of companies that raise an A round, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die. In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
 
-Series B companies should be considered "low risk".[^5] For one, companies that have raised a Series B round are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.
+Series B round companies should be considered "low risk".[^5] For one, companies that have raised a Series B are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.
 
 When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. [not really a startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^6]
 
@@ -129,13 +129,13 @@ I would highly recommend asking a founder or executive about the company's curre
 
 Every year, Wealthfront identifies a set of "career-launching" tech companies for aspiring young professionals by surveying the partners of 14 top venture capital firms. The qualifications for making the list are: 1) a revenue run rate between $20-300 million, and 2) a growth trajectory of over 50% over the next three to four years.
 
-Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-companies-list/), its fifth such annual list, identifies 132 companies. Of these, 81, or about 61%, are located in the San Francisco Bay Area, followed by 10% in New York, 5% in Boston, another 5% in Southern California, and 4% in Seattle. Of the Bay Area companies, about 58% are located in San Francisco itself.
+Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-companies-list/) identifies 132 such companies. Of these, about 61% are located in the San Francisco Bay Area, followed by 10% in New York, 5% in Boston, another 5% in Southern California, and 4% in Seattle. Of the Bay Area companies, about 58% are located in San Francisco itself.
 
 I've included the full table below for reference:
 
 ![<sup>**Figure 3**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% }
 
-Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area, New York, or Boston (and maybe Seattle or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and connecting with its early adopters.
+Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area or New York (and maybe Boston, Seattle, or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and connecting with its early adopters.
 
 #### Personal fit
 
@@ -147,13 +147,13 @@ Treat location as a fairly grainy, but binary signal of a company's prospects. A
   <i class="star-5">★</i>
 </div>
 
-I want to play devil's advocate and argue that what a company builds may not actually be that indicative of whether the company would be a good fit for you. Let's say you are interested in machine learning, but you think enterprise tech is super boring.
+I want to play devil's advocate and argue that what a company builds may not actually be that indicative of whether the company would be a good fit for you. Let's say you're interested in machine learning, but you think enterprise tech is super boring.
 
-You could find a job at a MLaaS company[^8] in which you build tools to help genomics researchers more efficiently construct data pipelines, and visualize their results. You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
+You could find a job at a MLaaS company[^8] which builds tools to help genomics researchers more efficiently construct data pipelines, and visualize their results. You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
 
 You could also find a job at a consumer-facing company that uses machine learning to personalize the content it serves users, and to customize the ad copy it shows them based on the cookie-infested websites they visit. You realize that linear regressions still do pretty well on these kinds of tasks, and though you were initially very excited about contributing to a service that your friends use, it is not actually super riveting in the day-to-day to work there.
 
-The point here is that you should be open-minded about the kind of problems you could be interested in, and the kind of work you'd like to do. Don't judge companies solely on their one-sentence mission statements. Instead, take the time to understand what the startup really does, why the problem they're solving is an important one, and what the immediate and future market for their work is.
+The point here is that you should be open-minded about the kinds of problems you could be interested in, and the kinds of work you'd like to do. Don't judge companies solely on their one-sentence mission statements. Instead, take the time to understand what the startup really does, why the problem they're solving is an important one, and what the immediate and future market for their work is.
 
 An example of a startup with a boring-sounding mission statement that does very impactful work (and, incidentally, scores highly on all of the other criteria) is Samsara. Here's a description from their [About](https://www.samsara.com/about) page:
 
@@ -177,7 +177,7 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
 
   2. What kind of a product is the company building? The most audacious [researchers](http://futuredata.stanford.edu/#) and [entrepreneurs](http://zerotoonebook.com/) pursue two kinds of problems:
 
-    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas (e.g. "Uber for pet sitting").
+    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas (e.g. Uber vs. "Uber for pet sitting").
 
     - **10x systems.** These are products that are at least an order of magnitude better than whatever is used instead today (e.g. Google search vs. Yahoo/Alta Vista).
 
