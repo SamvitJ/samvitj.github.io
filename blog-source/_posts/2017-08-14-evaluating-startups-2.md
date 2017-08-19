@@ -211,7 +211,7 @@ Moral of the story: some like to live on the edge, and you can't compare every c
 
 <!-- The deal, which had [almost been bungled](https://www.bloomberg.com/graphics/2015-elon-musk-spacex/) by a conniving investor, was saved by a last-minute bluff by Musk, who suggested that could fund the entire round himself via a $40 million loan from SpaceX. -->
 
-*Thanks to Hansen Qian, Chris Kuenne, and Sanjay Jain for reviewing drafts of this post.*
+*Thanks to Hansen Qian, Chris Kuenne, Andrew Ng, and Sanjay Jain for reviewing drafts of this post.*
 
 ### Footnotes
 

@@ -5,9 +5,17 @@ date: 2017-08-14 12:00:00
 comments: true
 ---
 
+<head>
+  <link rel="icon" href="../assets/evaluating-startups/startup.png">
+</head>
+
 *This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I had to make a choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.*
 
 *This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.*
+
+<a target="_blank" href="../assets/evaluating-startups/startup.png">
+  <img src="../assets/evaluating-startups/startup.png" alt="Image: startup" width=80%>
+</a>
 
 Choosing a company to work for is an investment. While a venture capitalist might put in a large amount of money and a small amount of their time (i.e. in monthly board meetings) into a portfolio company, as an employee, the *primary* asset you invest is your time.
 
