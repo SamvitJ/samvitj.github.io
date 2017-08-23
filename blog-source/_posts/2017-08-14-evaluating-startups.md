@@ -139,7 +139,9 @@ $$
 
 (Here I'm not considering the strike price of your stock options, i.e. how much you'll need to pay the company to exercise them.)
 
-What evidence do I have that this is true? This equation correctly predicts (to within about 40%) the value of equity I was offered at the one company to which I applied to for a full-time job on graduation. (Its output was a bit conservative.) Its predictions also resemble those of this more [precise calculator](https://tldroptions.io/), which takes slightly different inputs.
+What evidence do I have that this is true?
+
+This equation, when shifted by one, predicts that a startup's first employee will own 25% of the company, a very [reasonable](https://venturebeat.com/2012/02/01/facebook-s-1-zuckerberg-ownership/) [estimate](https://www.forbes.com/sites/kerryadolan/2016/05/06/jeff-bezos-sells-1-of-his-amazon-stake-for-671-million/) for the eventual ownership stake of a solo founder. Moreover, it correctly predicts (to within about 50%) the equity share I was offered at the one company to which I applied for a full-time job on graduation. (Its output was a bit conservative.)
 
 Finally, it has the following very nice property:
 $$
@@ -152,7 +154,9 @@ $$
 \end{aligned}
 $$
 
-Take this formula for what it is: a heuristic for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a range of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
+Take this formula for what it is: a heuristic for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a span of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
+
+For more precise predictions, please see this [calculator](https://tldroptions.io/), which takes different inputs, but offers upside estimates for a range of possible company outcomes.
 
 #### Strength of founders
 
