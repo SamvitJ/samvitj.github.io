@@ -192,7 +192,7 @@ Three dropped out of college, and one pair dropped out of grad school. Five out 
 
 Yes, unfortunately, they were also all white males, born in most cases into privilege and into supportive, two-parent households.[^3]
 
-But what personal qualities come up repeatedly in these descriptions? Intensity, ambition, clear passions - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
+But what personal qualities come up repeatedly in these descriptions? Intensity, ambition, clear interests - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
 
 In an [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination.[^4] <!-- an inextinguishable belief? -->
 

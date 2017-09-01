@@ -19,6 +19,8 @@ comments: true
   <i class="star-5">★</i>
 </div>
 
+*Steve Jobs once said that the success or failure of a startup depends on the first ten employees. I agree. If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
+
 I have a controversial heuristic for judging the quality of the early employees at a company. I get on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weak schools and worked for companies I've never heard of. This sounds at best naive and at worst prejudiced, so let me defend myself.
 
 In my experience, the best startups have at least some junior employees who attended schools like Stanford, MIT, and Harvard.[^1] This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, Airbnb, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
@@ -183,7 +185,7 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
 
 The great paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these are the ideas that excite and attract smart people, and that inspire loyalty in trying times.
 
-That said, do not discount products that seem like toys as trivialities. Facebook was once just a tool for Harvard students to stalk each other, and Snapchat was [something worse](https://techcrunch.com/2012/12/26/inside-snapchat-the-little-photo-sharing-app-that-launched-a-sexting-scare/). Today, Facebook connects two billion people around the world, and Snapchat enables a hundred million to communicate more authentically.
+That said, do not discount products that [seem like toys](http://ben-evans.com/benedictevans/2017/5/24/not-even-wrong-ways-to-dismiss-technology) as trivialities. Facebook was once just a tool for Harvard students to stalk each other, and Snapchat was [something worse](https://techcrunch.com/2012/12/26/inside-snapchat-the-little-photo-sharing-app-that-launched-a-sexting-scare/). Today, Facebook connects two billion people around the world, and Snapchat enables a hundred million to communicate more authentically.
 
 This is where the first criteria becomes useful. Early Facebook users [spent hours](https://www.youtube.com/watch?v=Lb4IcGF5iTQ) clicking from profile to profile (okay, maybe [some people](https://www.google.com/search?q=why+does+my+mom+use+facebook+so+much) still do this), so engrossing was the data that Facebook had made available on their friends. Just over a year after launch, Snapchat users [were sending](https://blog.hubspot.com/marketing/history-of-snapchat) each other about 20 million snaps per day.
 
