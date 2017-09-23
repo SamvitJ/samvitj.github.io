@@ -19,7 +19,7 @@ comments: true
   <i class="star-5">★</i>
 </div>
 
-*Steve Jobs once said that the success or failure of a startup depends on the first ten employees. I agree. If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
+*Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
 
 I have a controversial heuristic for judging the quality of the early employees at a company. I get on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weak schools and worked for companies I've never heard of. This sounds at best naive and at worst prejudiced, so let me defend myself.
 
