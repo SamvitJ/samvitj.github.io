@@ -186,17 +186,17 @@ As a quick exercise, consider these short, 2-sentence bios of the founders of th
 
 - **Apple** - In high school, Steve Jobs demonstrated diverse interests, from Shakespeare and Plato, to creative writing, to electronics, enrolling in a freshman English class at Stanford during his senior year, and then dropping out of Reed College after 6 months. Jobs later moved to India, where he lived in an ashram for seven months; later still, he took up a contract project for Atari, enlisting the help of Steve Wozniak to construct a highly-optimized circuit board for an arcade game, a deal that earned him $5,000.
 
-What do you notice about these six founders?
+<!-- What do you notice about these six founders? -->
 
-Three dropped out of college, and one pair dropped out of grad school. Five out of six were highly technical. None were serial entrepreneurs. Five out of six did not have any professional experience.
+<!-- Three dropped out of college, and one pair dropped out of grad school. Five out of six were highly technical. None were serial entrepreneurs. Five out of six did not have any professional experience.
 
-Yes, unfortunately, they were also all white males, born in most cases into privilege and into supportive, two-parent households.[^3]
+Yes, unfortunately, they were also all white males, born in most cases into privilege and into supportive, two-parent households.[^3] -->
 
-But what personal qualities come up repeatedly in these descriptions? Intensity, ambition, clear interests - many times established at a young age, and often, a disregard for rules. <!-- streak of rebelliousness? -->
+<!-- What personal qualities come up repeatedly in these descriptions? Intensity, ambition, clear interests - many times established at a young age, and often, a disregard for rules. --> <!-- streak of rebelliousness? -->
 
-In an [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination.[^4] <!-- an inextinguishable belief? -->
+<!-- In an [interview](http://www.vogue.com/article/star-quality-jennifer-lawrence-hunger-games) with Vogue, Jennifer Lawrence, the highest paid actress in the world today, once said, with some hesitation, that she "always knew that [she] was going to be famous." To the list of characteristics I would then also add, a certain belief in their own predestination.[^4] --> <!-- an inextinguishable belief? -->
 
-Notice also that, today, Jeff Bezos is the owner of Blue Origin, one of the two leading space exploration companies, and Alphabet is the industry leader in the self-driving car space. Evidently, Bezos' early interest in space colonization and Page's attraction to autonomous cars weren't fake passions, but deeply-seated ambitions - visions for how the future should look like that they acted on as soon as they got the chance. <!-- While being the CEOs of $400+ billion companies definitely helps... -->
+<!-- Notice also that, today, Jeff Bezos is the owner of Blue Origin, one of the two leading space exploration companies, and Alphabet is the industry leader in the self-driving car space. Evidently, Bezos' early interest in space colonization and Page's attraction to autonomous cars weren't fake passions, but deeply-seated ambitions - visions for how the future should look like that they acted on as soon as they got the chance. --> <!-- While being the CEOs of $400+ billion companies definitely helps... -->
 
 While their biographies may sound impressive, none of these accomplishments are particularly uncommon, and I challenge you to hold the founders of your potential employer to the same high standard. Can you write a 2-sentence bio of each of the founders that reflects a similar caliber of achievement?
 
@@ -204,7 +204,7 @@ In your description, try to focus on concrete accomplishments, as opposed to pro
 
 This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention, as opposed to simply an interest in advancing herself. She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
 
-So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^5]
+So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^3]
 
 What kinds of past experience are signs of a great founder?
 
@@ -222,14 +222,14 @@ What kinds of past experience are signs of a great founder?
 
 [^2]: There's a caveat here: the offers from Microsoft and AOL were more like acqui-hires. Zuck (and his co-founder, Adam D'Angelo) would have to defer college, and [agree to work](http://www.thecrimson.com/article/2003/10/23/not-so-artificial-intelligence-for-his-high-school/) at the acquiring company.
 
-[^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
+<!-- [^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
 
 [^4]: “Jeff [Bezos] always wanted to make a lot of money,” says his high school girlfriend, Ursula “Uschi” Werner. She herself was an overachiever – valedictorian of the Miami Palmetto Senior High School class a year ahead of Bezos, winner of a full scholarship to Duke University, and a Rhodes Scholar – but she remains awed by Bezos’s commitment. “It wasn’t about money itself. It was about what he was going to do with the money, about changing the future.” (from a [1999 article](https://www.wired.com/1999/03/bezos-3/) by Wired)</br></br>
-Page grew up in East Lansing, Michigan, where his father taught computer science at Michigan State. He wanted to be an inventor, not simply because of his interests and abilities in math and technology but because, he says, “I really wanted to change the world.” ... Page’s ideas may have been fantastic, but his vision always extended to the commercial. “From when I was 12, I knew I was going to start a company,” he says. (from a [2011 article](https://www.wired.com/2011/03/mf_larrypage/) by Wired)
+Page grew up in East Lansing, Michigan, where his father taught computer science at Michigan State. He wanted to be an inventor, not simply because of his interests and abilities in math and technology but because, he says, “I really wanted to change the world.” ... Page’s ideas may have been fantastic, but his vision always extended to the commercial. “From when I was 12, I knew I was going to start a company,” he says. (from a [2011 article](https://www.wired.com/2011/03/mf_larrypage/) by Wired) -->
 
-[^5]: I hate that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics would look a lot better</br></br>
-Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br>
+[^3]: I regret that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics begin to look a lot better</br></br>
+<!-- Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br> -->
 Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its later rounds of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
-Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me.</br></br>
-Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes.
+Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me. <!-- </br></br>
+Being quick to label things as a "failure" is another problem altogether, and probably prevents people from making the kinds of choices that result in world-changing outcomes. -->
 
