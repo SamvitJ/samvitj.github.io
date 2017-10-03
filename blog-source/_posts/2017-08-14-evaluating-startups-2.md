@@ -39,7 +39,7 @@ The one thing that distinguishes students at top schools is that they tend to ha
 
 Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring very strong people, and is successful at it.
 
-Why do I use credentials like past school and company affiliation to judge that? Mostly for efficiency reasons. Looking up each employee's open source contribution history seems like overkill, and incidentally, would only work for technical recruits. That level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be neccessary for getting a sense for the backgrounds of the early employees.
+Why do I use credentials like past university and company affiliation to judge that? Mostly for efficiency reasons. Looking up each employee's open source contribution history seems like overkill, and incidentally, would only work for technical recruits. That level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be neccessary for getting a sense for the backgrounds of the early employees.
 
 Of course, please take my advice with a grain of salt. There are people with more experience than me who would disagree with me on this point.
 
