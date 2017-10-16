@@ -31,7 +31,7 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Strength of founders](#strength-of-founders)
 - [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups-2/#strength-of-early-employees)
 - [Investor pedigree](http://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
-- [Rounds of funding raised](http://www.samvitjain.com/blog/evaluating-startups-2/#rounds-of-funding-raised)
+- [Funding history](http://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
 - [Location](http://www.samvitjain.com/blog/evaluating-startups-2/#location)
 - [Personal fit](http://www.samvitjain.com/blog/evaluating-startups-2/#personal-fit)
 
@@ -136,25 +136,15 @@ $$
 &= \$500,000
 \end{aligned}
 $$
-
 (Here I'm not considering the strike price of your stock options, i.e. how much you'll need to pay the company to exercise them.)
 
 What evidence do I have that this is true?
 
 This equation, when shifted by one, predicts that a startup's first employee will own 25% of the company, a very reasonable estimate for the eventual ownership stake of a solo founder ([1](https://venturebeat.com/2012/02/01/facebook-s-1-zuckerberg-ownership/), [2](https://www.thestreet.com/story/14154188/1/here-s-what-jeff-bezos-amazon-stake-is-worth-as-his-shares-briefly-blow-past-1-000-each.html)). Moreover, it correctly predicts (to within about 50%) the equity share I was offered at the one company to which I applied for a full-time job on graduation. (Its output was a bit conservative.)
 
-Finally, it has the following very nice property:
-$$
-\begin{aligned}
-\text{Total ownership }
-&= \int_1^\infty \text{Fraction ownership} \\
-&= \int_1^\infty \frac{1}{n^2} \text{ dn} \\
-&= -\frac{1}{n} \bigg|_1^\infty \\
-&= 1
-\end{aligned}
-$$
+Finally, it fulfills a key mathematical constraint that we might expect any equity distribution scheme to satisfy, namely that the total ownership of every employee in the company should sum to 1.[^2]
 
-Take this formula for what it is: a heuristic for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a span of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
+Take this formula for what it is: a *heuristic* for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a span of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
 
 For more precise predictions, please see this [calculator](https://tldroptions.io/), which takes different inputs, but offers upside estimates for a range of possible company outcomes.
 
@@ -174,21 +164,21 @@ Full disclosure: this is the only criteria in this list that I gave the full fiv
 
 As a quick exercise, consider these short bios of the founders of the five most valuable tech companies in the world today:
 
-- **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft bid up to $1 million to buy, during his senior year of high school.[^2] At Harvard, Zuckerberg established a reputation for building social tools for his peers, some of which became wildly popular. The traffic from one application he built, Facemash, created a server outage at Harvard, while the systems and data breaches involved brought him to the brink of expulsion.
+- **Facebook** - Mark Zuckerberg began programming in middle school, going on to build an intelligent music player, Synapse, that AOL and Microsoft bid up to $1 million to buy, during his senior year of high school.[^3] At Harvard, Zuckerberg established a reputation for building social tools for his peers, some of which became wildly popular. The traffic from one application he built, Facemash, created a server outage at Harvard, while the systems and data breaches involved brought him to the brink of expulsion.
 
 - **Amazon** - Jeff Bezos studied electrical engineering and computer science at Princeton, graduating near the top of his class, and as president of the Princeton chapter of a national space exploration club. Bezos began his 8 year career on Wall Street at financial infrastructure startup, Fitel, eventually rising to become the then two-year-old hedge fund D. E. Shaw's youngest vice president.
 
-- **Microsoft** - Bill Gates began programming in 8th grade on a computer donated to his high school, which he used for everything from writing games to developing a payroll program for the donating company. At age 17, he started a venture with Paul Allen which built software to regulate traffic at street intersections. While at Harvard, Gates solved a minor open combinatorics problem, and developed a interpeter for the BASIC language for the newly-released Altair 8800 mini-computer.
+- **Microsoft** - Bill Gates began programming in 8th grade on a computer donated to his high school, which he used for everything from writing games to developing a payroll program for the donating company. At age 17, he started a venture with Paul Allen which built software to regulate traffic at street intersections. While at Harvard, Gates solved a minor open combinatorics problem, and developed a interpreter for the BASIC language for the newly-released Altair 8800 mini-computer.
 
 <!-- in a proof-of-concept aimed at computer hobbyists. -->
-<!-- While at Harvard, Gates discovered a *Popular Electronics* article featured the newly-released Altair 8800 mini-computer. He called the creators and began work on a BASIC language interpreter for the machine. -->
-<!-- after prematurely promising the company a demonstration, implemented a BASIC language interpreter for MITS' Altair mini-computer. -->
+<!-- While at Harvard, Gates discovered a *Popular Electronics* article featuring the newly-released Altair 8800 mini-computer. He called the creators and began work on a BASIC language interpreter for the machine. -->
+<!-- after prematurely promising the company a demonstration, implemented a BASIC language interpreter for MITS' Altair 8800 mini-computer. -->
 
 - **Alphabet** - A computer science and mathematics major at the University of Maryland, Sergey Brin began his PhD studies in computer science at Stanford in 1993. A computer engineering major at the University of Michigan, Larry Page began his PhD at Stanford in 1995. In the first two years of his PhD, Brin [published](http://infolab.stanford.edu/~sergey/resume.html) work on approximate search in databases and copyright violation detection. In 1995, he joined Page on BackRub, a project focused on exploring the link structure of the rapidly growing World Wide Web.
 
 - **Apple** - In high school, Steve Jobs dabbled in creative writing and film, and began working with hardware enthusiast Steve Wozniak on various hobby electronics projects. Jobs enrolled in Reed College in 1973, but dropped out after just 6 months at the school. After experimenting with monastic and communal lifestyles in India and Oregon, Jobs took up a contract project for Atari, enlisting the help of Wozniak to construct a hyperoptimized circuit board for the arcade game Breakout, a deal that earned the pair $5,000.
 
-<!-- When he was 13, Steve Jobs got a summer job on the assembly line at Hewlett-Packard, after cold-calling Bill Hewlett to ask for electronics parts. --> 
+<!-- When he was 13, Steve Jobs got a summer job on the assembly line at Hewlett-Packard, after cold-calling Bill Hewlett to ask for electronics parts for a personal project. -->
 
 
 <!-- What do you notice about these six founders? -->
@@ -209,7 +199,7 @@ In your description, try to focus on concrete accomplishments, as opposed to pro
 
 This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention, as opposed to simply an interest in advancing herself. She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
 
-So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^3]
+So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^4]
 
 What kinds of past experience are signs of a great founder?
 
@@ -227,14 +217,31 @@ What kinds of past experience are signs of a great founder?
 
 [^1]: The [number one rule](http://www.paulgraham.com/swan.html) of startup investing is that nearly all of an investor's returns are concentrated in a few big winners. As of 2012, three-quarters of Y Combinator's $10 billion portfolio value was concentrated in two companies: Dropbox and Airbnb. This, combined with the difficulty of identifying the biggest winners in their infancy, means that early-stage investors go out of their way to court a large number of companies with a small chance at astronomical success.
 
-[^2]: There's a caveat here: the offers from Microsoft and AOL were more like acqui-hires. Zuck (and his co-founder, Adam D'Angelo) would have to defer college, and [agree to work](http://www.thecrimson.com/article/2003/10/23/not-so-artificial-intelligence-for-his-high-school/) at the acquiring company.
+[^2]: My heuristic for your expected ownership stake in a company, reproduced here:
+$$
+\begin{aligned}
+\text{Fraction ownership } = \frac{1}{\text{(Number of employees)}^2}
+\end{aligned}
+$$
+holds the following nice property that we might expect of any equity distribution scheme:
+$$
+\begin{aligned}
+\text{Total ownership }
+&= \int_1^\infty \text{Fraction ownership} \\
+&= \int_1^\infty \frac{1}{n^2} \text{ dn} \\
+&= -\frac{1}{n} \bigg|_1^\infty \\
+&= 1
+\end{aligned}
+$$
+
+[^3]: There's a caveat here: the offers from Microsoft and AOL were more like acqui-hires. Zuck (and his co-founder, Adam D'Angelo) would have to defer college, and [agree to work](http://www.thecrimson.com/article/2003/10/23/not-so-artificial-intelligence-for-his-high-school/) at the acquiring company.
 
 <!-- [^3]: Steve Jobs is a notable exception. He was raised by working-class, adoptive parents who hadn't attended college.
 
 [^4]: “Jeff [Bezos] always wanted to make a lot of money,” says his high school girlfriend, Ursula “Uschi” Werner. She herself was an overachiever – valedictorian of the Miami Palmetto Senior High School class a year ahead of Bezos, winner of a full scholarship to Duke University, and a Rhodes Scholar – but she remains awed by Bezos’s commitment. “It wasn’t about money itself. It was about what he was going to do with the money, about changing the future.” (from a [1999 article](https://www.wired.com/1999/03/bezos-3/) by Wired)</br></br>
 Page grew up in East Lansing, Michigan, where his father taught computer science at Michigan State. He wanted to be an inventor, not simply because of his interests and abilities in math and technology but because, he says, “I really wanted to change the world.” ... Page’s ideas may have been fantastic, but his vision always extended to the commercial. “From when I was 12, I knew I was going to start a company,” he says. (from a [2011 article](https://www.wired.com/2011/03/mf_larrypage/) by Wired) -->
 
-[^3]: I regret that I'm perpetuating the very imprecise misconception that "most startups fail" with this statement. There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then I think the statistics begin to look a lot better</br></br>
+[^4]: With this statement, I am (regrettably) perpetuating the very imprecise misconception that "most startups fail". There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then the statistics begin to look a lot better.</br></br>
 <!-- Side point: companies that haven't raised any external funding shouldn't be called startups; "project" would probably be a better term here.</br></br> -->
 Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its later rounds of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
 Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If failure means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then floating around in an entry level job at a big company for three years also sounds [pretty risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) to me. <!-- </br></br>
