@@ -21,17 +21,17 @@ comments: true
 
 *Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
 
-I use the following (coarse) heuristic for judging the quality of the early employees at a company. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weaker schools and worked for companies I've never heard of. <!-- This sounds at best naive and at worst prejudiced, so let me explain. -->
+I use the following (coarse) heuristic for judging the quality of the early employees at a company. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weaker schools and worked for companies I've never heard of.
 
-In my experience, the best startups have at least some junior employees who attended schools like Stanford, MIT, and Harvard. This was true of early Google and early Facebook, and is true today of companies like Dropbox, Stripe, Airbnb, and Quora. If a startup doesn't have any students from such schools, it says to me one of two things:
+In my experience, the best startups have many employees who attended strong schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of companies like Airbnb, Dropbox, Stripe, and Quora. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
 
-1. The founders and their first hires do not have a network that extends to new grads from these schools.
+1. The founders and their first hires do not have a network that extends to e.g. new grads from strong schools.
 
-2. The startup cannot convince students at these schools to come work for them.
+2. The startup cannot convince highly credentialed employees to come work for them.
 
-The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to students at top schools. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
+The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of employees. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
 
-The second reflects a little less favorably, but is understandable. Recruiting smart people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
+The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
 
@@ -39,11 +39,13 @@ The one thing that distinguishes students at top schools is that they tend to ha
 
 Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring very strong people, and is successful at it.
 
-Why do I use credentials like past university and company affiliation to judge that? Mostly for efficiency reasons. Looking up each employee's open source contribution history seems like overkill, and incidentally, would only work for technical recruits. That level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
+Why do I use credentials like past university and company affiliation to judge that? One could imagine a better metric for evaluating early engineering hires, say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees.
 
-Of course, please take my advice with a grain of salt. There are people with more experience than me who would disagree with me on this point.
+Finally, there's an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
 
-You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and in many cases, become the company's leaders. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
+<!-- Of course, please take my advice with a grain of salt. There are people with more experience than me who would disagree with me on this point. -->
+
+You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and often take on many of the leadership positions within the company. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
 
 #### Investor pedigree
 
