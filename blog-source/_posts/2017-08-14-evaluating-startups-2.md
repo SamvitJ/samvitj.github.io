@@ -25,11 +25,11 @@ I use the following (coarse) heuristic for judging the quality of the early empl
 
 In my experience, the best startups have many employees who attended strong schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of companies like Airbnb, Dropbox, Stripe, and Quora. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
 
-1. The founders and their first hires do not have a network that extends to e.g. new grads from strong schools.
+1. The founders and their first hires do not have a network that extends to such employees.
 
 2. The startup cannot convince highly credentialed employees to come work for them.
 
-The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of employees. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
+The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of potential hires. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
 
 The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
 
@@ -37,7 +37,7 @@ Moral of the story: it's hard to convince people to turn down offers at Google, 
 
 The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.
 
-Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring very strong people, and is successful at it.
+Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
 
 Why do I use credentials like past university and company affiliation to judge that? One could imagine a better metric for evaluating early engineering hires, say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees.
 
