@@ -39,9 +39,7 @@ The one thing that distinguishes students at top schools is that they tend to ha
 
 Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
 
-Why do I use credentials like past university and company affiliation to judge that? One could imagine a better metric for evaluating early engineering hires, say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees.
-
-Finally, there's an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
+Why do I use credentials like past university and company affiliation to judge that? One could imagine a better metric for evaluating early engineering hires, say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees. Finally, there's an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
 
 <!-- Of course, please take my advice with a grain of salt. There are people with more experience than me who would disagree with me on this point. -->
 
