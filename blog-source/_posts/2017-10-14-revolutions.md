@@ -9,11 +9,11 @@ I have both a short-term/selfish reason and a long-term/altruistic reason for my
 
 As many have said, we are in the golden age of machine learning. ML is going to be the most important force in the world for at least the next 30 years - a force as transformative as the personal computer and the Internet, and arguably more so than the smartphone or cloud computing.
 
-Revolutions - like machine learning, cloud computing, mobile phones, the Internet, and personal computers - tend to create an orchard of creative opportunity, littered with both high-hanging and low-hanging fruit. This is why so many people rushed to start Internet companies in the late 1990s - including a young South African immigrant who passed on a physics PhD program 1995 to build a company to put Yellow Pages on the web.
+Revolutions - like machine learning, cloud computing, mobile phones, the Internet, and personal computers - tend to create an orchard of creative opportunity, replete with big challenges, but also low-hanging fruit. This is why so many people rushed to start Internet companies in the late 1990s - including a young South African immigrant who passed on a physics PhD program in 1995 to build a company to put Yellow Pages on the web.
 
 In fact, some of the companies of the Internet era solved problems that didn’t exist *before* the Internet (Google), while others emerged much later, after the dust of the dot com bust had settled (Facebook, Airbnb).
 
-The biggest winners tend to be those groups who 1) enter early, 2) identify very fundamental problems that have suddenly become solvable, and 3) execute extremely well. <!-- include "and" -->
+The biggest winners tend to be those groups who 1) enter early, 2) identify fundamental problems that have suddenly become solvable, and 3) execute extremely well. <!-- include "and" -->
 
 To make concrete what I mean by "big winners", here are some examples:
 
