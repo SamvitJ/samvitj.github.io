@@ -21,10 +21,11 @@ To make concrete what I mean by "big winners", here are some examples:
 - Internet: Amazon (1994), Google (1998), and Facebook (2004)
 - Smartphones: WhatsApp (2009), Uber (2009), and (potentially) Snap (2011)
 
-**Thesis**: all great businesses are associated with revolutions. These revolutions are often sparked by the sudden fall in marginal costs of some key piece of enabling technology, such as computing power or mobile Internet access. For lack of a better word, let's call this process "democratization." Revolutions are often abetted by the "commoditization" (transition to undifferentiated price competition) of critical infrastructure, such as server hardware or mobile service. <!-- understand how "payments" and "telecommunications" became commodities -->
+**Thesis**: all great businesses are associated with revolutions. These revolutions are often sparked by the sudden fall in marginal costs of some key piece of enabling technology, such as computing power or mobile Internet access. For lack of a better word, let's call this process "democratization." Revolutions are often abetted by the "commoditization" (transition to undifferentiated price competition) of critical infrastructure, such as server hardware or mobile service. 
 
-<!-- Other times, they involve the creation of open "platforms" (distribution channels) with wide reach, such as the web or Apple's App Store. -->
-<!-- Other times, the involve the "commodification" (enabling economies of scale) -->
+<!-- Comment on payments and telecommunications infrastructure. -->
+<!-- Comment on economies of scale (cloud, machine learning) vs. marginal costs (PCs, phones). -->
+<!-- Comment on creation of open "platforms" (distribution channels) with wide reach, such as the web or Apple's App Store. -->
 
 Notably, smaller revolutions also spawn companies. GitHub, which was recently [acquired](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal) by Microsoft for a cool $7.5 billion, was founded in 2007 by a group of Ruby developers in San Francisco at a time when the distributed version control system, Git, was first starting to get attention. Here, git, and open-source more broadly, was the revolution, and Tom Preston-Warner and Chris Wanstrath were the hackers who first recognized the opportunity ([1](https://www.wired.com/2012/02/github-2/), [2](http://tom.preston-werner.com/2011/05/03/rejected-bio-from-the-setup.html)).
 
