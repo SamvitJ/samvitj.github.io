@@ -221,9 +221,7 @@ Moral of the story: some like to live on the edge, and you can't compare every c
 
 ### Footnotes
 
-<!-- [^1]: Considering that students from these schools are so [overrepresented](https://qz.com/896280/most-unicorn-founders-in-the-world-are-graduates-of-stanford-harvard-and-the-indian-institutes-of-technology-iits/) in lists of successful *founders*, I have reason to believe my assertion has some truth to it. -->
-
-[^1]: The first time I saw this seemingly obvious idea expressed in writing was in Ben Horowitz's excellent book about the trials and tribulations of starting a company, *The Hard Thing About Hard Things*.
+[^1]: From Ben Horowitz's excellent book about the trials and tribulations of starting a company, *The Hard Thing About Hard Things*.
 
 [^2]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
 
