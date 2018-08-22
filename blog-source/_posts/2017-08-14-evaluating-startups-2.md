@@ -11,7 +11,7 @@ comments: true
 
 #### Strength of early employees
 
-<div class="rating" data-rate="4.5">
+<div class="rating" data-rate="4">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -21,9 +21,9 @@ comments: true
 
 *Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
 
-I use the following (coarse) heuristic for judging the quality of the early employees at a company. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended seemingly weaker schools and worked for companies I've never heard of.
+I use the following (coarse) heuristic for judging the quality of the early employees at a company. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended schools and worked for companies I've never heard of.
 
-In my experience, the best startups have many employees who attended strong schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of companies like Airbnb, Dropbox, Stripe, and Quora. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
+In my experience, the best startups have many employees who attended strong schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of the most valuable private companies: Uber, Airbnb, SpaceX, Pinterest, Stripe. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
 
 1. The founders and their first hires do not have a network that extends to such employees.
 
@@ -31,13 +31,13 @@ In my experience, the best startups have many employees who attended strong scho
 
 The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of potential hires. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
 
-The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. I know this, because I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
+The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. This I know from personal experience: I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
 
 The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.
 
-Note that I'm definitely not suggesting that great early employees come only from top schools, or that all (or even most) students at top schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
+Note that I'm definitely not suggesting that great early employees come only from good schools, or that all (or even most) students at good schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-Facebook employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
 
 Why do I use credentials like past university and company affiliation to judge that? One could imagine a better metric for evaluating early engineering hires, say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees. Finally, there's an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
 
@@ -157,15 +157,9 @@ You could also find a job at a consumer-facing company that uses machine learnin
 
 The point here is that you should be open-minded about the kinds of problems you could be interested in, and the kinds of work you'd like to do. Don't judge companies solely on their one-sentence mission statements. Instead, take the time to understand what the startup really does, why the problem they're solving is an important one, and what the immediate and future market for their work is.
 
-An example of a startup with a boring-sounding mission statement that does very impactful work (and, incidentally, scores highly on all of the other criteria) is Samsara. Here's a description from their [About](https://www.samsara.com/about) page:
+Relatedly, how much does the nature of the work that you do - full-stack, backend, cloud platform, data science - matter? Your interests matter, and developing an area of competitive advantage as an employee *can* matter. In startups, however, initial job title and responsibilities are generally [dwarfed](https://blog.wealthfront.com/choose-right-job-company/) in importance by the pace of the company's growth. A small, fast growing company will require you to wear many hats, regardless of what your job description says, and assuming it is well managed, should reward strong performance commensurately.
 
-> At Samsara, we believe that by making it easy to deploy sensors and analyze their data, customers of all types will be able to use them by the thousands, and in places they've never been used before.
-
-Started by the two MIT PhD dropouts who co-founded Meraki, an enterprise Wi-Fi networking startup acquired by Cisco for $1.2 billion, and staffed by an exceptional [team](https://www.samsara.com/team), Samsara is building tools to enable the real-time tracking and monitoring of fleets and industrial sites via wireless sensors. Samsara is a textbook example of a team with deep domain expertise tackling an immense, emerging market. Even if you doesn't give a hoot about sensors, their work - which touches on a number of areas, including data science, real-time systems, and machine learning - could be of great interest.
-
-How much does the nature of the work that you do - full-stack, backend, cloud platform, data science - matter, anyway? Your interests matter, and developing an area of competitive advantage as an employee *can* matter. In startups, however, initial job title and responsibilities are generally [dwarfed](https://blog.wealthfront.com/choose-right-job-company/) in importance by the pace of the company's growth. A small, fast growing company will require you to wear many hats, regardless of what your job description says, and assuming it is well managed, should reward strong performance commensurately.
-
-On a related note, in [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Facebook and co-founder of Asana, makes the very relevant point that intelligent young people often overvalue working on the most challenging problems. I thought this was such a good point, actually, that I reproduced his exact words here:
+In [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Facebook and co-founder of Asana, makes the very relevant point that intelligent young people often overvalue working on the most challenging problems. I thought this was such a good point, actually, that I reproduced his exact words here:
 
 > A lot of graduating students think I just want to work on the hardest problems. If you are one of these people, I predict that you're going to change your perspective over time. I think that's kind of like a student mentality, of challenging yourself, and proving that you're capable of it. But as you get older, other things start to become important, like personal fulfillment, what are you going to be proud of, what are you going to want to tell your kids about, or your grandkids about, one day.
 
@@ -223,7 +217,7 @@ Moral of the story: some like to live on the edge, and you can't compare every c
 
 [^1]: From Ben Horowitz's excellent book about the trials and tribulations of starting a company, *The Hard Thing About Hard Things*.
 
-[^2]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, and Oculus VR.
+[^2]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, Oculus VR, and GitHub.
 
 <!-- [^4]: I'm assuming that the probability of a company become financially self-sustaining or IPOing after raising only a Series A round is negligible. As the example below of Atlassian indicates, this is not always the case. -->
 
