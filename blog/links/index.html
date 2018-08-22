@@ -112,36 +112,30 @@ Beware of research. If an undergrad writes something all his friends start using
 </ul>
 <p>Most people’s intuition tells them that the ideal way to build something highly viral is to improve the content, namely improving the value of p. However, suppose that we quantify the number of users at successive timepoints who have seen the content via <span class="math inline"><em>U</em>(<em>t</em>)</span> as follows, with <span class="math inline"><em>U</em>(0)=1</span>: <br /><span class="math display">$$
 \begin{aligned}
+U(0) &amp;= 1 \\
 U(τ) &amp;= (N p) \\
 U(2τ) &amp;= (N p)^2 \\
 U(mτ) &amp;= (N p)^m \\
 U(t) &amp;= (N p)^{(t/τ)}
 \end{aligned}
 $$</span><br /> Here we have substituted <span class="math inline"><em>t</em> = <em>m</em><em>τ</em></span> in the final line. We see immediately that if <span class="math inline"><em>N</em> ⋅ <em>p</em> &lt; 1</span> we do not have viral growth. We can also ask an important question: what’s the relative impact of increasing p by 2-fold, increasing N by 2-fold, or decreasing τ by 2-fold? For concreteness, let’s say that p = .1, N = 50, and τ = 1 day.</p>
-<p>Then after three days we would have roughly... <!-- $$
+<p>Then after three days we would have roughly: <br /><span class="math display">$$
 \begin{aligned}
 U(3) = (.1 × 50)^{3/1} = 125\text{ users}
 \end{aligned}
-$$
-If we doubled p to .2 we’d get:
-$$
+$$</span><br /> If we doubled p to .2 we’d get: <br /><span class="math display">$$
 \begin{aligned}
 U(3) = (.2 × 50)^{3/1} = 1000\text{ users}
 \end{aligned}
-$$
-And if we doubled N to 100 we’d get:
-$$
+$$</span><br /> And if we doubled N to 100 we’d get: <br /><span class="math display">$$
 \begin{aligned}
 U(3) = (.1 × 100)^{3/1} = 1000\text{ users}
 \end{aligned}
-$$
-But if we halved τ to .5 we’d get:
-$$
+$$</span><br /> But if we halved τ to .5 we’d get: <br /><span class="math display">$$
 \begin{aligned}
 U(3) = (.1 × 50)^{3/.5} = 15625\text{ users}
 \end{aligned}
-$$ --></p>
-<p>Wow! The impact of reductions in τ is highly nonlinear because it affects the exponent in the virality equation. Shorter incubation times mean rapid viral spread...</p>
+$$</span><br /> Wow! The impact of reductions in τ is highly nonlinear because it affects the exponent in the virality equation. Shorter incubation times mean rapid viral spread...</p>
 <p>Putting these things together, we can start to gain more insight as to why the Reddit image macro is the Ebola meme. An image meme is instantly processed (<span class="math inline"><em>τ</em> → 0</span>) and understood by a wide audience (<span class="math inline"><em>N</em> → ∞</span>). It thus need only be shared by a small fraction of people to achieve incredible viral growth. Here are a few more historical examples of successful viral campaigns that illustrate various optimizations of p, N, and τ:</p>
 <ul>
 <li>Hotmail and the email signature...</li>
@@ -149,17 +143,10 @@ $$ --></p>
 <li>Facebook’s use of Gmail contacts...</li>
 <li>Zynga’s incentive structure...</li>
 </ul>
+<p>The concept of social, then, is intimately linked with virality. It is not enough that your user merely discusses your app with their friends; it must be compelling enough for at least some of your user’s friends to in turn share with <em>their</em> friends.</p>
 <!-- Social, Local, and Mobile. The mantra of venture capitalists from roughly 2007-2012. It’s a catchphrase, a buzzword, and arguably a cliche in Silicon Valley. The term and its relatives attract disparagement because they are so closely associated with photosharing, social gaming, check-ins, and recreational apps of this nature. Now, there’s actually much that is admirable about the companies in these areas: Instagram is a highly complex engineering feat, Snapchat does account for a significant fraction of all photos taken in the world, and Zynga was, at one point at least, a multibillion dollar public company...-->
 <!-- Still, these are with some justification seen as cotton candy apps, as the kind of apps that healthy twenty-somethings make for each other, rather than apps that solve problems of real significance. But is that really all there is to say about “social, local, and mobile”, though? -->
 <!-- Let’s see if we can dive into the phenomenon term by term to understand why VCs love it and whether there’s something deeper there.-->
-<h3 id="graduate-school">Graduate School</h3>
-<h4 id="i-loved-graduate-school-peter-bailis-jan-2016"><a href="http://www.bailis.org/blog/i-loved-graduate-school/">I Loved Graduate School</a> (Peter Bailis, Jan 2016)</h4>
-<p>Getting a Ph.D. is an extreme growth experience. In four to six (or more) years, you are expected to become a world expert in a topic, produce original results, and communicate them to your field. Becoming an expert in anything is hard. But consider this: by the time you’re done with your dissertation, you’ll have answered questions no one ever answered (or possibly asked) before...</p>
-<p>This all requires developing a highly diverse skill set in a very short time period. This is hard. It’s one of the hardest things I know to do. Getting a Ph.D. requires creativity, courage, a hefty dose of stubbornness, and a lot of hard work. People will help you, as they helped me, by providing wisdom and guidance and training, but it’s ultimately up to you to do the original research...</p>
-<p>Make no mistake: graduate school has a high opportunity cost. In computer science, you’re likely giving up over $100,000 per year to be in school. In expectation, in monetary terms, a Ph.D. in Computer Science is not worth your time.</p>
-<p>That said, with a Ph.D. in Computer Science, you can do many things:...</p>
-<h4 id="undergraduate-research-tips-smitha-milli-mar-2017"><a href="http://smithamilli.com/blog/undergrad-tips/">Undergraduate Research Tips</a> (Smitha Milli, Mar 2017)</h4>
-<p>To get into grad school prioritize (publishable) research over classes. Grad school is very competitive. For example, only ~3% of applicants get into the top AI/ML programs and this is only going to get worse in the future. Whenever you have a situation where only the top x% (where x is small) get a prize and everyone else gets nothing, you should focus on the important and high variance properties that distinguish you from the rest. In this case, what you should not focus on is your grades. Everyone gets high grades, so it’s low variance and not useful in picking who gets admitted. What actually provides information to distinguish people is their research. The problem is you can’t get bad grades (&lt;A) either because that’s a red flag. So the trick here is to take fewer classes and use your extra time to do more research.</p>
 <h3 id="footnotes">Footnotes</h3>
 <!-- #### [What High Schools Don't Tell You](https://books.google.com/books?id=xJ9YU2Hj71AC) (Elizabeth Wissner-Gross, 2007)
 
