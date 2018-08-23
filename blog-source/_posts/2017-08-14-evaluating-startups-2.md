@@ -71,7 +71,7 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 If that doesn't capture the ethos of Silicon Valley, I don't know what does.
 
-This is a criteria that my intuition would award 4.5 stars to, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
+This is a criteria that I would intuitively award more stars to, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
 Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^2] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
