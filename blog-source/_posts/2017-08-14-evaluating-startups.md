@@ -5,9 +5,9 @@ date: 2017-08-14 12:00:00
 comments: true
 ---
 
-*This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I had to make a choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.*
+**This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I had to make a choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.**
 
-*This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.*
+**This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.**
 
 <!-- <a target="_blank" href="../assets/evaluating-startups/startup.png">
   <img src="../assets/evaluating-startups/startup.png" alt="Image: startup" width=80%>
@@ -149,7 +149,7 @@ For more precise predictions, please see this [calculator](https://tldroptions.i
   <i class="star-5">★</i>
 </div>
 
-Silicon Valley loves to lionize its founders. To be a successful founder is to be a statesman, a conquistador, *a messiah* - the commander-in-chief of an empire, an indomitable crusader, and the enlightened champion of a new way of life. In fact, early CEOs often paint themselves into the founding story of a company ([1](https://www.cnet.com/news/tesla-motors-founders-now-there-are-five/), [2](https://www.businessinsider.com/ubers-history)) to buy further legitimacy: the idea being, to be the real deal, you have to be there from the beginning. And yet the Valley's most revered "founder-CEOs" (the most venerable job title in Silicon Valley) are also at times its most polarizing, its most reviled.
+Silicon Valley loves to lionize its founders. To be a successful founder is to be a statesman, a crusader, *a messiah* - the enlightened champion of a new way of life. In fact, early CEOs often paint themselves into the founding story of a company ([1](https://www.cnet.com/news/tesla-motors-founders-now-there-are-five/), [2](https://www.businessinsider.com/ubers-history)) to buy further legitimacy: the idea being, to be the real deal, you have to be there from the beginning. And yet the Valley's most revered "founder-CEOs" (the most venerable job title in Silicon Valley) are also at times its most polarizing, its most reviled.
 
 My goal in this section is to filter through the hype, and really evaluate whether founders matter. Do one or two people at the beginning of a startup's history, who do a tiny fraction of the total work that goes into building a massively successful company, really deserve that much credit? How disproportionate is a founder's influence on the eventual success and failure of the company? And what founder qualities and qualifications are necessary for, and, more interestingly, *indicative* of a startup's future success?
 
