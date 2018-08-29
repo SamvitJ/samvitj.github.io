@@ -5,9 +5,9 @@ date: 2017-08-14 12:00:00
 comments: true
 ---
 
-**This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I had to make a choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.**
+<span style="color:navy">This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I was fortunate to have the choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.</span>
 
-**This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.**
+<span style="color:navy">This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.</span>
 
 <!-- <a target="_blank" href="../assets/evaluating-startups/startup.png">
   <img src="../assets/evaluating-startups/startup.png" alt="Image: startup" width=80%>
@@ -113,7 +113,7 @@ $$
 \end{aligned}
 $$
 
-This can now be used to calculate your potential upside. If you join a 100-person startup valued at $500 million, and work there for four years, you'll be granted shares constituting
+This can now be used to calculate your potential upside. If you join a 100-person startup valued at $500 million, and work there for four years, you'll be granted shares constituting about
 $$
 \begin{aligned}
 \text{Fraction ownership }
@@ -133,7 +133,7 @@ $$
 $$
 (Here I'm not considering the strike price of your stock options, i.e. how much you'll need to pay the company to exercise them.)
 
-This equation, when shifted by one, predicts that a startup's first employee will own 25% of the company, a very reasonable estimate for the eventual ownership stake of a solo founder ([1](https://venturebeat.com/2012/02/01/facebook-s-1-zuckerberg-ownership/), [2](https://www.thestreet.com/story/14154188/1/here-s-what-jeff-bezos-amazon-stake-is-worth-as-his-shares-briefly-blow-past-1-000-each.html)). Moreover, it correctly predicts the equity I have been offered at early stage startups, as an entry-level engineer. Finally, it fulfills a key mathematical constraint that we might expect any equity distribution scheme to satisfy, namely that the total ownership of every employee in the company should sum to 1.[^2]
+This equation, when shifted by one, predicts that a startup's first employee will own 25% of the company, a very reasonable estimate for the eventual ownership stake of a solo founder ([1](https://venturebeat.com/2012/02/01/facebook-s-1-zuckerberg-ownership/), [2](https://www.thestreet.com/story/14154188/1/here-s-what-jeff-bezos-amazon-stake-is-worth-as-his-shares-briefly-blow-past-1-000-each.html)). As more anecdotal evidence, it correctly predicted the equity I was offered at a few startups, interviewing for entry-level roles. Finally, it fulfills a key mathematical constraint that we might expect any equity distribution scheme to satisfy, namely that the total ownership of every employee in the company should sum to 1.[^2]
 
 Take this formula for what it is: a rough *heuristic* for your ownership stake in a startup. In particular, percent ownership alone says nothing about your potential upside. To estimate upside, you need to consider a span of possible trajectories that the company could take after you join. If you join a company that goes under, or is acquired for peanuts, it won't matter if you own 1% of it or 0.01% of it. 1% of 0 is still 0.
 
