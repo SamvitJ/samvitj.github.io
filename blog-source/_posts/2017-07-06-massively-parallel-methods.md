@@ -5,7 +5,7 @@ date: 2017-07-06
 comments: true
 ---
 
-In this post, I introduce the Google DeepMind [paper](https://arxiv.org/pdf/1507.04296.pdf) "Massively Parallel Methods for Deep Reinforcement Learning," published in ICML 2015, and discuss the motivation behind developing parallel implementations of powerful algorithms.
+In this post, I introduce the Google DeepMind [paper](https://arxiv.org/pdf/1507.04296.pdf) "Massively Parallel Methods for Deep Reinforcement Learning" from ICML 2015, and discuss the motivation behind developing parallel implementations of useful algorithms.
 
 ### Paper contributions
 This paper presents a distributed implementation, called Gorila, of the Deep Q-Network (DQN) algorithm, which applies deep neural networks to the problem of reinforcement learning (RL). The algorithm, which was [published](https://deepmind.com/research/dqn/) in *Nature*, uses a deep convolutional network to approximate the optimal action-value function, which guides an RL agent's behavior. The core breakthrough: the agent was trained to play a set of Atari 2600 computer games based solely on the pixels of still frames and associated scores, and yet beat all previous implementations, achieving a level of performance comparable to that of professional human players.

@@ -5,9 +5,9 @@ date: 2017-08-14 12:00:00
 comments: true
 ---
 
-<span style="color:navy">This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I was fortunate to have the choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.</span>
+<span style="color:gray">This blog post is based on my experience interviewing with a range of tech companies during my junior year at Princeton. At the end of the process, I was fortunate to have the choice between a [large public company](https://www.google.com/), a then recently-minted [unicorn](http://fortune.com/unicorns/), and a then-Series B startup with 100 employees based in San Francisco.</span>
 
-<span style="color:navy">This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.</span>
+<span style="color:gray">This piece attempts to codify how I went about making my decision, and in particular, lays out a methodology for how to evaluate startups. Though I’m writing primarily for recent college graduates, I’ve tried to make the discussion generally applicable to anyone looking to work for a small company.</span>
 
 <!-- <a target="_blank" href="../assets/evaluating-startups/startup.png">
   <img src="../assets/evaluating-startups/startup.png" alt="Image: startup" width=80%>
