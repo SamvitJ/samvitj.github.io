@@ -173,7 +173,7 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
 
   2. What kind of a product is the company building? The most audacious [researchers](http://futuredata.stanford.edu/#) and [entrepreneurs](http://zerotoonebook.com/) pursue two kinds of problems:
 
-    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives concocted from existing ideas (e.g. Uber vs. Uber for pet sitting).
+    - **0 to 1 systems.** These are products that are the first in their kind - not derivatives of existing ideas (e.g. Uber vs. Uber for pet sitting).
 
     - **10x systems.** These are products that are at least an order of magnitude better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Yahoo/Alta Vista).
 
