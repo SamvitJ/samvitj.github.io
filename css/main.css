@@ -7,6 +7,7 @@ Segoe,"Segoe UI",
 h1,h2,h3,h4,h5,h6,div.title,div.ftheader,span.venue{font-weight:600}
 h4,div.title,div.ftsubheader{font-size:105%}
 ul,ol,dl{margin:0;padding:5px 10px 30px 30px;width:calc(100% - 30px)}
+img.prof_responsive{max-width:85%;height:auto;display:block}
 img.img_responsive{max-width:100%;height:auto;display:block}
 div.container a:link,
 div.container a:visited{color:#0055AA;text-decoration:none}
