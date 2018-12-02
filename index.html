@@ -37,17 +37,16 @@
             <span class="tag"><a href="https://www.linkedin.com/in/samvitj">LinkedIn</a></span>
             <span class="tag"><a href="https://github.com/SamvitJ">GitHub</a></span>
             <span class="tag"><a href="https://twitter.com/Samvit_Jain">Twitter</a></span>
-            <!--<span class="tag"><a href="https://scholar.google.com/citations?hl=en&user=2zVPXJgAAAAJ">Google Scholar</a></span>-->
             <p/>
           </div>
 		  <div class="text topic">
 			<p/>
-			<div class="title">Research areas</div>
+			<div class="title">Research interests</div>
             <ul>
-              <li><a href="#publications" onclick="showPubs(1)">Machine Learning at Scale</a></li>
-              <li><a href="#publications" onclick="showPubs(1)">Efficient Inference</a></li>
-              <li><a href="#publications" onclick="showPubs(1)">Video Analytics</a></li>
-              <li><a href="#publications" onclick="showPubs(1)">Image/Video Recognition</a></li>
+              <li><a href="#va" onclick="showPubs(1)">Machine Learning at Scale</a></li>
+              <li><a href="#evr" onclick="showPubs(1)">Efficient Inference</a></li>
+              <li><a href="#va" onclick="showPubs(1)">Video Analytics</a></li>
+              <li><a href="#evr" onclick="showPubs(1)">Image/Video Recognition</a></li>
             </ul>
 			<p/>
           </div>
@@ -71,8 +70,8 @@
         <div class="content anchor" id="publications">
           <div class="text" style="z-index:1;position:relative">
             <h3 style="margin-top:0em;margin-bottom:0em">
-              Papers (<a href="" onclick="showPubs(0); return false;">by date</a><!-- / 
-              <a href="" onclick="showPubs(1); return false;">by topic</a>-->)
+              Papers (<a href="" onclick="showPubs(0); return false;">by date</a> /
+                <a href="" onclick="showPubs(1); return false;">by topic</a>)
             </h3>
           </div>
 
@@ -203,11 +202,123 @@
 
           </script>
 
-          <!-- <script id="pubs_by_topic" language="text">
-            <div class="text anchor" id="va"><h4>Video Analytics at Scale</h4></div>
-            <div class="text anchor" id="ivr"><h4>Fast Video Recognition</h4></div>
-            <div class="text anchor" id="va"><h4>Security and Bitcoin</h4></div>
-          </script> -->
+          <script id="pubs_by_topic" language="text">
+            <div class="text anchor" id="va"><h4>Large-Scale Video Analytics</h4></div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/duke.jpg" alt="rexcam"></div>
+                <div class="text">
+                  <div class="title"><a name="rex_pre" href="https://arxiv.org/pdf/1811.01268.pdf">ReXCam: Resource-Efficient, Cross-Camera Video Analytics at Enterprise Scale</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>,
+                    <a href="https://people.cs.uchicago.edu/~junchenj/">Junchen Jiang</a>,
+                    <a href="https://www.microsoft.com/en-us/research/people/yushu/">Yuanchao Shu</a>,
+                    <a href="https://www.microsoft.com/en-us/research/people/ga/">Ganesh Ananthanarayanan</a>,
+                    <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a>
+                  </div>
+                  <div>
+                    <span class="venue">Preprint</span>
+                    <span class="tag"><a href="https://arxiv.org/pdf/1811.01268.pdf">Paper</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/detections.jpeg" alt="scaling-video"></div>
+                <div class="text">
+                  <div class="title"><a name="sva_pre" href="https://arxiv.org/pdf/1809.02318.pdf">Scaling Video Analytics Systems to Large Camera Deployments</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>,
+                    <a href="https://www.microsoft.com/en-us/research/people/ga/">Ganesh Ananthanarayanan</a>,
+                    <a href="https://people.cs.uchicago.edu/~junchenj/">Junchen Jiang</a>,
+                    <a href="https://www.microsoft.com/en-us/research/people/yushu/">Yuanchao Shu</a>,
+                    <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a>
+                  </div>
+                  <div>
+                    <span class="venue">Position Paper</span>
+                    <span class="tag"><a href="https://arxiv.org/pdf/1809.02318.pdf">Paper</a></span>
+                  </div>
+                </div>
+              </div>
+
+            <div class="text anchor" id="evr"><h4>Efficient Video Recognition</h4></div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/city-seg.png" alt="accel-network"></div>
+                <div class="text">
+                  <div class="title"><a name="accel_pre" href="https://arxiv.org/pdf/1807.06667.pdf">Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>,
+                    <a href="https://people.eecs.berkeley.edu/~xinw/">Xin Wang</a>,
+                    <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a>
+                  </div>
+                  <div>
+                    <span class="venue">Preprint</span>
+                    <span class="tag"><a href="https://arxiv.org/pdf/1807.06667.pdf">Paper</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/city-bmv.png" alt="block-motion"></div>
+                <div class="text">
+                  <div class="title"><a name="bmv_eccv" href="https://arxiv.org/pdf/1803.07742.pdf">Fast Semantic Segmentation on Video Using Block Motion-Based Feature Interpolation</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>,
+                    <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a>
+                  </div>
+                  <div>
+                    <span class="venue"><a href="http://eecs.oregonstate.edu/IWVS_workshop/">ECCV 2018 IWVS</a></span>
+                    <span class="tag"><a href="https://arxiv.org/pdf/1803.07742.pdf">Paper</a></span>
+                  </div>
+                </div>
+              </div>
+
+            <div class="text anchor" id="sop"><h4>Security and Online Payments</h4></div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/pyramid.png" alt="bitcoin-wallets"></div>
+                <div class="text">
+                  <div class="title"><a name="opt_jcs" href="./assets/bitcoin-wallets-paper.pdf">Determining an Optimal Threshold on the Online Reserves of a Bitcoin Exchange</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>,
+                    <a href="https://www.cs.princeton.edu/~felten/">Edward Felten</a>,
+                    <a href="http://stevengoldfeder.com/">Steven Goldfeder</a>
+                  </div>
+                  <div>
+                    <span class="venue"><a href="https://academic.oup.com/cybersecurity/advance-article/doi/10.1093/cybsec/tyy003/5066370">JCS 2018</a></span>
+                    <span class="tag"><a href="./assets/bitcoin-wallets-paper.pdf">Paper</a></span>
+                    <span class="tag"><a href="https://github.com/SamvitJ/WEIS2016-Programs">GitHub</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/portal.png" alt="portal-micropayments"></div>
+                <div class="text">
+                  <div class="title"><a name="portal_thesis" href="./assets/senior-thesis.pdf">Portal: Micropayments on the Paywalled Internet</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>
+                    (Advisor: <a href="https://www.cs.princeton.edu/~bwk/">Brian Kernighan</a>)
+                  </div>
+                  <div>
+                    <span class="venue">Senior Thesis</span>
+                    <span class="tag"><a href="./assets/senior-thesis.pdf">Paper</a></span>
+                    <span class="tag"><a href="./assets/portal-slides.pdf">Slides</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="publication">
+                <div class="img"><img class="img_responsive" src="images/icons/micro.png" alt="portal-micropayments"></div>
+                <div class="text">
+                  <div class="title"><a name="portal_thesis" href="./assets/micropayments-paper.pdf">Monetization on the Modern Web: Automated Micropayments from Bitcoin-Enabled Browsers</a></div>
+                  <div class="authors">
+                    <span class="sj">Samvit Jain</span>
+                    (Advisor: <a href="http://randomwalker.info/">Arvind Narayanan</a>)
+                  </div>
+                  <div>
+                    <span class="venue">Technical Report</span>
+                    <span class="tag"><a href="./assets/micropayments-paper.pdf">Paper</a></span>
+                    <span class="tag"><a href="https://github.com/SamvitJ/Bitcoin-micropayments">GitHub</a></span>
+                  </div>
+                </div>
+              </div>
+
+          </script>
 
         </div>  <!-- content -->
 
