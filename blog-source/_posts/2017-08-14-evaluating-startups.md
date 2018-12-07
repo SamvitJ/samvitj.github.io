@@ -28,7 +28,6 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Current traction](#current-traction) (i.e. users, revenue)
 - [Growth rate](#growth-rate) (i.e. users, revenue)
 - [Number of employees](#number-of-employees)
-- [Strength of founders](#strength-of-founders)
 - [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups-2/#strength-of-early-employees)
 - [Investor pedigree](http://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
 - [Funding history](http://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
@@ -139,7 +138,7 @@ Take this formula for what it is: a rough *heuristic* for your ownership stake i
 
 For more precise predictions, please see this [calculator](https://tldroptions.io/), which takes different inputs, but offers upside estimates for a range of possible company outcomes.
 
-#### Strength of founders
+<!-- #### Strength of founders
 
 <div class="rating" data-rate="4.5">
   <i class="star-1">★</i>
@@ -153,19 +152,7 @@ Silicon Valley loves to lionize its founders. To be a successful founder is to b
 
 My goal in this section is to filter through the hype, and really evaluate whether founders matter. Do one or two people at the beginning of a startup's history, who do a tiny fraction of the total work that goes into building a massively successful company, really deserve that much credit? How disproportionate is a founder's influence on the eventual success and failure of the company? And what founder qualities and qualifications are necessary for, and, more interestingly, *indicative* of a startup's future success?
 
-<!-- According to Peter Thiel, founders themselves often exaggerate their own quirks and extreme characteristics (both good and bad) to appear larger-than-life and otherworldly. -->
-
 ...
-
-<!-- ...
-
-While their biographies may sound impressive, none of these accomplishments are particularly uncommon, and I challenge you to hold the founders of your potential employer to the same high standard. Can you write a 2-sentence bio of each of the founders that reflects a similar caliber of achievement?
-
-In your description, try to focus on concrete accomplishments, as opposed to proper nouns. Instead of writing, "Sarah graduated from Harvard as a public policy major, and worked at Goldman Sachs for two years," write: "Sarah graduated from Harvard, where she worked to develop novel financial instruments allowing emigrants from oppressive regimes to remotely liquidate their assets, even testing her research in a live study based in Syria. While at Goldman Sachs, she helped to expand the bank's portfolio of consumer fintech companies, and personally oversaw late-stage financing for three bitcoin and blockchain-related startups."
-
-This second Sarah would make a great founding CEO or COO for a blockchain-based, smart property startup. Sarah is a self-starter, with a history of building new things and sticking with them until they see adoption. She has a demonstrated interest in shaping the future through invention, as opposed to simply an interest in advancing herself. She has also successfully faced competition - it is not easy to get accepted to Harvard, and it is not easy to get a job at Goldman Sachs.
-
-So Sarah may have what it takes to beat the odds that the company she'll start will get killed - by its burn rate, by disputes between its founders, by its failure to find product-market fit, by its competitors, by shifts in the market.[^4] -->
 
 What kinds of past experience are signs of a great founder?
 
@@ -173,7 +160,7 @@ What kinds of past experience are signs of a great founder?
 
 - **The fourth-time founder, aka the serial entrepreneur** - I have more mixed feelings about this one. Being a serial entrepreneur is considered a great resume item in some circles, and there are of course a few examples of wildly successful born-again founders - notably, Elon Musk, and even Steve Jobs, who founded NeXT Computer between 1980s Apple and iPod/iPhone-era Apple. Entrepreneurship is a difficult journey, and the greatest founders tend to treat their companies as their life's work. A long history of eight-figure acquisitions doesn't speak very well to a founder's dedication, and their ability to navigate difficult times. At the same time, an exceptional past result (e.g. a company sold for $500 million) is very strong evidence of caliber and ability to execute.
 
-- **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably [overestimate](https://women2.com/stories/2017/8/16/my-journey-from-struggling-actress-to-successful-tech-ceo) how hard it is for smart people to immerse themselves in new, hard problems they care about.
+- **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably [overestimate](https://women2.com/stories/2017/8/16/my-journey-from-struggling-actress-to-successful-tech-ceo) how hard it is for smart people to immerse themselves in new, hard problems they care about. -->
 
 *Continue reading*: **[Part II](http://www.samvitjain.com/blog/evaluating-startups-2/)** of Evaluating Startups
 
