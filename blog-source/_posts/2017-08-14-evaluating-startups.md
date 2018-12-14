@@ -28,7 +28,7 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Current traction](#current-traction) (i.e. users, revenue)
 - [Growth rate](#growth-rate) (i.e. users, revenue)
 - [Number of employees](#number-of-employees)
-- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups-2/#strength-of-early-employees)
+- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees)
 - [Investor pedigree](http://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
 - [Funding history](http://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
 - [Location](http://www.samvitjain.com/blog/evaluating-startups-2/#location)
@@ -162,7 +162,42 @@ What kinds of past experience are signs of a great founder?
 
 - **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably [overestimate](https://women2.com/stories/2017/8/16/my-journey-from-struggling-actress-to-successful-tech-ceo) how hard it is for smart people to immerse themselves in new, hard problems they care about. -->
 
+#### Strength of early employees
+
+<div class="rating" data-rate="4">
+  <i class="star-1">★</i>
+  <i class="star-2">★</i>
+  <i class="star-3">★</i>
+  <i class="star-4">★</i>
+  <i class="star-5">★</i>
+</div>
+
+*Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
+
+I use the following (coarse) heuristic for judging the quality of the early employees at a company. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended weaker schools and worked for companies I've never heard of.
+
+In my experience, the best startups have many employees who attended well-known schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of the most valuable private companies: Uber, Airbnb, SpaceX, Pinterest, Stripe. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
+
+1. The founders and their first hires do not have a network that extends to such employees.
+
+2. The startup cannot convince highly credentialed employees to come work for them.
+
+The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of potential hires. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
+
+The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. This I know from personal experience: I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at Princeton, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
+
+Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^5] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
+
+The one thing that distinguishes students at top schools is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Harvard grads to join your company, you are either really good at creating hype, or are genuinely offering them an amazing opportunity.
+
+Note that I'm definitely not suggesting that great early employees come only from good schools, or that all (or even most) students at good schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-McKinsey employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
+
+One could imagine a better metric for evaluating early engineering hires - say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees. There's also an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
+
+You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and often take on many of the leadership positions within the company. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
+
 *Continue reading*: **[Part II](http://www.samvitjain.com/blog/evaluating-startups-2/)** of Evaluating Startups
+
 
 ### Footnotes
 
@@ -189,5 +224,7 @@ $$
 
 [^4]: With this statement, I am perpetuating the very imprecise misconception that "most startups fail". There are two problems with this aphorism - the definition of "startup" and the definition of "fail". If we define "startups" as companies that have at least raised a Series A round, and "fail" as the failure to make any money for the founders, then the statistics begin to look a lot better.</br></br>
 Many, many companies get acquired in the $5-200 million range. Many of these deals are not publicized, since in some cases, the product is shut down after the acquisition, and in other cases, the investors who backed the company in its later rounds of funding lose money. Such acquisitions still aren't failures, in any reasonable sense of the word, for the founders, the early investors, and the early employees.</br></br>
-Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If "risk" means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then an extremely stable but low growth potential opportunity could be [risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) as well.
+Startups can be risky, but you have to be precise about what you mean by "risk" and "failure". If "risk" means not making as much money as you could, not growing as much as you could, and not advancing in your career as much as you could, then an extremely stable but low growth potential opportunity could be considered [risky](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) as well.
+
+[^5]: From Ben Horowitz's excellent book about the trials and tribulations of starting a company, *The Hard Thing About Hard Things*.
 
