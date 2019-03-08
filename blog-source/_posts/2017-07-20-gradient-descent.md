@@ -19,7 +19,7 @@ Stochastic gradient descent is an optimization algorithm. In machine learning, w
 
 As you may know, supervised machine learning generally consists of two phases:[^1] training (generating a model) and inference (making predictions with that model). Training involves finding values for a model's *parameters*, $\theta$, such that two, often conflicting, goals are met: 1) error on the set of training examples is minimized, and 2) the model generalizes to new data.
 
-Optimization algorithms are the means used to find these *optimal* parameters, and develop robust models. Some examples of optimization algorithms include gradient descent (for simpler linear models), the conjugate gradient method, BFGS, L-BFGS, and backpropagation (for neural networks).
+Optimization algorithms are the means used to find these *optimal* parameters, and develop robust models. Some examples of optimization algorithms include gradient descent, the conjugate gradient method, BFGS, and L-BFGS.
 
 ### From the beginning
 
