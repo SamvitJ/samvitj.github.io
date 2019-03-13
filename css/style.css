@@ -1,0 +1,42 @@
+a {
+color: #cc0000;
+text-decoration:none;
+}
+
+a:focus, a:hover {
+color: #990000;
+text-decoration:none;
+}
+
+body,td,th {
+	font-family: 'Titillium Web';
+	font-size: 16px;
+	font-weight: 400
+}
+papertitle {
+	font-family: 'Titillium Web';
+	font-size: 17px;
+	font-weight: 1000
+}
+strong {
+	font-family: 'Titillium Web';
+	font-size: 16px;
+	font-weight: 800
+}
+heading {
+	font-family: 'Titillium Web';
+	font-size: 27px;
+	font-weight: 600
+}
+
+subheading {
+	font-family: 'Titillium Web';
+	font-size: 20px;
+	font-weight: 600
+}
+
+
+bibtext {
+  font-family: monospace;
+	font-size: 14px;
+}
