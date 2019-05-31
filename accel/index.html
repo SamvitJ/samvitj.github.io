@@ -1,0 +1,282 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- ======================================================================= -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<style type="text/css">
+  body {
+    font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+  h1 {
+    font-weight:300;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom:5px;
+    padding-top:30px;
+  }
+</style>
+
+
+<html>
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102797768-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-102797768-1');
+  </script>
+
+  <title>Accel</title>
+  <meta property="og:title" content="Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video" />
+  <meta property="og:image" content="./graphics/accel.pdf" />
+  <meta property="og:image:width" content="3000" />
+  <meta property="og:image:height" content="800" />
+  </head>
+
+  <body>
+    <br>
+          <center>
+            <span style="font-size:36px">Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video</span>
+        <br><br>
+        <span style="font-size:24px">CVPR 2019</span>
+        <br><br>
+      <table align=center width=600px>
+            <tr>
+                    <td align=center width=100px>
+              <center>
+                <span style="font-size:24px"><a target="_blank" href="http://www.samvitjain.com/">Samvit Jain</a></span>
+                </center>
+                </td>
+                    <td align=center width=100px>
+              <center>
+                <span style="font-size:24px"><a target="_blank" href="https://people.eecs.berkeley.edu/~xinw/">Xin Wang</a></span>
+                </center>
+                </td>
+                    <td align=center width=100px>
+              <center>
+                <span style="font-size:24px"><a target="_blank" href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a></span>
+                </center>
+                </td>
+        </table>
+
+          <table align=center width=300px>
+            <tr>
+   
+              <td align=center width=150px>
+              <center>
+                <span style="font-size:24px"><a target="_blank" href="https://arxiv.org/pdf/1807.06667.pdf"> [Paper]</a></span>
+                </center>
+                </td>
+              <td align=center width=150px>
+              <center>
+                <span style="font-size:24px"><a target="_blank" href='./slides.pdf'> [Slides]</a></span>
+                </center>
+                </td>
+
+            </tr>
+        </table>
+          </center>
+
+
+        <br>
+        <table align=center width=850px>
+          <tr>
+            <td width=400px>
+              <center>
+                 <a href="./graphics/accel.png"><img src="./graphics/accel.png" width="100%"></img></href></a><br>
+              </center>
+            </td>
+          </tr>
+        </table>
+
+      <hr>
+
+        <table align=center width=850px>
+          <center><h1>Abstract</h1></center>
+        </table>
+          We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video.
+
+
+        <br><br>
+      </table>
+
+          <br>
+      <hr>
+
+
+        <!-- <table align=center width=550px> -->
+        <table align=center width=425px>
+        <center><h1>Visualizations</h1></center>
+          <tr>
+
+            <a href="./graphics/gifs/out1/dff.gif"><img src = "./graphics/gifs/out1/dff.gif" width="30%"></img></href></a> &nbsp &nbsp
+            <a href="./graphics/gifs/out1/dl18.gif"><img src = "./graphics/gifs/out1/dl18.gif" width="30%"></img></href></a> &nbsp &nbsp
+            <a href="./graphics/gifs/out1/a18.gif"><img src = "./graphics/gifs/out1/a18.gif" width="30%"></img></href></a>
+            <br><br>
+
+            <a href="./graphics/gifs/out2/dff.gif"><img src = "./graphics/gifs/out2/dff.gif" width="30%"></img></href></a> &nbsp &nbsp
+            <a href="./graphics/gifs/out2/dl18.gif"><img src = "./graphics/gifs/out2/dl18.gif" width="30%"></img></href></a> &nbsp &nbsp
+            <a href="./graphics/gifs/out2/a18.gif"><img src = "./graphics/gifs/out2/a18.gif" width="30%"></img></href></a>
+            <br>
+
+          </tr>
+        </table>
+      <br>
+
+      <br>
+      <hr>
+
+      <center>
+      <h1>Video</h1>
+      <table border="0" align="center" cellspacing="0" cellpadding="20">
+          <td align="center" valign="middle">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6RzKuM7JzdU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </td>
+      </table>
+      </center>
+
+      <br>
+      <hr>
+
+        <!-- <table align=center width=550px> -->
+        <table align=center width=800px>
+      <center><h1>Paper</h1></center>
+          <tr>
+          <td><a href="https://arxiv.org/pdf/1807.06667.pdf"><img class="layered-paper-big" style="height:175px" src="./graphics/title-page.png"/></a></td>
+          <td><span style="font-size:14pt">Samvit Jain, Xin Wang, Joseph E. Gonzalez<br>
+          <i>Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video</i><br>
+          In CVPR, 2019 (Oral Presentation)<br>
+          (hosted on <a href="https://arxiv.org/pdf/1807.06667.pdf">arXiv</a>)</a>
+          <span style="font-size:4pt"><a target="_blank" href="https://arxiv.org/pdf/1807.06667.pdf"><br></a>
+          </span>
+          </td>
+                  </td>
+              </tr>
+        </table>
+      <br><br>
+
+        <hr>
+
+        <br>
+        <table align=center width=1100px>
+          <tr>
+            <td width=400px>
+              <left>
+          <center><h1>Acknowledgements</h1></center>
+        </table>
+        We would like to thank Trevor Darrell for a helpful conversation and his comments on a draft. In addition to NSF CISE Expeditions Award CCF-1730628, this research is supported by gifts from Alibaba, Amazon Web Services, Ant Financial, Arm, CapitalOne, Ericsson, Facebook, Google, Huawei, Intel, Microsoft, Nvidia, Scotiabank, Splunk and VMware.
+          <br><br>
+        </table>
+
+      </left>
+    </td>
+       </tr>
+    </table>
+
+    <br><br>
+
+
+</body>
+</html>
