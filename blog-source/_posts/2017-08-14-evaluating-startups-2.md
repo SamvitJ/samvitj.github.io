@@ -35,7 +35,7 @@ The second reflects a little less favorably, but is understandable. Recruiting a
 
 Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
 
-The one thing that distinguishes students at top schools (and employees at top companies) is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Google employees to join your company, you are either really good at creating hype, or are genuinely offering  an amazing opportunity.
+The one thing that distinguishes students at top schools (and employees at top companies) is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Google engineers to join your company, you are either really good at creating hype, or are genuinely offering an amazing opportunity.
 
 Note that I'm definitely not suggesting that great early employees come only from good schools, or that all (or even most) students at good schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-McKinsey employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
 
@@ -97,7 +97,7 @@ This doesn't mean that it is always better to join a company that has raised a S
 
 A company that has raised no external funding should be considered "extremely high risk", and not being offered founder-level equity at such a company should be met with extreme skepticism. (Especially because you are likely to be working for little to no pay for a while.)
 
-A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. Seeds rounds are usually raised from individual investors (i.e. angels) or specialized funds, such as Y Combinator, Founders Fund, and SV Angel, and generally [involve](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) on the order of $0.5-1 million in capital. <!--In 2016, the [median seed round] size was $0.63 million, and the average size was $1.14 million. Investors typically take around 20% of the company in early funding rounds, so this indicates a post-money valuation of $2-8 million.-->
+A company that has raised a seed round is officially a funded startup, but is still "high risk", as only about 40% of seed-funded companies go on to raise Series A rounds, and only about 9% get acquired. Seeds rounds are usually raised from individual investors (i.e. angels) or specialized funds, such as Y Combinator, Founders Fund, and SV Angel, and generally [involve](https://techcrunch.com/2016/09/07/crunchbase-sees-rise-in-average-seed-round-in-2016/) on the order of $0.5-1 million in capital.
 
 ![<sup>**Figure 1**: Startup funding drop-off curve, not including acquisitions (Source: [TechCrunch](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/))</sup>](../assets/evaluating-startups/techcrunch-funding.png){ width=100% }
 
@@ -113,7 +113,7 @@ A point to note: companies that have raised a Series B round or beyond should be
 
 Note also that raising an advanced stage of funding (e.g. a Series D or E round) doesn't signify with certainty that the company is immune from death. Silicon Valley history is replete with examples of startups that were valued at or over $1 billion, and were later acquired for much less than that (e.g. Gilt Groupe, One Kings Lane, LivingSocial) - i.e. companies that raised a lot of capital, and then floundered. So I equate rounds of funding with neutralized risk simply as a rough heuristic for estimating the risk-reward tradeoff involved in joining a company.
 
-I would highly recommend asking a founder or executive about the company's current runway during the interview process. This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending (i.e. burn rate), were it not to raise any more capital. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
+I would highly recommend asking a founder or executive the following question during the interview process: what is company's current projected runway? This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending (i.e. burn rate), were it not to raise any more funding. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
 
 <!-- Discuss YC -->
 
@@ -170,9 +170,7 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
   1. How much do users love the product? Do they tell their friends about it?
 
   2. What kind of product is the company building? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
-
     - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Uber vs. Uber for pet sitting).
-
     - **10x products.** These are services that are at least an order of magnitude better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Yahoo/Alta Vista).
 
 The great paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these are the ideas that excite and attract smart people, and that inspire loyalty in trying times.
