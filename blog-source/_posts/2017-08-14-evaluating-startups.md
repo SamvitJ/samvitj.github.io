@@ -17,7 +17,7 @@ Choosing a company to work for is an investment. While a venture capitalist migh
 
 The returns you make can take a number of forms - career advancement, personal growth and fulfillment, and financial payoff. Making any decision comes with an opportunity cost - the foregone returns of another choice you could have made.
 
-Finally, unlike a venture capitalist, as an employee, you commit to work at a single place, so you can only make one investment at any given point in time. So while Marc Andreessen might be okay with a 1-in-10 hit rate,[^1] you have to set the bar a little higher.
+Finally, unlike a venture capitalist, as an employee, you commit to work at a single place, so you can only make one investment at any given point in time. So while Marc Andreessen might be okay with a 1-in-10 hit rate[^1], you have to set the bar a little higher.
 
 All of this is not to paint the decision as a paralyzingly difficult one, but to place it in its proper context - as a prospective employee, *you* are an investor, and you evaluate companies as much as they evaluate you.
 
@@ -128,7 +128,7 @@ For more precise predictions, please see this [calculator](https://tldroptions.i
 
 #### Strength of founders
 
-<div class="rating" data-rate="4.5">
+<div class="rating" data-rate="4">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -142,9 +142,9 @@ Given more time (and space), I'd like to sit down and filter through the hype, a
 
 For now, though, let's start with a simpler question. What kinds of past experience indicate that a founder might build a successful company?
 
-- **Pivotal role in a very successful company** - This is rare, but a very strong sign when true. Two great examples are Dustin Moskovitz, a co-founder of Facebook, and Adam D'Angelo, Facebook's first CTO, who each went on to start highly effective companies, Asana and Quora, respectively. Dustin and Adam combine front-line experience in a [rocket ship](https://www.forbes.com/sites/kashmirhill/2012/05/24/sheryl-sandberg-to-harvard-biz-grads-find-a-rocket-ship/#7b3127313b37), with a genuine thirst to build companies of their own - both were in some sense sidelined at circa 2008 Facebook, which only had room for one real leader at its helm. Asana emerged as an internal project at Facebook, and Adam left two years of equity at Facebook on the table to found Quora, strong circumstantial evidence that the problems they chose to tackle were relevant and valuable.
+- **Pivotal role in a very successful company** - This is rare, but could be a strong signal when true, mostly because successful companies tend to recruit strong early employees and managers, and hypergrowth can be a formative leadership experience. Two examples are Dustin Moskovitz, a co-founder of Facebook, and Adam D'Angelo, Facebook's first CTO, who each went on to start high-profile companies, Asana and Quora, respectively. Dustin and Adam combine front-line experience in a [rocket ship](https://www.forbes.com/sites/kashmirhill/2012/05/24/sheryl-sandberg-to-harvard-biz-grads-find-a-rocket-ship/#7b3127313b37), with a genuine thirst to build companies of their own - both were in some sense sidelined at circa 2008 Facebook, which only had room for one real leader at its helm. Asana emerged as an internal project at Facebook, and Adam left two years of equity at Facebook on the table to found Quora, strong circumstantial evidence that the problems they chose to tackle were relevant and valuable.
 
-- **The fourth-time founder, aka the serial entrepreneur** - I have more mixed feelings about this one. Being a serial entrepreneur is considered a great resume item in some circles, and there are of course a few examples of wildly successful born-again founders - notably, Elon Musk, and even Steve Jobs, who founded NeXT Computer between 1980s Apple and iPod/iPhone-era Apple. Entrepreneurship is a difficult journey, and the greatest founders tend to treat their companies as their life's work. A long history of minor acquisitions doesn't speak very well to a founder's dedication, and their ability to navigate difficult times. At the same time, an exceptional past result (e.g. a company sold for $500 million) is very strong evidence of caliber and ability to execute.
+- **The fourth-time founder, aka the serial entrepreneur** - I have mixed feelings about this one. Being a serial entrepreneur is considered a great resume item in some circles, and there are of course a few examples of wildly successful born-again founders - notably, Elon Musk, and even Steve Jobs, who founded NeXT Computer between 1980s Apple and iPod/iPhone-era Apple. Entrepreneurship is a difficult journey, and the greatest founders tend to treat their companies as their life's work. A long history of minor acquisitions doesn't speak very well to a founder's dedication, and their ability to navigate difficult times. At the same time, an exceptional past result (e.g. a company sold for $500 million) is very strong evidence of caliber and ability to execute.
 
 - **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably [overestimate](https://women2.com/stories/2017/8/16/my-journey-from-struggling-actress-to-successful-tech-ceo) how hard it is for smart people to immerse themselves in new, hard problems they care about.
 
@@ -153,7 +153,7 @@ For now, though, let's start with a simpler question. What kinds of past experie
 
 ### Footnotes
 
-[^1]: The [number one rule](http://www.paulgraham.com/swan.html) of startup investing is that nearly all of an investor's returns are concentrated in a few big winners. As of 2012, three-quarters of Y Combinator's $10 billion portfolio value was concentrated in two companies: Dropbox and Airbnb. This, combined with the difficulty of identifying the biggest winners in their infancy, means that early-stage investors go out of their way to court a large number of companies with a small chance at astronomical success.
+[^1]: The [number one rule](http://www.paulgraham.com/swan.html) of startup investing is that nearly all of an investor's returns are concentrated in a few big winners. This, combined with the difficulty of identifying the biggest winners in their infancy, means that early-stage investors go out of their way to court a large number of companies with a small chance at astronomical success.
 
 [^2]: My heuristic for your expected ownership stake in a company, reproduced here:
 $$

@@ -11,7 +11,7 @@ comments: true
 
 #### Strength of early employees
 
-<div class="rating" data-rate="4">
+<div class="rating" data-rate="4.5">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -45,7 +45,7 @@ You might also ask: why does hiring strong early employees matter so much anyway
 
 #### Investor pedigree
 
-<div class="rating" data-rate="4">
+<div class="rating" data-rate="4.5">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
