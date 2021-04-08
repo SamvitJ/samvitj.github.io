@@ -23,17 +23,15 @@ comments: true
 
 I often use the following (very coarse) heuristic for judging the quality of a startup. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended schools and worked for companies I've never heard of.
 
-In my experience, the best startups have many employees who attended well-known schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of the most valuable private companies: Uber, Airbnb, SpaceX, Pinterest, Stripe. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
+In my experience, the best startups have many employees who attended well-known schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of the most valuable private companies. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
 
-1. The founders and their first hires do not have a network that extends to such employees.
+1. The founders do not have a network that extends to such employees.
 
 2. The startup cannot convince highly credentialed employees to come work for them.
 
 The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of potential hires. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
 
-The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. This I know from personal experience: I spent several months in early 2015 searching for Employee #1 for my nascent, pre-seed venture, [LinkMeUp](http://www.linkmeupmessenger.com/). I set up shop at a startup career fair at my university, posted in college and hackathon Facebook groups, and even upgraded to LinkedIn Premium, where I sent many an unsolicited message to undergrads in my extended network. I interviewed several candidates for an Android engineering role, some of whom I turned down and several others more who turned *me* down.
-
-Moral of the story: it's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
+The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. It's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
 
 The one thing that distinguishes students at top schools (and employees at top companies) is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Google engineers to join your company, you are either really good at creating hype, or are genuinely offering an amazing opportunity.
 
@@ -53,7 +51,7 @@ You might also ask: why does hiring strong early employees matter so much anyway
   <i class="star-5">★</i>
 </div>
 
-If I was looking for a job, and I saw that a company was backed by Sequoia Capital, I might just be tempted to apply - even if their founders were five years old.
+If I was looking for a job, and I saw that a company was backed by Sequoia Capital, I might just be tempted to apply, knowing nothing else about the company.
 
 Here's a list of companies whose Series A or B rounds (or both) were led by Sequoia: Apple, Google, Yahoo!, Stripe, Dropbox, YouTube, Instagram, Airbnb, and WhatsApp.
 
@@ -67,11 +65,11 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 > We help the daring build legendary companies.
 
-If that doesn't capture the ethos of Silicon Valley, I don't know what does.
+This is good marketing, but also really does capture the ethos of Silicon Valley.
 
 This is a criteria that I would intuitively award more stars to, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
 
-Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins Caufield Byers (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^2] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^2] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
 Even the best firms, however, often miss great deals, so the failure to raise funding from one of these groups does not necessarily imply weakness. This is particularly true of companies founded outside of the U.S., and of very promising founders who may have weaker connections to Silicon Valley's old guard (though these firms have gotten pretty good at identifying unknown upstarts).
 
@@ -105,7 +103,7 @@ A company that has raised a seed round is officially a funded startup, but is st
 
 A company that has raised a Series A round should be considered "moderate risk". Of companies that raise an A round, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die. In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
 
-Series B round companies should be considered "low risk".[^4] For one, companies that have raised a Series B are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million.
+Series B round companies should be considered "moderate to low risk".[^4] For one, companies that have raised a Series B are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. <!-- The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million. -->
 
 When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. not really a [startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^5]
 
@@ -113,9 +111,7 @@ A point to note: companies that have raised a Series B round or beyond should be
 
 Note also that raising an advanced stage of funding (e.g. a Series D or E round) doesn't signify with certainty that the company is immune from death. Silicon Valley history is replete with examples of startups that were valued at or over $1 billion, and were later acquired for much less than that (e.g. Gilt Groupe, One Kings Lane, LivingSocial) - i.e. companies that raised a lot of capital, and then floundered. So I equate rounds of funding with neutralized risk simply as a rough heuristic for estimating the risk-reward tradeoff involved in joining a company.
 
-I would highly recommend asking a founder or executive the following question during the interview process: what is company's current projected runway? This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending (i.e. burn rate), were it not to raise any more funding. Asking this question definitely does not constitute a faux pax, and an evasive answer should be cause for alarm.
-
-<!-- Discuss YC -->
+I would recommend asking a founder or executive the following question during the interview process: what is company's current projected runway? This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending (i.e. burn rate), were it not to raise any more funding. Asking this question definitely does not constitute a faux pax, and an evasive answer is a bad sign.
 
 #### Location
 
@@ -131,9 +127,9 @@ Every year, Wealthfront identifies a set of "career-launching" tech companies fo
 
 Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-companies-list/) identifies 132 such companies. Of these, about 61% are located in the San Francisco Bay Area, followed by 10% in New York, 5% in Boston, another 5% in Southern California, and 4% in Seattle. Of the Bay Area companies, about 58% are located in San Francisco itself.
 
-I've included the full table below for reference:
+<!-- I've included the full table below for reference:
 
-![<sup>**Figure 3**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% }
+![<sup>**Figure 3**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% } -->
 
 Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area or New York (and maybe Boston, Seattle, or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and (in many cases) connecting with its early adopters.
 
@@ -170,10 +166,12 @@ While I've addressed the basic criteria for evaluating startups, some of the mos
   1. How much do users love the product? Do they tell their friends about it?
 
   2. What kind of product is the company building? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
-    - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Uber vs. Uber for pet sitting).
-    - **10x products.** These are services that are at least an order of magnitude better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Yahoo/Alta Vista).
 
-The great paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these are the ideas that excite and attract smart people, and that inspire loyalty in trying times.
+    - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Uber vs. Uber for pet sitting).
+
+    - **10x products.** These are services that are at least an order of magnitude ("10x") better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Yahoo (1998)).
+
+A paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these ideas excite and attract smart people, and inspire loyalty in trying times.
 
 That said, do not discount products that [seem like toys](http://ben-evans.com/benedictevans/2017/5/24/not-even-wrong-ways-to-dismiss-technology) as trivialities. Facebook was once just a tool for Harvard students to stalk each other, and Snapchat was [something worse](https://techcrunch.com/2012/12/26/inside-snapchat-the-little-photo-sharing-app-that-launched-a-sexting-scare/). Today, Facebook connects two billion people around the world, and Snapchat enables a hundred million to communicate more authentically.
 
@@ -181,7 +179,7 @@ This is where the first criteria becomes useful. Early Facebook users [spent hou
 
 **A historical perspective**
 
-Through the dot com bust and the rise of mobile phones, three survivors emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based message exchange), the camera (i.e. the dual-facing, integrated recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Snap, and Uber.
+Through the dot com bust and the rise of mobile phones, three survivors emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based chat), the camera (i.e. the dual-facing, integrated recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Instagram/Snap, and Uber/Lyft.
 
 In a similar way, each technological wave spawns companies of all kinds, but the most persisting are the ones that encapsulate the simplest, most fundamental ideas. This is always easier to spot in retrospect, of course. The best companies tend to execute on ruthlessly narrow domains to start out, and then expand rapidly to realize a wider potential. Early Google ranked textual pages. Early Facebook connected college students. Early Amazon sold books. Today, Google is using AI to drive cars, Facebook is beaming down Wi-Fi to the world's disconnected, and Amazon is launching drones to automate delivery.
 
