@@ -153,7 +153,7 @@ The point here is that you should be open-minded about the kinds of problems you
 
 Relatedly, how much does the nature of the work that you do - full-stack, backend, cloud platform, data science - matter? Your interests matter, and developing an area of competitive advantage as an employee *can* matter. In startups, however, initial job title and responsibilities are generally [dwarfed](https://blog.wealthfront.com/choose-right-job-company/) in importance by the pace of the company's growth. A small, fast growing company will require you to wear many hats, regardless of what your job description says, and assuming it is well-managed, should reward strong performance commensurately.
 
-In [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Facebook and co-founder of Asana, makes the very relevant point that intelligent young people often overvalue working on the most challenging problems. I thought this was such a good point, actually, that I reproduced his exact words here:
+In [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Facebook and co-founder of Asana, makes the very relevant point that intelligent young people often overvalue working on the most challenging problems. His exact words:
 
 > A lot of graduating students think I just want to work on the hardest problems. If you are one of these people, I predict that you're going to change your perspective over time. I think that's kind of like a student mentality, of challenging yourself, and proving that you're capable of it. But as you get older, other things start to become important, like personal fulfillment, what are you going to be proud of, what are you going to want to tell your kids about, or your grandkids about, one day.
 
