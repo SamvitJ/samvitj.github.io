@@ -145,9 +145,9 @@ Two questions here:
 
   2. Is the product fundamentally inventive or dramatically better than its substitutes in the market today? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
 
-    - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Amazon, Uber, Airbnb).
+    - **0 to 1 products.** These are services that are the first in their kind -- not derivatives of existing ideas (e.g. Amazon, Uber, Airbnb).
 
-    - **10x products.** These are services that are at least an order of magnitude ("10x") better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Alta  Vista (1998)).
+    - **10x products.** These are services that are at least an order-of-magnitude ("10x") faster or cheaper than their substitutes today (e.g. [Google](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Alta  Vista (1998)).
 
 A paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these ideas excite and attract smart people, and inspire loyalty in trying times.
 
@@ -157,7 +157,7 @@ This is where the first criteria becomes useful. Early Facebook users [spent hou
 
 Of course this discussion is more relevant to consumer companies. For enterprise startups, it might be worth asking early customers what they feel about the product. What pain points does it solve for them? Will the solution scale?
 
-### Closing thoughts
+#### Closing thoughts
 
 **Verdict**
 
@@ -179,6 +179,8 @@ I deemed investor pedigree and strength of early employees to be the most import
 One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
 
 So the strength of the early employees reflects on the judgment of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) are what will make or break the company, given a promising early tailwind (the market).
+
+Besides the strength of the team (founders, investors, employees), the next most important criteria is broadly the "traction" and velocity of the company, which is reflected in the product traction, the funding history, the product quality, and the growth rate.
 
 **A historical perspective**
 
