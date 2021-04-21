@@ -34,8 +34,9 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Funding history](http://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
 - [Location](http://www.samvitjain.com/blog/evaluating-startups-2/#location)
 - [Personal fit](http://www.samvitjain.com/blog/evaluating-startups-2/#personal-fit)
+- [Product quality](http://www.samvitjain.com/blog/evaluating-startups-2/#product-quality)
 
-In the remainder of the post, I'll address each of these in turn, and provide a "star rating" to indicate how strongly you should consider each factor when making your decision.
+In the remainder of the post, I'll address each of these in turn, and provide a "rating" to indicate how strongly you should consider each factor when making your decision.
 
 I assume that you are interested in some combination of the following: personal growth, career growth, and financial upside. A convenient truth is that these three goals tend to be tightly correlated, and joining an early-stage, fast-growing startup with strong founders and talented employees is likely to satisfy all three.
 

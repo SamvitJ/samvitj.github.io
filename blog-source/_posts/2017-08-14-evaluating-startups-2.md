@@ -35,7 +35,7 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 This is good marketing, but also really does capture the ethos of Silicon Valley.
 
-This is a criteria that I would intuitively award 5 stars, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4.5 stars.
+This is a criteria that I would intuitively award 5 points, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4.5 points.
 
 Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^1] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
@@ -127,45 +127,58 @@ In [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Fac
 
 How will the work that you do add value to the world? As Moskovitz says, this is not a given for every startup. Life is too short to work for a company that does not do work that matters to you, and that matters period.
 
-### Closing thoughts
+#### Product quality
 
-**Verdict**
+<div class="rating" data-rate="3.5">
+  <i class="star-1">★</i>
+  <i class="star-2">★</i>
+  <i class="star-3">★</i>
+  <i class="star-4">★</i>
+  <i class="star-5">★</i>
+</div>
 
-So what's the verdict? Here are the criteria, as scored in this blog post:
+Last but not least is the product itself. What is the company building?
 
-- [Investor pedigree](#investor-pedigree) - 4.5 stars
-- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 stars
-- [Strength of founders](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-founders) - 4 stars
-- [Personal fit](#personal-fit) - 4 stars
-- [Funding history](#funding-history) - 3.5 stars
-- [Current traction](http://www.samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 stars
-- [Growth rate](http://www.samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 stars
-- [Location](#location) - 2.5 stars
-- [Number of employees](http://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 stars
+Two questions here:
 
-I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 stars), followed by strength of founders and personal fit (4 stars), funding history and current traction (3.5 stars), and so on.
+  1. How much do users (customers) love the product? Do they tell their friends (other employees) about it?
 
-One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
+  2. Is the product fundamentally inventive or dramatically better than its substitutes in the market today? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
 
-So the strength of the early employees reflects on the judgment of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) are what will make or break the company, given a promising early tailwind (the market).
+    - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Amazon, Uber, Airbnb).
 
-**Other factors**
-
-While I've addressed the basic criteria for evaluating startups, two of the most important markers of a company's destiny cannot be captured in numbers:
-
-  1. How much do users love the product? Do they tell their friends about it?
-
-  2. What kind of product is the company building? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
-
-    - **0 to 1 products.** These are services that are the first in their kind - not derivatives of existing ideas (e.g. Uber vs. Uber for pet sitting).
-
-    - **10x products.** These are services that are at least an order of magnitude ("10x") better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Yahoo (1998)).
+    - **10x products.** These are services that are at least an order of magnitude ("10x") better than whatever is used instead today (e.g. [Google search](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Alta  Vista (1998)).
 
 A paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these ideas excite and attract smart people, and inspire loyalty in trying times.
 
 That said, do not discount products that [seem like toys](http://ben-evans.com/benedictevans/2017/5/24/not-even-wrong-ways-to-dismiss-technology) as trivialities. Facebook was once just a tool for Harvard students to stalk each other, and Snapchat was [something worse](https://techcrunch.com/2012/12/26/inside-snapchat-the-little-photo-sharing-app-that-launched-a-sexting-scare/). Today, Facebook connects two billion people around the world, and Snapchat enables a hundred million to communicate more authentically.
 
 This is where the first criteria becomes useful. Early Facebook users [spent hours](https://www.youtube.com/watch?v=Lb4IcGF5iTQ) clicking from profile to profile (okay, maybe [some people](https://www.google.com/search?q=why+does+my+mom+use+facebook+so+much) still do this), so engrossing was the data that Facebook had made available on their friends. In its IPO filing, Snap [revealed](https://qz.com/901973/the-average-snapchat-user/) that the average daily active Snapchat user opens the app 18 times a day.
+
+Of course this discussion is more relevant to consumer companies. For enterprise startups, it might be worth asking early customers what they feel about the product. What pain points does it solve for them? Will the solution scale?
+
+### Closing thoughts
+
+**Verdict**
+
+So what's the verdict? Here are the criteria, as scored in this blog post:
+
+- [Investor pedigree](#investor-pedigree) - 4.5 points
+- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 points
+- [Strength of founders](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-founders) - 4 points
+- [Personal fit](#personal-fit) - 4 points
+- [Current traction](http://www.samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 points
+- [Funding history](#funding-history) - 3.5 points
+- [Product quality](#product-quality) - 3.5 points
+- [Growth rate](http://www.samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 points
+- [Location](#location) - 2.5 points
+- [Number of employees](http://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 points
+
+I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), the current traction, funding history, and product quality (3.5 points), and so on.
+
+One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
+
+So the strength of the early employees reflects on the judgment of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) are what will make or break the company, given a promising early tailwind (the market).
 
 **A historical perspective**
 
