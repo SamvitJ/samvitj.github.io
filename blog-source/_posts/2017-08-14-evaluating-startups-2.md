@@ -9,38 +9,6 @@ comments: true
 
 ### The criteria, continued
 
-#### Strength of early employees
-
-<div class="rating" data-rate="4.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
-</div>
-
-*Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
-
-I often use the following (very coarse) heuristic for judging the quality of a startup. I go on LinkedIn, and jump from profile to profile, looking at the schools they've attended and the companies they've worked for. I consider it a pretty big red flag if most attended schools and worked for companies I've never heard of.
-
-In my experience, the best startups have many employees who attended well-known schools and came from other well-known companies. This was true of early Google and early Facebook, and is true today of the most valuable private companies. If a startup doesn't have employees with these kinds of credentials, it says to me one of two things:
-
-1. The founders do not have a network that extends to such employees.
-
-2. The startup cannot convince highly credentialed employees to come work for them.
-
-The first is more benign than the second. Great founders come from lots of different places, and some may just not be connected to this rather restricted pool of potential hires. After the startup becomes a certain size, however, and reaches a certain level of notoriety, this excuse becomes a little weaker.
-
-The second reflects a little less favorably, but is understandable. Recruiting accomplished people is really, *really* hard. It's hard to convince people to turn down offers at Google, Facebook, Uber, Airbnb, etc. to come work for your shitty company that might fail. But that is exactly the task of a great founding team. They must be accomplished and inspiring enough that smart people want to work for them,[^1] and clear enough in their articulation of the company's vision to convince smart people that they have a chance at success.
-
-The one thing that distinguishes students at top schools (and employees at top companies) is that they tend to have the most options for what to do in the future, and often the highest opportunity cost for picking any one thing. So if you can convince Google engineers to join your company, you are either really good at creating hype, or are genuinely offering an amazing opportunity.
-
-Note that I'm definitely not suggesting that great early employees come only from good schools, or that all (or even most) students at good schools would make great early employees. Both of those statements are patently false. What I *am* saying is this: being able to recruit from top schools, or from top companies (e.g. ex-Google or ex-McKinsey employees), is a decent signal that a company prioritizes hiring strong people, and is successful at it.
-
-One could imagine a better metric for evaluating early engineering hires -- say, a documented record of involvement in successful software projects. Many in the tech industry, especially the vast majority who work on closed-source codebases, however, don't have such a portfolio. Moreover, this metric doesn't apply to non-technical employees. There's also an efficiency argument. A high level of due diligence is completely warranted for the founders of a company (i.e. picking a startup just because the founders went to Stanford is a terrible idea), but may not be necessary for getting a sense for the backgrounds of the early employees.
-
-You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and often take on many of the leadership positions within the company. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
-
 #### Investor pedigree
 
 <div class="rating" data-rate="4.5">
@@ -67,9 +35,9 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 This is good marketing, but also really does capture the ethos of Silicon Valley.
 
-This is a criteria that I would intuitively award more stars to, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4 stars.
+This is a criteria that I would intuitively award 5 stars, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4.5 stars.
 
-Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^2] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
+Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^1] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
 Even the best firms, however, often miss great deals, so the failure to raise funding from one of these groups does not necessarily imply weakness. This is particularly true of companies founded outside of the U.S., and of very promising founders who may have weaker connections to Silicon Valley's old guard (though these firms have gotten pretty good at identifying unknown upstarts).
 
@@ -91,7 +59,7 @@ On the flip side, not all companies funded by top-tier venture firms are excelle
 
 The number of rounds of funding raised by a company is a decent indicator of how much risk the startup has neutralized, or in other words, how likely the company is to succeed at some level.
 
-This doesn't mean that it is always better to join a company that has raised a Series C round over a company that has only raised a B round, because there is a tradeoff. The Series C company will be offering a smaller equity share, possibility significantly so, and thus less potential upside. In addition, some types of funding rounds can actually be indicative of problems in the company -- notably, down rounds and debt financing.[^3]
+This doesn't mean that it is always better to join a company that has raised a Series C round over a company that has only raised a B round, because there is a tradeoff. The Series C company will be offering a smaller equity share, possibility significantly so, and thus less potential upside. In addition, some types of funding rounds can actually be indicative of problems in the company -- notably, down rounds and debt financing.[^2]
 
 A company that has raised no external funding should be considered "extremely high risk", and not being offered founder-level equity at such a company should be met with extreme skepticism. (Especially because you are likely to be working for little to no pay for a while.)
 
@@ -103,11 +71,11 @@ A company that has raised a seed round is officially a funded startup, but is st
 
 A company that has raised a Series A round should be considered "moderate risk". Of companies that raise an A round, about 62.5% go on to raise a Series B round, and 7.5% get acquired, which implies that the other 30% likely die. In terms of career growth and financial upside, this is probably the best time to join a startup that scores highly on all of the other criteria. Series A companies still have high growth potential, and yet have been formally validated by a group whose full-time job it is to evaluate early-stage startups. As a prospective employee, you now have an additional data point: the reputation of the venture capital firm that led the Series A round.
 
-Series B round companies should be considered "moderate to low risk".[^4] For one, companies that have raised a Series B are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. <!-- The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million. -->
+Series B round companies should be considered "moderate to low risk".[^3] For one, companies that have raised a Series B are [almost always](http://www.nea.com/blog/what-size-series-a-round-can-you-expect-to-raise) generating revenue. Series B round investors look for evidence of healthy growth in users or customers since the A round, meaning that Series B companies have been validated not only on company fundamentals (team, product, market) but also on more complex signals, such as product-market fit. <!-- The [median Series B round](https://mattermark.com/series-b-round-sizes-increased-84-since-2008/) size, as of July 2015, was $18.4 million, implying that the median Series B company is valued on the order of $100 million. -->
 
-When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. not really a [startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^5]
+When evaluating a startup on its funding history, an important factor to consider is *when* the last round of funding was raised. A Series B company founded in 2005 that hasn't raised any venture capital since 2008, and has not IPOed, is either 1) reliant on its own revenue, and likely slow growing (i.e. not really a [startup](http://www.paulgraham.com/growth.html)), or 2) approaching death.[^4]
 
-A point to note: companies that have raised a Series B round or beyond should be offering a base salary that is competitive with that offered by larger, public companies. For new college grads, the [average base salary](https://www.glassdoor.com/Salaries/san-francisco-software-engineer-new-grad-salary-SRCH_IL.0,13_IM759_KO14,40.htm) offered by top-tier tech companies based in San Francisco was $110,000, as of mid-2017. Take this figure with a grain of salt (and, of course, don't neglect cost of living adjustments), but if you're being offered much less, you're either at a company with an unusual compensation structure (and should be offered a significantly above-average equity grant), or are not being made a fair offer.[^6]
+A point to note: companies that have raised a Series B round or beyond should be offering a base salary that is competitive with that offered by larger, public companies. For new college grads, the [average base salary](https://www.glassdoor.com/Salaries/san-francisco-software-engineer-new-grad-salary-SRCH_IL.0,13_IM759_KO14,40.htm) offered by top-tier tech companies based in San Francisco was $110,000, as of mid-2017. Take this figure with a grain of salt (and, of course, don't neglect cost of living adjustments), but if you're being offered much less, you're either at a company with an unusual compensation structure (and should be offered a significantly above-average equity grant), or are not being made a fair offer.[^5]
 
 Note also that raising an advanced stage of funding (e.g. a Series D or E round) doesn't signify with certainty that the company is immune from death. Silicon Valley history is replete with examples of startups that were valued at or over $1 billion, and were later acquired for much less than that (e.g. Gilt Groupe, One Kings Lane, LivingSocial) - i.e. companies that raised a lot of capital, and then floundered. So I equate rounds of funding with neutralized risk simply as a rough heuristic for estimating the risk-reward tradeoff involved in joining a company.
 
@@ -115,7 +83,7 @@ I would recommend asking a founder or executive the following question during th
 
 #### Location
 
-<div class="rating" data-rate="3.5">
+<div class="rating" data-rate="2.5">
   <i class="star-1">★</i>
   <i class="star-2">★</i>
   <i class="star-3">★</i>
@@ -131,7 +99,7 @@ Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-
 
 ![<sup>**Figure 3**: List of Wealthfront's "career-launching" companies, 2017 vs. 2016, by location (Source: [Wealthfront Blog](https://blog.wealthfront.com/2017-career-launching-companies-list/))</sup>](../assets/evaluating-startups/wealthfront-locations.png){ width=90% } -->
 
-Treat location as a fairly grainy, but binary signal of a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area or New York (and maybe Boston, Seattle, or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and (in many cases) connecting with its early adopters.
+Treat location as a low-pass filter on a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area or New York (and maybe Boston, Seattle, or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and (in many cases) connecting with its early adopters.
 
 #### Personal fit
 
@@ -145,7 +113,7 @@ Treat location as a fairly grainy, but binary signal of a company's prospects. A
 
 I want to play devil's advocate and argue that what a company builds may not actually be that indicative of whether the company would be a good fit for you. Let's say you're interested in machine learning, but you think enterprise tech is super boring.
 
-You could find a job at an MLaaS[^7] company which builds tools to help genomics researchers more efficiently construct data analytics pipelines. You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
+You could find a job at an MLaaS[^6] company which builds tools to help genomics researchers more efficiently construct data analytics pipelines. You thought you'd never enter a world in which companies use aggressive sales tactics to upsell overpriced software to other companies, but you come to realize that writing tools for a small number of clients who place extreme value in the products you build for them is actually quite fulfilling.
 
 You could also find a job at a consumer-facing company that uses machine learning to personalize the content it serves users, and to customize the ad copy it shows them based on the cookie-infested websites they visit. You realize that linear regressions still do pretty well on these kinds of tasks, and though you were initially very excited about contributing to a service that your friends use, it is not actually super riveting in the day-to-day to work there.
 
@@ -161,7 +129,29 @@ How will the work that you do add value to the world? As Moskovitz says, this is
 
 ### Closing thoughts
 
-While I've addressed the basic criteria for evaluating startups, some of the most important markers of a company's destiny cannot be captured in numbers.
+**Verdict**
+
+So what's the verdict? Here are the criteria, as scored in this blog post:
+
+- [Investor pedigree](#investor-pedigree) - 4.5 stars
+- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 stars
+- [Strength of founders](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-founders) - 4 stars
+- [Personal fit](#personal-fit) - 4 stars
+- [Funding history](#funding-history) - 3.5 stars
+- [Current traction](http://www.samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 stars
+- [Growth rate](http://www.samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 stars
+- [Location](#location) - 2.5 stars
+- [Number of employees](http://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 stars
+
+I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 stars), followed by strength of founders and personal fit (4 stars), funding history and current traction (3.5 stars), and so on.
+
+One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
+
+So the strength of the early employees reflects on the judgment of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) are what will make or break the company, given a promising early tailwind (the market).
+
+**Other factors**
+
+While I've addressed the basic criteria for evaluating startups, two of the most important markers of a company's destiny cannot be captured in numbers:
 
   1. How much do users love the product? Do they tell their friends about it?
 
@@ -196,19 +186,17 @@ So while you can't compare every company to Instagram, which [crossed](https://t
 
 ### Footnotes
 
-[^1]: From Ben Horowitz's excellent book about the trials and tribulations of starting a company, *The Hard Thing About Hard Things*.
+[^1]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, Oculus VR, and GitHub.
 
-[^2]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, Oculus VR, and GitHub.
-
-[^3]: Two kinds of funding rounds can actually be indicative of problems in a company. The first is down rounds. These are almost always bad, as they imply that a company was obliged to raise funding to stay alive, but had to do so at a lower valuation than in its previous round of funding - something that is bad for all existing shareholders of the company. The second kind is debt financing. In such a round, a company raises debt, which must be paid back with interest, instead of ordinary capital. This has become a common practice among very mature private companies, such as [Uber](https://www.theverge.com/2016/6/14/11936316/uber-leveraged-loan-two-billion-valuation-travis-kalanick) and [Snap](https://www.recode.net/2016/9/8/12845890/snapchat-banking-debt-credit-line-morgan-stanley) (before its IPO), which often need more cash, but either do not want to further dilute shareholders or cannot find a bank willing or able to invest at their current valuation. The general [consensus](https://www.thebalance.com/debt-financing-pros-and-cons-1200981) is that debt financing in later fundraising rounds is more acceptable than debt financing early on, but this is an intricate topic, and it's worth understanding the full implications of a potential employer's funding history.</br></br>
+[^2]: Two kinds of funding rounds can actually be indicative of problems in a company. The first is down rounds. These are almost always bad, as they imply that a company was obliged to raise funding to stay alive, but had to do so at a lower valuation than in its previous round of funding - something that is bad for all existing shareholders of the company. The second kind is debt financing. In such a round, a company raises debt, which must be paid back with interest, instead of ordinary capital. This has become a common practice among very mature private companies, such as [Uber](https://www.theverge.com/2016/6/14/11936316/uber-leveraged-loan-two-billion-valuation-travis-kalanick) and [Snap](https://www.recode.net/2016/9/8/12845890/snapchat-banking-debt-credit-line-morgan-stanley) (before its IPO), which often need more cash, but either do not want to further dilute shareholders or cannot find a bank willing or able to invest at their current valuation. The general [consensus](https://www.thebalance.com/debt-financing-pros-and-cons-1200981) is that debt financing in later fundraising rounds is more acceptable than debt financing early on, but this is an intricate topic, and it's worth understanding the full implications of a potential employer's funding history.</br></br>
 In particular, raising a form of capital called convertible debt in a seed round [can force](https://techcrunch.com/2012/08/31/thefunded-founder-institute-and-wilson-sonsini-debut-startup-friendly-seed-financing-vehicle-convertible-equity/) a company into bankruptcy if it fails to raise a Series A round within 12-18 months of the seed round. Recently, there has been move toward a more founder-friendly instrument called [convertible equity](https://www.lightercapital.com/blog/what-you-need-to-know-about-convertible-equity/), which does not need to be repaid and does not accumulate interest. Convertible equity retains the primary advantage of convertible debt: it delays valuation discussions until a startup is mature enough to be accurately priced. This can be complicated, however, by [valuation caps](https://blogs.wsj.com/experts/2015/08/28/how-misunderstanding-a-startups-valuation-cap-can-get-expensive/), a feature very often demanded by early stage investors.
 
-[^4]: In this discussion, I use terms such as "high risk" and "low risk", but defining risk is tricky, because the definition of success for a company's employees is stricter than the definition of success for the founders and early investors.</br></br>
+[^3]: In this discussion, I use terms such as "high risk" and "low risk", but defining risk is tricky, because the definition of success for a company's employees is stricter than the definition of success for the founders and early investors.</br></br>
 As an example, consider a liquidity event, say a $250 million acquisition, that occurs after a Series C round that values the company at $350 million. A $250 million acquisition is great news for the founders, who will likely earn $25-50 million a piece on their equity, and for the seed-stage and Series A round investors. But it is definitely *not* good news for the Series C round investors, and may not be a win for later employees, either. Employees who joined right after the Series C round were granted four years of stock options worth (say) $60,000 at the $350 million valuation, options now worth about $45,000. In the context of (say) a $115,000 annual base salary, this is not a huge monetary loss, but for a talented engineer, spending several years at such a company entails a separate, much higher opportunity cost.
 
-[^5]: An example of a startup that has done very well without raising much external capital is Atlassian, a Sydney, Australia-based company that builds productivity software (e.g. Jira, Confluence) for developers. Founded in 2002, Atlassian has been profitable since 2005, and in 2015, IPOed on the NASDAQ stock exchange at a $4.3 billion valuation. In 2010, Atlassian raised $60 million in secondary financing from Accel Partners. This was a [very unusual](http://www.businessinsider.com/atlassian-ceo-mike-cannon-brookes-accel-partners-2016-9) kind of funding round - the company already had $55 million in the bank, and raised the money as a way to offer employees liquidity for their options, and to bring in an external board member from Accel.
+[^4]: An example of a startup that has done very well without raising much external capital is Atlassian, a Sydney, Australia-based company that builds productivity software (e.g. Jira, Confluence) for developers. Founded in 2002, Atlassian has been profitable since 2005, and in 2015, IPOed on the NASDAQ stock exchange at a $4.3 billion valuation. In 2010, Atlassian raised $60 million in secondary financing from Accel Partners. This was a [very unusual](http://www.businessinsider.com/atlassian-ceo-mike-cannon-brookes-accel-partners-2016-9) kind of funding round - the company already had $55 million in the bank, and raised the money as a way to offer employees liquidity for their options, and to bring in an external board member from Accel.
 
-[^6]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise (strike) price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buyback program.
+[^5]: Where public companies and startups differ is in what they offer on top of the base salary. While public companies or late-stage startups may offer a cash bonus and RSUs (which become publicly tradable stock options on vesting), startups generally compensate via stock options, which must be purchased from the company at an exercise (strike) price, and which can generally only be sold once a company has gone public or gotten acquired. In some cases, however, it is possible to sell stock options on a private secondary market (e.g. to another venture capital firm), or back to the company during a stock buyback program.
 
-[^7]: Okay, I made this term up (MLaaS = machine learning as a service), but a quick [google search](https://www.google.com/search?q=mlaas) indicates that we may not actually be too far off from this phrase entering the canon.
+[^6]: Okay, I made this term up (MLaaS = machine learning as a service), but a quick [google search](https://www.google.com/search?q=mlaas) indicates that we may not actually be too far off from this phrase entering the canon.
 
