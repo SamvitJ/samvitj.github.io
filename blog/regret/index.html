@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Regret Minimization | Samvit Jain</title>
+	<link rel="stylesheet" href="http://www.samvitjain.com/blog/css/text.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/text.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="http://www.samvitjain.com/blog/css/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+  <div id="header">
+    <h1><a href="http://www.samvitjain.com">Samvit Jain</a>'s <a href="http://www.samvitjain.com/blog">blog</a></h1>
+<span> </span>
+  </div>
+  <hr />
+<div class="content">
+    <div class="post">
+
+<h2 class="post-title"><a href="http://www.samvitjain.com/blog/regret/">Regret Minimization</a></h2>
+
+<p class="date">08 Sep 2021</p>
+
+<p>There’s a well-known quote from a famous businessperson of our time that goes something like:</p>
+<blockquote>
+<p>I wanted to project myself forward to age 80 and say, ‘OK, I’m looking back on my life. I want to minimise the number of regrets I have.’ And I knew that when I was 80, I was not going to regret having tried this. I was not going to regret trying to participate in this thing called the Internet that I thought was going to be a really big deal. I knew that if I failed, I wouldn’t regret that. But I knew the one thing I might regret is not ever having tried. I knew that that would haunt me every day.</p>
+</blockquote>
+<p>Regret minimization is a framework for evaluating important life decisions. Personally, I have found it difficult to apply to my own life, and in this post, I make a case for why regret minimization is more complicated than it seems.</p>
+<p>To start, what are some examples of important life decisions to which we might apply regret minimization? Such choice paralysis might just be an affliction of the young and overly ambitious, but here are some possibilites:</p>
+<ol type="1">
+<li><p>Should I move across the country for opportunity X?</p></li>
+<li><p>Should I emigrate to the U.S.?</p></li>
+<li><p>Should I choose company Y or company Z? (Which job offer should I take?)</p></li>
+<li><p>Should I get a graduate degree (e.g., a PhD, an MBA, etc.)?</p></li>
+<li><p>Should I start a company?</p></li>
+</ol>
+<p>According to regret minimization, we should project ourselves into the future and consider which path we would regret not taking more. Will I regret not moving for that job opportunity I once had? Will I always regret that I didn’t get a PhD?</p>
+<p>Here are some challenges with regret minimization:</p>
+<h3 id="you-dont-know-what-you-will-regret">You don’t know what you will regret</h3>
+<p>Our values change. I might value upside potential in my 20s, but value stability more in my 30s. So choice that was good for 25-year-old me may not be as good for 35-year-old me. In this specific case, regret minimization based on my current values may bias me toward a more risk-seeking path.</p>
+<p>The world can also change. Joining a startup doing X may have been a good idea in 20YZ, but if the funding climate for X dries up subsequently, then the startup might fail. The cost? Some years of lost earnings and career progression at a more stable place.</p>
+<h3 id="you-cant-do-everything">You can’t do everything</h3>
+<p>Regret minimization is a framework that biases toward doing things. (Most of our life regrets are regrets of omission, not commission.) Lots of experiences in life have limited downside, but high upside, so regret minimization says we should try all the things! Do all of X, Y, and Z! Get all of the graduate degrees! After all, we might regret not doing Y.</p>
+<p>But doing things has a cost. Getting a PhD has a time cost and a financial cost. Job hopping also has a cost. Each experience we undertake changes us. A long series of failed life experiments can be discouraging.</p>
+<p>As emotional beings, we don’t have an unlimited emotional budget for trying new things.</p>
+<h3 id="regret-is-conditioned-on-what-happens">Regret is conditioned on what happens</h3>
+<p>This one is tricky. If I have an exceptional career, one that surpasses my expectations, I am unlikely to have major career regrets.</p>
+<p>But if my career is mediocre, I could have many regrets. Why didn’t I join company X? Why didn’t I get an MBA? Why didn’t I pivot to doing Y?</p>
+<p>So what actually happens shapes our regrets in a substantial and unpredictable way.</p>
+<h3 id="valuing-our-options-is-difficult">Valuing our options is difficult</h3>
+<p>When deciding between options, we often do not have the information to accurate value them.</p>
+<p>For example, we may undervalue a stable career path, believing that option will always be open to us. But that may not be the case: if you walk away from X now, you may not get the chance to do X again for a long time.</p>
+<h3 id="regret-is-unhealthy">Regret is unhealthy</h3>
+<p>Regret is a subjective way of thinking about our lives. We can be down on ourselves for not achieving X, Y, and Z, or we can be proud of all the things we did manage to do.</p>
+<p>Simulating alternate life paths is an unhealthy fantasy. The best time to stop thinking about life as a cost function to be optimized is now.</p>
+<h3 id="regret-is-negative">Regret is negative</h3>
+<p>Instead of seeking to minimize our regrets, we can also think about the inverse objective: maximizing reward.</p>
+<p>This again brings us to the idea that we should pursue low-downside, high-upside experiences, especially when we are young and can tolerate the costs of experimentation.</p>
+<p>“Maximizing reward” rewires our brains to view things optimistically (the baseline is zero reward), rather than pessimistically (the baseline is zero cost).</p>
+<h2 id="given-all-of-these-issues-how-should-i-actually-make-life-decisions">Given all of these issues, how should I actually make life decisions?</h2>
+<p>The same individual who gave us this flawed regret minimization framework luckily also gave us this gem:</p>
+<blockquote>
+<p>It’s interesting. I do get asked quite frequently what’s going to change in the next 10 years. One thing I rarely get asked is probably even more important — and I encourage you to think about this — is the question: What’s not going to change in the next 10 years?</p>
+</blockquote>
+<blockquote>
+<p>The answer to that question can allow you to organize your activities. You can work on those things with the confidence to know that all the energy you put into them today is still going to be paying you dividends 10 years from now.</p>
+</blockquote>
+<blockquote>
+<p>It’s impossible to imagine people saying to me, “Jeff, I love Amazon. I just wish you delivered a little more slowly. Or, I love Amazon, I just wish your prices were a little higher.”</p>
+</blockquote>
+<p>In business, customers’ desire for low prices, large selection, and fast delivery are the <em>invariants</em> that never change.</p>
+<p>What are the invariants in your life? What values have you always held, that you forsee yourself always holding?</p>
+<p>For me, one life invariant has been my desire to be successful. I have been an overachiever since I was five years old, and that is something that is unlikely to change anytime soon. So this gives me a good framework for thinking about important life decisions. What choices increase the likelihood (and secondarily, the magnitude) of success for me? I know success, broadly construed, is important to me, and always will be, and that gives me the clarity to act on the big questions.</p>
+
+
+
+<div id="follow"><i>You can follow me on
+Twitter <a href="https://twitter.com/Samvit_Jain">here</a>.</i></div>
+
+<hr />
+
+<div id="disqus_thread"></div>
+<script>
+/*
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+ var disqus_config = function () {
+	this.page.url = "http://www.samvitjain.com/blog/regret/"; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "/regret"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://samvit-jain.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<hr />
+
+<div id="call-to-action">
+	<h3>Read More</h3>
+	<ul>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/ml/">Machine Learning</a>
+		(31 Aug 2021)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/books/">2021 Books</a>
+		(27 Aug 2021)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/revolutions/">Revolutions</a>
+		(14 Oct 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/cs/">On Computer Science</a>
+		(15 Sep 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/links/">Samvit's Guide to the World Wide Web</a>
+		(28 Aug 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/evaluating-startups-2/">How to Pick Your Next Gig: Evaluating Startups - Part II</a>
+		(14 Aug 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/evaluating-startups/">How to Pick Your Next Gig: Evaluating Startups - Part I</a>
+		(14 Aug 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/gradient-descent/">A Brief Primer: Stochastic Gradient Descent</a>
+		(20 Jul 2017)
+	</li>
+	
+	<li>
+		<a href="http://www.samvitjain.com/blog/massively-parallel-methods/">Why Parallelism? An Example from Deep Reinforcement Learning</a>
+		(06 Jul 2017)
+	</li>
+	
+	</ul>
+</div>
+
+<footer>
+  Blog <a href="http://www.bailis.org">design credit</a>
+</footer>
+
+</div>
+
+
+
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102797768-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript">
+ MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['\\(','\\)']],
+    processEscapes: true
+  }
+});</script>
+</body>
+</html>
