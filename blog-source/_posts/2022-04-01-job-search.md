@@ -7,15 +7,15 @@ comments: true
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began the interview process with 14, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
+In all, I applied to 41 companies,[^1] began the interview process with 14, and completed final rounds (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
 
-Of these 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid/senior-level software engineer (SWE) positions.
+Of these 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
-Taken together, I completed 30 coding interviews (15 phone screens, 15 onsite), 7 system design, 4 machine learning, 5 miscellaneous technical, and 14 behavioral interviews. This comes out to a total of 60 interview rounds.
+Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 5 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 68 interview rounds.
 
-My search also involved 66 additional calls with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
+My search also involved 80 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
 
-In total, then, my job search involved 126 conversations, most of which occured over a three month period in 2022.
+In total, then, my job search involved 148 conversations, most of which occured over a three month period in 2022.
 
 Here are some interesting and/or surprising things I learned through this process:
 
@@ -34,7 +34,7 @@ That said, LeetCode is a great way to build this proficiency, especially if you'
 
 LeetCode Premium gives you access to solutions and lets you solve problems in order of "frequency" (how often they are seen in real interviews). I've found reading solutions to be a really underrated hack to level up as a coder: it's a great way to expand your repertoire of problem solving techniques and learn the advanced features of a language.[^2]
 
-To date, I've solved 20 LeetCode "easy" problems and 67 LeetCode "mediums". Of these, I solved 28 mediums in my last job search. I found this to be more than enough practice to approach my coding interviews.
+To date, I've solved 20 LeetCode "easy" problems and 73 LeetCode "mediums". Of these, I solved 34 mediums while in my last job search. I found this to be more than enough practice to approach my coding interviews.
 
 
 ### 2. If you can, use Python
