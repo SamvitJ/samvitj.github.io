@@ -7,7 +7,7 @@ comments: true
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began the interview process with 14, and completed final rounds (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
+In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
 
 Of these 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
@@ -67,6 +67,42 @@ Use this leverage well. Lot of companies will want to talk to you, especially if
 ### 5. Be open minded
 
 There are lots of companies outside of FAANG that pay extremely well, and will offer the opportunity for at least as much impact and career growth. Go into the job search with an open mind, be on the lookout for cool companies that you might have overlooked, and talk to friends and industry connections to learn more about what's up and coming!
+
+
+## Appendix
+
+### 1. Number of interviews
+
+My first recommendation is to apply to and interview with lots of companies.
+
+This has two benefits. Firstly, interviewing is a form of practice itself, and you'll notice your performance improves with time.
+
+Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this can be a great way to reduce the pressure on yourself.
+
+
+### 2. Taking time off
+
+As one can see from the opening statistics (68 interviews and 148 total conversations), interviewing takes a lot of time, especially if you cast a wide net!
+
+I'm personally of the opinion that if you *can* take time off to interview, you should. This is both better for your performance and mental health, and (in my opinion) fairer to the company you work for.
+
+
+### 3. Interview order
+
+One additional tip: save your top choice companies (especially those known for difficult interviews) for later. You will notice that you become better at interviews as you give them, and you want to utilize this to your advantage.
+
+This means being strategic about scheduling your screens and onsites, so that your top choice companies come later, while also not drawing out the whole process for *too* long.
+
+
+### 4. Referrals
+
+Of the 41 companies to which I applied, 7 were through referrals, 2 through existing recruiter relationships, and 32 through direct applications to their job sites.
+
+Of the 17 companies at which I got any kind of interview, 5 were through referrals, 2 through existing recruiter relationships, and 10 through direct applications.
+
+From this relatively small sample, we can see that referrals had a 71% success rate in getting interviews (5/7), recruiter relationships a 100% success rate (2/2), and direct applications a 31% success rate (10/32).
+
+This data confirms the popular adage that referrals are useful for getting your foot in the door, but also highlights a new and underrated channel: existing recruiter relationships.
 
 
 ### Footnotes
