@@ -145,9 +145,9 @@ Two questions here:
 
   2. Is the product fundamentally inventive or dramatically better than its substitutes in the market today? The most successful companies tend to be those that [shift paradigms](http://zerotoonebook.com/), either by building:
 
-    - **0 to 1 products.** These are services that are the first in their kind -- not derivatives of existing ideas (e.g. Amazon, Uber, Airbnb).
+  - **0 to 1 products.** These are services that are the first in their kind -- not derivatives of existing ideas (e.g. Amazon, Uber, Airbnb).
 
-    - **10x products.** These are services that are at least an order-of-magnitude ("10x") faster or cheaper than their substitutes today (e.g. [Google](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Alta  Vista (1998)).
+  - **10x products.** These are services that are at least an order-of-magnitude ("10x") faster or cheaper than their substitutes today (e.g. [Google](http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf) vs. Alta  Vista (1998)).
 
 A paradox of entrepreneurship is that it is [often easier](http://playbook.samaltman.com/) to build a company to solve a hard problem than an easy one. Space exploration, driverless cars, curing infectious disease - these ideas excite and attract smart people, and inspire loyalty in trying times.
 
@@ -174,7 +174,7 @@ So what's the verdict? Here are the criteria, as scored in this blog post:
 - [Location](#location) - 2.5 points
 - [Number of employees](http://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 points
 
-I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), the current traction, funding history, and product quality (3.5 points), and so on.
+I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), the current traction, funding history, and product quality (3.5 points), and so on down the list.
 
 One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
 
