@@ -7,13 +7,13 @@ comments: true
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
+In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma Computing, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
 
 Of these 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
-Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 5 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 68 interview rounds.
+Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 66 interview rounds.
 
-My search also involved 80 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
+My search also involved 82 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
 
 In total, then, my job search involved 148 conversations, most of which occured over a three month period in 2022.
 
@@ -77,14 +77,14 @@ My first recommendation is to apply to and interview with lots of companies.
 
 This has two benefits. Firstly, interviewing is a form of practice itself, and you'll notice your performance improves with time.
 
-Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this can be a great way to reduce the pressure on yourself.
+Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this is a great way to reduce the pressure on yourself.
 
 
 ### 2. Taking time off
 
-As one can see from the opening statistics (68 interviews and 148 total conversations), interviewing takes a lot of time, especially if you cast a wide net!
+As one can see from the opening statistics (66 interviews and 148 total conversations across 11+ companies), interviewing takes a lot of time, especially if you cast a wide net!
 
-I'm personally of the opinion that if you *can* take time off to interview, you should. This is both better for your performance and mental health, and (in my opinion) fairer to the company you work for.
+I'm personally of the opinion that if you *can* take time off to interview, you should. This is both better for your interview performance and mental health, and (in my opinion) fairer to the company you work for, than trying to embed interviews into a busy work schedule.
 
 
 ### 3. Interview order
@@ -100,9 +100,9 @@ Of the 41 companies to which I applied, 7 were through referrals, 2 through exis
 
 Of the 17 companies at which I got any kind of interview, 5 were through referrals, 2 through existing recruiter relationships, and 10 through direct applications.
 
-From this relatively small sample, we can see that referrals had a 71% success rate in getting interviews (5/7), recruiter relationships a 100% success rate (2/2), and direct applications a 31% success rate (10/32).
+From this relatively small sample, we can see that referrals had a 71% success rate in yielding interviews (5/7), recruiter relationships a 100% success rate (2/2), and direct applications a 31% success rate (10/32).
 
-This data confirms the popular adage that referrals are useful for getting your foot in the door, but also highlights a new and underrated channel: existing recruiter relationships.
+Some takeways: referrals are clearly the way to go, as expected, but blind applications work surprisingly well (\~1/3 of the time) in the current job market.
 
 
 ### Footnotes
