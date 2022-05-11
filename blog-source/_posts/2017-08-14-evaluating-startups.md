@@ -30,11 +30,11 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Number of employees](#number-of-employees)
 - [Strength of founders](#strength-of-founders)
 - [Strength of early employees](#strength-of-early-employees)
-- [Investor pedigree](http://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
-- [Funding history](http://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
-- [Location](http://www.samvitjain.com/blog/evaluating-startups-2/#location)
-- [Personal fit](http://www.samvitjain.com/blog/evaluating-startups-2/#personal-fit)
-- [Product quality](http://www.samvitjain.com/blog/evaluating-startups-2/#product-quality)
+- [Investor pedigree](https://www.samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
+- [Funding history](https://www.samvitjain.com/blog/evaluating-startups-2/#funding-history)
+- [Location](https://www.samvitjain.com/blog/evaluating-startups-2/#location)
+- [Personal fit](https://www.samvitjain.com/blog/evaluating-startups-2/#personal-fit)
+- [Product quality](https://www.samvitjain.com/blog/evaluating-startups-2/#product-quality)
 
 In the remainder of the post, I'll address each of these in turn, and provide a "rating" to indicate how strongly you should consider each factor when making your decision.
 

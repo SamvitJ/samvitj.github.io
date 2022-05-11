@@ -164,17 +164,17 @@ Of course this discussion is more relevant to consumer companies. For enterprise
 So what's the verdict? Here are the criteria, as scored in this blog post:
 
 - [Investor pedigree](#investor-pedigree) - 4.5 points
-- [Strength of early employees](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 points
+- [Strength of early employees](https://www.samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 points
 - [Strength of founders](http://www.samvitjain.com/blog/evaluating-startups/#strength-of-founders) - 4 points
 - [Personal fit](#personal-fit) - 4 points
-- [Current traction](http://www.samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 points
+- [Current traction](https://www.samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 points
 - [Funding history](#funding-history) - 3.5 points
 - [Product quality](#product-quality) - 3.5 points
-- [Growth rate](http://www.samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 points
+- [Growth rate](https://www.samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 points
 - [Location](#location) - 2.5 points
-- [Number of employees](http://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 points
+- [Number of employees](https://www.samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 points
 
-I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), the current traction, funding history, and product quality (3.5 points), and so on down the list.
+I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), and then the current traction, funding history, and product quality (3.5 points).
 
 One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
 
