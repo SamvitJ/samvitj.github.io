@@ -13,9 +13,9 @@ Of these 11 onsites, three were for machine learning engineer (MLE) roles, and t
 
 Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 66 interview rounds.
 
-My search also involved 82 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
+My search also involved 84 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
 
-In total, then, my job search involved 148 conversations, most of which occured over a three month period in 2022.
+In total, then, my job search involved 150 conversations, most of which occured over a three month period in 2022.
 
 Here are some interesting and/or surprising things I learned through this process:
 
@@ -82,7 +82,7 @@ Secondly, interviewing with lots of companies reduces the stakes associated with
 
 ### 2. Taking time off
 
-As one can see from the opening statistics (66 interviews and 148 total conversations across 11+ companies), interviewing takes a lot of time, especially if you cast a wide net!
+As one can see from the opening statistics (66 interviews and 150 total conversations across 11+ companies), interviewing takes a lot of time, especially if you cast a wide net!
 
 I'm personally of the opinion that if you *can* take time off to interview, you should. This is both better for your interview performance and mental health, and (in my opinion) fairer to the company you work for, than trying to embed interviews into a busy work schedule.
 
