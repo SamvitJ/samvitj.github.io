@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Job Search"
-date: 2022-05-06
+date: 2022-06-15
 comments: true
 ---
 
@@ -13,9 +13,9 @@ Of these 11 onsites, three were for machine learning engineer (MLE) roles, and t
 
 Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 66 interview rounds.
 
-My search also involved 93 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
+My search also involved 97 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
 
-In total, then, my job search involved 159 conversations, most of which occured over a three month period in 2022.
+In total, then, my job search involved 163 conversations, most of which occured over a five month period in 2022.
 
 Here are some interesting and/or surprising things I learned through this process:
 
@@ -75,9 +75,11 @@ There are lots of companies outside of FAANG that pay extremely well, and will o
 
 My first recommendation is to apply to and interview with lots of companies.
 
-This has two benefits. Firstly, interviewing is a form of practice itself, and you'll notice your performance improves with time.
+This has three benefits. Firstly, interviewing is a form of practice itself, and you'll notice your performance improves with time.
 
 Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this is a great way to reduce the pressure on yourself.
+
+Finally, by speaking with many companies, you have the opportunity to cultivate and convey an authentic persona in your interviews, again because you aren't dependent on any one company panning out. Authenticity is refreshing and compelling, and in the right settings, can be a strong point in your favor.
 
 
 ### 2. Taking time off
