@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Job Search"
-date: 2022-06-15
+date: 2022-06-17
 comments: true
 ---
 
@@ -69,7 +69,7 @@ Use this leverage well. Lot of companies will want to talk to you, especially if
 There are lots of companies outside of FAANG that pay extremely well, and will offer the opportunity for at least as much impact and career growth. Go into the job search with an open mind, be on the lookout for cool companies that you might have overlooked, and talk to friends and industry connections to learn more about what's up and coming!
 
 
-## Appendix
+## Interviewing
 
 ### 1. Number of interviews
 
@@ -79,7 +79,7 @@ This has three benefits. Firstly, interviewing is a form of practice itself, and
 
 Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this is a great way to reduce the pressure on yourself.
 
-Finally, by speaking with many companies, you have the opportunity to cultivate and convey an authentic persona in your interviews, again because you aren't dependent on any one company panning out. Authenticity is refreshing and compelling, and in the right settings, can be a strong point in your favor.
+Finally, by speaking with many companies, you have the opportunity to cultivate and convey your authentic professional persona, a risk you can take because you aren't dependent on any one company panning out. Authenticity is refreshing and compelling, and in the right settings, can be a strong point in your favor.
 
 
 ### 2. Taking time off
@@ -107,6 +107,15 @@ Of the 17 companies at which I got any kind of interview, 5 were through referra
 From this relatively small sample, we can see that referrals had a 71% success rate in yielding interviews (5/7), recruiter relationships a 100% success rate (2/2), and direct applications a 31% success rate (10/32).
 
 Some takeways: referrals are clearly the way to go, as expected, but blind applications work surprisingly well (\~1/3 of the time) in the current job market.
+
+
+### 5. Decisions
+
+Much has already been written by others about negotiating offers and how to [pick between companies](https://www.samvitjain.com/blog/evaluating-startups/), so I'll keep this section brief.
+
+If you find yourself drawn to the role/company that also happens to be paying the most (which IMO is more common than people would like to admit), I would run the following thought experiment: if this was your *second* highest offer (instead of your highest), would you still choose this company?
+
+If the answer is no, your deciding factor is likely the money. This isn't necessarily a bad thing, but it is good to have clarity on how you are actually making your decision, and whether you are in fact weighing the things that are important to you.
 
 
 ### Footnotes
