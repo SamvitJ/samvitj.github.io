@@ -1,21 +1,19 @@
 ---
 layout: post
 title: "Job Search"
-date: 2022-06-17
+date: 2022-06-21
 comments: true
 ---
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma Computing, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, Google).
+In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies.
 
-Of these 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
+These 11 companies spanned the gamut from smaller startups to late-stage unicorns and public companies. Of the 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
-Taken together, I completed 35 coding interviews (15 phone screens, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews. This comes out to a total of 66 interview rounds.
+All together, my job search lasted over 6 months, and involved 163 conversations with recruiters, engineers, and hiring managers, of which 66 were interview calls.
 
-My search also involved 97 additional conversations with recruiters, hiring managers, and other team members (engineers, leaders) across various stages of the process, from initial screens, to onsite prep, to the offer phase.
-
-In total, then, my job search involved 163 conversations, most of which occurred over a five month period in 2022.
+Among these 66 calls, I completed 35 coding (15 phone screen, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews.
 
 Here are some interesting and/or surprising things I learned through this process:
 
@@ -79,7 +77,7 @@ This has three benefits. Firstly, interviewing is a form of practice itself, and
 
 Secondly, interviewing with lots of companies reduces the stakes associated with any given one. If you are prone to nerves or interview anxiety, this is a great way to reduce the pressure on yourself.
 
-Finally, by speaking with many companies, you have the opportunity to cultivate and convey your authentic professional persona, a risk you can take because you aren't dependent on any one company panning out. Authenticity is refreshing and compelling, and in the right settings, can be a strong point in your favor.
+Finally, speaking with many companies allows you to cultivate and convey an authentic professional persona, a risk you can take because you aren't dependent on any one company panning out. Authenticity is refreshing and compelling, and in the right settings, can be a strong point in your favor.
 
 
 ### 2. Taking time off
@@ -95,7 +93,7 @@ Depending on how much time off you can take, however, your mileage might vary.
 
 One additional tip: save your top choice companies (especially those known for difficult interviews) for later. You will notice that you become better at interviews as you give them, and you want to utilize this to your advantage.
 
-This means being strategic about scheduling your screens and onsites, so that your top choice companies come later, while also not drawing out the whole process for *too* long.
+This means being strategic about scheduling your phone screens and onsites, so that your top choice companies come later, while also not drawing out the whole process for *too* long.
 
 
 ### 4. Referrals
@@ -120,6 +118,6 @@ If the answer is no, your deciding factor is likely the money. This isn't necess
 
 ### Footnotes
 
-[^1]: Applying to 41 companies seems like a lot, but I was actually reasonably deliberate about my applications. There are several well-known tech companies and industry sectors (e.g. finance) that I explicitly decided not to apply to.
+[^1]: Applying to 41 companies seems like a lot, but I was actually somewhat deliberate about my applications. There are several well-known tech companies and industry sectors (e.g. finance) that I explicitly decided not to apply to.
 
 [^2]: Here's a great article on how to use LeetCode to level up your interview game: https://yolken.net/blog/master-coding-interviews
