@@ -182,7 +182,7 @@ One could imagine a better metric for evaluating early engineering hires -- say,
 
 You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and often take on many of the leadership positions within the company. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
 
-*Continue reading*: **[Part II](http://www.samvitjain.com/blog/evaluating-startups-2/)** of Evaluating Startups
+*Continue reading*: **[Part II](https://www.samvitjain.com/blog/evaluating-startups-2/)** of Evaluating Startups
 
 
 
