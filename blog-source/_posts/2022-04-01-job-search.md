@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Job Search"
+title: "2022 Job Search"
 date: 2022-06-21
 comments: true
 ---
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies.
+In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma Computing, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, and Google).
 
-These 11 companies spanned the gamut from smaller startups to late-stage unicorns and public companies.[^2] Of the 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
+Of my 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
 All together, my job search lasted over 6 months, and involved 163 conversations with recruiters, engineers, and hiring managers, of which 66 were interview calls.
 
@@ -20,7 +20,7 @@ Here are some interesting and/or surprising things I learned through this proces
 
 ### 1. LeetCode-style coding problems are not the norm
 
-Contrary to prevailing wisdom on the Internet, most companies do NOT ask LeetCode-style programming questions. Let that fact sink in...
+Contrary to prevailing wisdom on the Internet, most companies, even well-known ones, do NOT ask LeetCode-style programming questions. Let that fact sink in...
 
 In my experience, the current industry norm is "practical" programming problems loosely inspired by what the company actually does. As a general rule, companies seem to place the highest value on writing code that runs successfully on simple test cases, and secondarily, on good communication, clean code, and quick iteration.
 
@@ -30,7 +30,7 @@ The 80-20 rule really applies to coding interview prep. Rather than aiming to be
 
 That said, LeetCode is a great way to build this proficiency, especially if you've decided to start interviewing in a new language. **Pro tip**: Get a LeetCode Premium subscription. At $35 a month, it's a real bargain, given that just a couple weeks of practice can dramatically improve your interviewing performance.
 
-LeetCode Premium gives you access to solutions and lets you solve problems in order of "frequency" (how often they are seen in real interviews). I've found reading solutions to be a really underrated hack to level up as a coder: it's a great way to expand your repertoire of problem solving techniques and learn the advanced features of a language.[^3]
+LeetCode Premium gives you access to solutions and lets you solve problems in order of "frequency" (how often they are seen in real interviews). I've found reading solutions to be a really underrated hack to level up as a coder: it's a great way to expand your repertoire of problem solving techniques and learn the advanced features of a language.[^2]
 
 To date, I've solved 20 LeetCode "easy" problems and 73 LeetCode "mediums". Of these, I solved 34 mediums while in my last job search. I found this to be more than enough practice to approach my coding interviews.
 
@@ -120,6 +120,4 @@ If the answer is no, your deciding factor is likely the money. This isn't necess
 
 [^1]: Applying to 41 companies seems like a lot, but I was actually somewhat deliberate about my applications. There are several well-known tech companies and industry sectors (e.g. finance) that I explicitly decided not to apply to.
 
-[^2]: In case you are interested, the 11 companies I completed final round interviews with were: Gusto, Brex, Plaid, Sigma Computing, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, and Google.
-
-[^3]: Here's a great article on how to use LeetCode to level up your interview game: https://yolken.net/blog/master-coding-interviews
+[^2]: Here's a great article on how to use LeetCode to level up your interview game: https://yolken.net/blog/master-coding-interviews
