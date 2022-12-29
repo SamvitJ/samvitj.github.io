@@ -7,7 +7,7 @@ comments: true
 
 In 2022, I ran my first serious job search as an "in career" engineer.
 
-In all, I applied to 41 companies,[^1] began conversations with 17 companies, and completed final round interviews (virtual onsites) with 11 companies (Gusto, Brex, Plaid, Sigma Computing, Pinterest, Dropbox, Figma, Noom, Airtable, Robust Intelligence, and Google).
+In all, I applied to 41 companies, began conversations with 17, and completed final round interviews (virtual onsites) with 11.[^1] These companies spanned the gamut from Series B round startups to large, publicly traded companies.
 
 Of my 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
