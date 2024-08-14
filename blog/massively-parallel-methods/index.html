@@ -31,45 +31,193 @@
 
 <p class="date">06 Jul 2017</p>
 
-<p>In this post, I introduce the Google DeepMind <a href="https://arxiv.org/pdf/1507.04296.pdf">paper</a> “Massively Parallel Methods for Deep Reinforcement Learning” from ICML 2015, and discuss the motivation behind developing parallel implementations of useful algorithms.</p>
+<p>In this post, I introduce the Google DeepMind <a
+href="https://arxiv.org/pdf/1507.04296.pdf">paper</a> “Massively
+Parallel Methods for Deep Reinforcement Learning” from ICML 2015, and
+discuss the motivation behind developing parallel implementations of
+useful algorithms.</p>
 <h3 id="paper-contributions">Paper contributions</h3>
-<p>This paper presents a distributed implementation, called Gorila, of the Deep Q-Network (DQN) algorithm, which applies deep neural networks to the problem of reinforcement learning (RL). The algorithm, which was <a href="https://deepmind.com/research/dqn/">published</a> in <em>Nature</em>, uses a deep convolutional network to approximate the optimal action-value function, which guides an RL agent’s behavior. The core breakthrough: the agent was trained to play a set of Atari 2600 computer games based solely on the pixels of still frames and associated scores, and yet beat all previous implementations, achieving a level of performance comparable to that of professional human players.</p>
-<p>The authors of <em>this</em> paper used Gorila to play 49 Atari 2600 games in two different test settings, and did even better, beating the non-distributed DQN implementation in 31 out of 49 games in the first, and 41 out of 49 games in the second. Notably, to reach these results, their system was trained for a wall-clock time that was roughly an <em>order of magnitude</em> less than that required by the single GPU implementation.</p>
+<p>This paper presents a distributed implementation, called Gorila, of
+the Deep Q-Network (DQN) algorithm, which applies deep neural networks
+to the problem of reinforcement learning (RL). The algorithm, which was
+<a href="https://deepmind.com/research/dqn/">published</a> in
+<em>Nature</em>, uses a deep convolutional network to approximate the
+optimal action-value function, which guides an RL agent’s behavior. The
+core breakthrough: the agent was trained to play a set of Atari 2600
+computer games based solely on the pixels of still frames and associated
+scores, and yet beat all previous implementations, achieving a level of
+performance comparable to that of professional human players.</p>
+<p>The authors of <em>this</em> paper used Gorila to play 49 Atari 2600
+games in two different test settings, and did even better, beating the
+non-distributed DQN implementation in 31 out of 49 games in the first,
+and 41 out of 49 games in the second. Notably, to reach these results,
+their system was trained for a wall-clock time that was roughly an
+<em>order of magnitude</em> less than that required by the single GPU
+implementation.</p>
 <h3 id="parallelization">Parallelization</h3>
-<p>Gorila achieves these results by introducing parallelization along three axes:</p>
+<p>Gorila achieves these results by introducing parallelization along
+three axes:</p>
 <ol type="1">
-<li><p><strong>Actors</strong> - In an RL algorithm, actors are the agents that explore an environment, and reap reward as they do so. Gorila supports \(N_{act}\) actors which operate in parallel on \(N_{act}\) instantiations of the <em>same</em> environment. Each actor generates its own trajectory of experience on the environment, which can be stored both in local memory and in a global memory.</p></li>
-<li><p><strong>Learners</strong> - Learners sample experience from the local or global store, and apply an RL algorithm such as DQN to it, generating a gradient vector \(g_i\) to be communicated to the parameter server (see third point). The parameter server uses these gradient vectors to update a master copy of the Q-network. Gorila supports \(N_{learn}\) concurrent learner processes, each of which contains a replica of the Q-network, and computes a gradient update from an independently drawn sample of experience at each iteration.</p></li>
-<li><p><strong>Parameter server</strong> - The parameter server, which serves the role of a master node, maintains a distributed representation of the Q-network, with the parameter vector <span class="math inline"><em>θ</em></span> split across the \(N_{param}\) machines of the server. The parameter server receives gradient updates from the learners, and each of the \(N_{param}\) machines applies the appropriate updates to the subset of <span class="math inline"><em>θ</em></span> that it is responsible for. This process of applying updates in a distributed manner follows an asynchronous variant of stochastic gradient descent. The parameter server periodically sends an updated copy of the Q-network to each learner.</p></li>
+<li><p><strong>Actors</strong> - In an RL algorithm, actors are the
+agents that explore an environment, and reap reward as they do so.
+Gorila supports \(N_{act}\) actors which operate in parallel on
+\(N_{act}\) instantiations of the <em>same</em> environment. Each actor
+generates its own trajectory of experience on the environment, which can
+be stored both in local memory and in a global memory.</p></li>
+<li><p><strong>Learners</strong> - Learners sample experience from the
+local or global store, and apply an RL algorithm such as DQN to it,
+generating a gradient vector \(g_i\) to be communicated to the parameter
+server (see third point). The parameter server uses these gradient
+vectors to update a master copy of the Q-network. Gorila supports
+\(N_{learn}\) concurrent learner processes, each of which contains a
+replica of the Q-network, and computes a gradient update from an
+independently drawn sample of experience at each iteration.</p></li>
+<li><p><strong>Parameter server</strong> - The parameter server, which
+serves the role of a master node, maintains a distributed representation
+of the Q-network, with the parameter vector <span
+class="math inline"><em>θ</em></span> split across the \(N_{param}\)
+machines of the server. The parameter server receives gradient updates
+from the learners, and each of the \(N_{param}\) machines applies the
+appropriate updates to the subset of <span
+class="math inline"><em>θ</em></span> that it is responsible for. This
+process of applying updates in a distributed manner follows an
+asynchronous variant of stochastic gradient descent. The parameter
+server periodically sends an updated copy of the Q-network to each
+learner.</p></li>
 </ol>
 <figure>
-<img src="../assets/massively-parallel-methods/Gorila-architecture.png" style="width:120.0%" alt="Figure 1: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: original paper)" /><figcaption aria-hidden="true"><sup><strong>Figure 1</strong>: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: <a href="https://arxiv.org/pdf/1507.04296.pdf">original paper</a>)</sup></figcaption>
+<img src="../assets/massively-parallel-methods/Gorila-architecture.png"
+style="width:120.0%"
+alt="Figure 1: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: original paper)" />
+<figcaption aria-hidden="true"><sup><strong>Figure 1</strong>: The
+Gorila agent parallelizes the training procedure by separating out
+learners, actors, and the parameter server. In a single experiment,
+several learner processes exist and they continuously send gradients to
+the parameter server, and receive updated parameters. At the same time,
+independent actors accumulate experience in parallel, and update their
+Q-networks from the parameter server. (Source: <a
+href="https://arxiv.org/pdf/1507.04296.pdf">original
+paper</a>)</sup></figcaption>
 </figure>
 <h3 id="so-what">So what?</h3>
-<p>Why is this significant? It seems obvious that if you throw more computational power at a problem (i.e. by running the algorithm on a cluster of CPUs, as opposed to a single node), performance (as measured by accuracy or head-to-head performance, given comparable training time) should improve, or alternatively, that the required training time should decrease (given comparable results). In general, what is the point of a paper that presents a distributed implementation of a well-known algorithm, and claims that performance improved?</p>
+<p>Why is this significant? It seems obvious that if you throw more
+computational power at a problem (i.e. by running the algorithm on a
+cluster of CPUs, as opposed to a single node), performance (as measured
+by accuracy or head-to-head performance, given comparable training time)
+should improve, or alternatively, that the required training time should
+decrease (given comparable results). In general, what is the point of a
+paper that presents a distributed implementation of a well-known
+algorithm, and claims that performance improved?</p>
 <p>Actually, the contribution can be of one of two flavors:</p>
 <ol type="1">
-<li><strong>Demonstrating that a particular algorithm <em>can</em> be implemented fruitfully in a distributed fashion.</strong> Emphatically, this is not always the case. Such a paper might show that the throughput of the system scales linearly with the level of parallelization (e.g. number of concurrent processes used), which suggests that a large portion of the computation is parallelizable. Notably, even a sub-linear improvement can be a win, as achieving any kind of speedup with a distributed design requires overcoming inherent communication and synchronization-related overheads.</li>
+<li><strong>Demonstrating that a particular algorithm <em>can</em> be
+implemented fruitfully in a distributed fashion.</strong> Emphatically,
+this is not always the case. Such a paper might show that the throughput
+of the system scales linearly with the level of parallelization
+(e.g. number of concurrent processes used), which suggests that a large
+portion of the computation is parallelizable. Notably, even a sub-linear
+improvement can be a win, as achieving any kind of speedup with a
+distributed design requires overcoming inherent communication and
+synchronization-related overheads.</li>
 </ol>
-<p>Such results are particularly valued when there are particular, demanding performance objectives that must be met. Monitoring a large data stream in real-time to flag anomalies may require greater processing throughput than a single node system can support. Supporting interactive queries on a massive data set may necessitate lower response latencies than a non-parallel implementation can guarantee. In machine learning, in particular, there are often significant returns to improved performance, with faster training times allowing for rapid iteration during model development, or simply the use of more training data.</p>
-<p>Secondly, the ability to parallelize computation often allows for significant cost savings. The canonical example of this is Google’s early decision to execute search indexing on clusters of commodity machines, as opposed to expensive mainframes. Today, the relevant comparison may be the tradeoff between running a data-parallel computation on a cluster of CPUs versus on one or more high-performance GPUs. Using Amazon EC2 on-demand <a href="https://aws.amazon.com/ec2/pricing/on-demand/">pricing</a> as a rough proxy for hardware and power costs, renting a starter-tier GPU instance, the p2.xlarge, costs $0.90 per hour, while a comparable<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> general-purpose CPU instance, the m4.xlarge, costs only $0.20 per hour. This is admittedly a coarse comparison, but the almost 5x price spread suggests that outside of a few highly specialized applications, CPU clusters may still be the way to go. Note that analysis does not even include the software challenges of rewriting code to take advantage of a GPU’s single-purpose, SIMD architecture.</p>
+<p>Such results are particularly valued when there are particular,
+demanding performance objectives that must be met. Monitoring a large
+data stream in real-time to flag anomalies may require greater
+processing throughput than a single node system can support. Supporting
+interactive queries on a massive data set may necessitate lower response
+latencies than a non-parallel implementation can guarantee. In machine
+learning, in particular, there are often significant returns to improved
+performance, with faster training times allowing for rapid iteration
+during model development, or simply the use of more training data.</p>
+<p>Secondly, the ability to parallelize computation often allows for
+significant cost savings. The canonical example of this is Google’s
+early decision to execute search indexing on clusters of commodity
+machines, as opposed to expensive mainframes. Today, the relevant
+comparison may be the tradeoff between running a data-parallel
+computation on a cluster of CPUs versus on one or more high-performance
+GPUs. Using Amazon EC2 on-demand <a
+href="https://aws.amazon.com/ec2/pricing/on-demand/">pricing</a> as a
+rough proxy for hardware and power costs, renting a starter-tier GPU
+instance, the p2.xlarge, costs $0.90 per hour, while a comparable<a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> general-purpose CPU instance, the
+m4.xlarge, costs only $0.20 per hour. This is admittedly a coarse
+comparison, but the almost 5x price spread suggests that outside of a
+few highly specialized applications, CPU clusters may still be the way
+to go. Note that analysis does not even include the software challenges
+of rewriting code to take advantage of a GPU’s single-purpose, SIMD
+architecture.</p>
 <ol start="2" type="1">
-<li><strong>Demonstrating that the distributed variant of an algorithm can yield a <em>superlinear</em> speedup.</strong> This is rarer, but often possible. A relevant example of this is found in another DeepMind <a href="https://arxiv.org/pdf/1602.01783.pdf">paper</a>, “Asynchronous Methods for Deep Reinforcement Learning,” from ICML 2016, which, as a side note, presents an <em>asynchronous 1-step Q-learning</em> algorithm that achieves a 24x performance improvement, using 16 threads, over a single-threaded implementation.</li>
+<li><strong>Demonstrating that the distributed variant of an algorithm
+can yield a <em>superlinear</em> speedup.</strong> This is rarer, but
+often possible. A relevant example of this is found in another DeepMind
+<a href="https://arxiv.org/pdf/1602.01783.pdf">paper</a>, “Asynchronous
+Methods for Deep Reinforcement Learning,” from ICML 2016, which, as a
+side note, presents an <em>asynchronous 1-step Q-learning</em> algorithm
+that achieves a 24x performance improvement, using 16 threads, over a
+single-threaded implementation.</li>
 </ol>
-<p>How is superlinear speedup possible? Here’s a basic example: if an algorithm involves executing a computation on a large data set, parallelizing it (e.g. via a master-worker approach) could reduce or eliminate disk accesses, if the resulting data partitions now fit into each worker machine’s main memory.</p>
-<p>In the case of reinforcement learning, the experiments with asynchronous 1-step Q-learning showed that less training data was needed in aggregate to reach score parity as more parallel actor-learners were used. The authors believe this superlinear behavior stems from the use of different exploration policies on different processes, which leads to parameter updates that are less correlated in time than if a single agent were to explore the environment sequentially. In other words, using more actor-learners leads to collecting experience that is more “diverse,” leading to faster convergence of stochastic gradient descent.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p>As these examples indicate, superlinearity can stem from both systems and algorithmic optimizations unlocked by parallelization. Such papers are valuable because they suggest avenues toward substantially better (e.g. “10x”) system architectures or algorithms.</p>
-<p>Note also that by Amdahl’s law, superlinearity can only hold for so long; as the number of processors grows, the speedup achieved by parallelization approaches a fixed constant, with the non-parallelizable component of the task becoming the bottleneck. Even if a particular computation is completely parallelizable, the speedup factor approaches a linear asymptote.</p>
-<p>Of these two, Gorila falls in the first category, as it demonstrates how a parallelized implementation of the DQN algorithm can outperform the original, serial implementation, but does not claim any particular asymptotic behavior. Remarkably, the authors were able to beat the single GPU implementation, which was trained for 12-14 days, in 38 out of the 49 games considered after just 1.5 days of training!</p>
-<p><em>Thanks to Robert Nishihara, Roy Fox, and Sanjay Jain for reviewing drafts of this post.</em></p>
+<p>How is superlinear speedup possible? Here’s a basic example: if an
+algorithm involves executing a computation on a large data set,
+parallelizing it (e.g. via a master-worker approach) could reduce or
+eliminate disk accesses, if the resulting data partitions now fit into
+each worker machine’s main memory.</p>
+<p>In the case of reinforcement learning, the experiments with
+asynchronous 1-step Q-learning showed that less training data was needed
+in aggregate to reach score parity as more parallel actor-learners were
+used. The authors believe this superlinear behavior stems from the use
+of different exploration policies on different processes, which leads to
+parameter updates that are less correlated in time than if a single
+agent were to explore the environment sequentially. In other words,
+using more actor-learners leads to collecting experience that is more
+“diverse,” leading to faster convergence of stochastic gradient
+descent.<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></p>
+<p>As these examples indicate, superlinearity can stem from both systems
+and algorithmic optimizations unlocked by parallelization. Such papers
+are valuable because they suggest avenues toward substantially better
+(e.g. “10x”) system architectures or algorithms.</p>
+<p>Note also that by Amdahl’s law, superlinearity can only hold for so
+long; as the number of processors grows, the speedup achieved by
+parallelization approaches a fixed constant, with the non-parallelizable
+component of the task becoming the bottleneck. Even if a particular
+computation is completely parallelizable, the speedup factor approaches
+a linear asymptote.</p>
+<p>Of these two, Gorila falls in the first category, as it demonstrates
+how a parallelized implementation of the DQN algorithm can outperform
+the original, serial implementation, but does not claim any particular
+asymptotic behavior. Remarkably, the authors were able to beat the
+single GPU implementation, which was trained for 12-14 days, in 38 out
+of the 49 games considered after just 1.5 days of training!</p>
+<p><em>Thanks to Robert Nishihara, Roy Fox, and Sanjay Jain for
+reviewing drafts of this post.</em></p>
 <h3 id="footnotes">Footnotes</h3>
-<section class="footnotes" role="doc-endnotes">
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>I used the Amazon ECU and vCPU designations as a rough benchmark for instance compute power. ECU is an abbreviation for Elastic Compute Unit, which Amazon is phasing out for the more standard vCPU (virtual CPU) designation.<br />
-The p2.xlarge GPU instance consists of 4 vCPUs and 12 ECUs. The closest comparable CPU instance I found, the m4.xlarge, consists of 4 vCPUs and 13 ECUs.<br />
-Note that the r3.xlarge, a comparable memory-optimized CPU instance (4 vCPUs, 13 ECUs), costs $0.333 per hour, compared to $0.90 per hour for the GPU instance.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>To be completely precise, asynchronous 1-step Q-learning does not <em>require</em> the use of parallel execution threads. A similar effect would be seen if a serial machine were to <em>simulate</em> parallelism, by maintaining the state for multiple instantiations of the algorithm in memory, and running the exploration policies in a round-robin fashion on the instances. (Incidentally, this is also how a single-core machine would support the abstraction of multiple threads.) What precludes this in practice, however, is the lack of sufficient RAM on a single-core machine to keep so much state in memory.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>I used the Amazon ECU and vCPU designations as a rough
+benchmark for instance compute power. ECU is an abbreviation for Elastic
+Compute Unit, which Amazon is phasing out for the more standard vCPU
+(virtual CPU) designation.<br />
+The p2.xlarge GPU instance consists of 4 vCPUs and 12 ECUs. The closest
+comparable CPU instance I found, the m4.xlarge, consists of 4 vCPUs and
+13 ECUs.<br />
+Note that the r3.xlarge, a comparable memory-optimized CPU instance (4
+vCPUs, 13 ECUs), costs $0.333 per hour, compared to $0.90 per hour for
+the GPU instance.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>To be completely precise, asynchronous 1-step Q-learning
+does not <em>require</em> the use of parallel execution threads. A
+similar effect would be seen if a serial machine were to
+<em>simulate</em> parallelism, by maintaining the state for multiple
+instantiations of the algorithm in memory, and running the exploration
+policies in a round-robin fashion on the instances. (Incidentally, this
+is also how a single-core machine would support the abstraction of
+multiple threads.) What precludes this in practice, however, is the lack
+of sufficient RAM on a single-core machine to keep so much state in
+memory.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
