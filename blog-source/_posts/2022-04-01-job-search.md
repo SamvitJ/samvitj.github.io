@@ -5,17 +5,21 @@ date: 2022-06-21
 comments: true
 ---
 
-In 2022, I ran my first serious job search as an "in career" engineer.
+In 2022, I ran my first serious job search as an in-career engineer.
 
 In all, I applied to 41 companies, began conversations with 17, and completed final round interviews (virtual onsites) with 11.[^1] These companies spanned the gamut from Series B round startups to large, publicly traded companies.
 
-Of my 11 onsites, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
+<p align="left" target="_blank" href="../assets/job-search/funnel.png">
+  <img src="../assets/job-search/funnel.png" alt="funnel" width=100%>
+</p>
+
+Of my 11 final round interviews, three were for machine learning engineer (MLE) roles, and the remaining eight for mid-level software engineer (SWE) positions.
 
 All together, my job search lasted over 6 months, and involved 163 conversations with recruiters, engineers, and hiring managers, of which 66 were interview calls.
 
 Among these 66 calls, I completed 35 coding (15 phone screen, 20 onsite), 7 system design, 5 machine learning, 4 miscellaneous technical, and 15 behavioral interviews.
 
-Here are some interesting and/or surprising things I learned through this process:
+Here are some interesting and/or surprising things I learned through this process.
 
 
 ### 1. LeetCode-style coding problems are not the norm
