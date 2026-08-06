@@ -347,6 +347,16 @@ a.wordmark:hover { color: var(--accent); }
 
 /* ---- Simple document pages (notes, micropayments) ------------------------ */
 
+/* An editorial aside about the page itself, not part of its content. */
+.page-note {
+	margin-bottom: 2rem;
+	padding-left: 1rem;
+	border-left: 2px solid var(--rule);
+	font-size: .95rem;
+	font-style: italic;
+	color: var(--muted);
+}
+
 .prose h2 { margin-top: 2.5rem; }
 .prose blockquote {
 	margin: 1.25rem 0;
