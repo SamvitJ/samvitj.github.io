@@ -153,9 +153,6 @@ a.wordmark:hover { color: var(--accent); }
 }
 
 .lede { font-size: 1.125rem; }
-
-/* An organisation name, emphasised but deliberately not a link. */
-.org { color: var(--accent); }
 .hero p:last-of-type { margin-bottom: 0; }
 
 .social {
