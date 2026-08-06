@@ -2,57 +2,42 @@
 layout: default
 ---
 
-<div class="post">
+<article class="post">
 
-<h2 class="post-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
-
-<p class="date">{{ page.date | date_to_string }}</p>
+<h1 class="post-title">{{ page.title }}</h1>
+<p class="post-date"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time></p>
 
 {{ content }}
 
+<p class="post-follow">You can follow me on Twitter <a href="https://twitter.com/Samvit_Jain">here</a>.</p>
 
-<div id="follow"><i>You can follow me on
-Twitter <a href="https://twitter.com/Samvit_Jain">here</a>.</i></div>
+</article>
 
-<hr />
-
-<div id="disqus_thread"></div>
-<script>
-/*
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
- var disqus_config = function () {
-	this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}"; // Must stay absolute: this is the Disqus thread key
-	this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-	var d = document, s = d.createElement('script');
-	s.src = 'https://samvit-jain.disqus.com/embed.js';
-	s.setAttribute('data-timestamp', +new Date());
-	(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<hr />
-
-<div id="call-to-action">
-	<h3>Read More</h3>
-	<ul>
+<section class="post-more">
+	<h2>Read more</h2>
+	<ul class="post-list">
 	{% for post in site.posts %}{% if post.url != page.url %}
-	<li>
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		({{ post.date | date_to_string }})
-	</li>
+		<li>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			<span class="post-list-date">{{ post.date | date_to_string }}</span>
+		</li>
 	{% endif %}{% endfor %}
 	</ul>
-</div>
+</section>
 
-<footer>
-  Blog <a href="http://www.bailis.org/blog/">design credit</a>
-</footer>
-
-</div>
-
-
-
+<section class="post-comments">
+	<div id="disqus_thread"></div>
+	<script>
+	var disqus_config = function () {
+		this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}"; // Must stay absolute: this is the Disqus thread key
+		this.page.identifier = "{{ page.id }}";
+	};
+	(function() {
+		var d = document, s = d.createElement('script');
+		s.src = 'https://samvit-jain.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>

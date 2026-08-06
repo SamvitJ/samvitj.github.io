@@ -1,34 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>{{ page.title }} | Samvit Jain</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes about the tech industry, startups, personal experience, and occasionally interesting papers in machine learning and computer systems.{% endif %}" />
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes on startups, the tech industry, machine learning, and what he has learned along the way.{% endif %}" />
+	<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ page.title }}" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes about the tech industry, startups, personal experience, and occasionally interesting papers in machine learning and computer systems.{% endif %}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes on startups, the tech industry, machine learning, and what he has learned along the way.{% endif %}" />
 	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 	<meta name="twitter:card" content="summary" />
 
-	<!-- ?v= is a cache buster; see the note in the site's index.html. Bump it
-	     whenever text.css or style.css changes. -->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/text.css?v=3" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css?v=3" type="text/css" media="screen, projection" />
+	<!-- Shared sitewide stylesheet. Bump ?v= whenever css/site.css changes;
+	     it is referenced from every page on the site, not just here. -->
+	<link rel="stylesheet" href="/css/site.css?v=3" />
+	<!-- Blog-only: the star-rating widget used by the Evaluating Startups posts. -->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css?v=3" />
 </head>
 <body>
-  <div id="header">
-    <h1><a href="{{ site.url }}/">Samvit Jain</a>'s <a href="{{ site.baseurl }}/">blog</a></h1>
-<span> </span>
-  </div>
-  <hr />
-<div class="content">
-    {{ content }}
-</div>
+	<div class="site">
+		<header class="site-header">
+			<a class="wordmark" href="/">Samvit Jain</a>
+			<nav class="site-nav">
+				<a href="/research/">Research</a>
+				<a href="{{ site.baseurl }}/" aria-current="page">Blog</a>
+			</nav>
+		</header>
+
+		<main class="prose">
+			{{ content }}
+		</main>
+	</div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script type="text/javascript">

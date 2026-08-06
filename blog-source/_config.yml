@@ -4,6 +4,14 @@
 # site.url + site.baseurl explicitly.
 url: https://samvitjain.com
 baseurl: /blog
+
+# Build straight into the directory the site serves from, so there is no
+# separate rsync step. For live preview use `jekyll build --watch` together
+# with a static server at the repo root -- `jekyll serve` cannot style the
+# blog, because /css/site.css lives outside Jekyll's tree and it only serves
+# this destination. Note Jekyll cleans the destination on each build; blog/ is
+# fully generated, so that is safe.
+destination: ../blog
 permalink: /:title/
 markdown: Pandoc
 plugins: ['jekyll-pandoc']

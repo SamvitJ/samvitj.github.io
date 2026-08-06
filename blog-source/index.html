@@ -1,17 +1,15 @@
 ---
 layout: default
-title: "Samvit Jain's Blog"
+title: "Blog"
 ---
 
-<h2>Index</h2>
+<h1>Blog</h1>
 
-<p> I write about the tech industry, startups, my personal experiences, and (occasionally) interesting papers in machine learning and computer systems. </p>
-
-<ul>
+<ul class="post-list">
 {% for post in site.posts %}
-<li>
-	<a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-	({{ post.date | date_to_string }})
-</li>
+	<li>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<span class="post-list-date">{{ post.date | date_to_string }}</span>
+	</li>
 {% endfor %}
 </ul>
