@@ -1,3 +1,9 @@
 # Ignore
 .sass-cache/
 .jekyll-cache/
+
+# Jekyll build artifacts. The blog is built to blog-source/_site and then
+# rsynced to blog/, which is what actually gets committed and served.
+blog-source/_site/
+blog-source/vendor/
+blog-source/.bundle/

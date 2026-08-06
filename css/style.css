@@ -40,3 +40,51 @@ bibtext {
   font-family: monospace;
 	font-size: 14px;
 }
+
+/* ---- Layout ------------------------------------------------------------ */
+
+.page {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.sitename {
+	font-size: 32px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* ---- Narrow screens ---------------------------------------------------- */
+
+@media (max-width: 700px) {
+	/* Stack the thumbnail/description rows instead of squeezing two columns
+	   into a phone-width viewport. */
+	.entries,
+	.entries tbody,
+	.entries tr,
+	.entries td {
+		display: block;
+		width: auto !important;
+	}
+
+	/* Keep thumbnails from ballooning to full width once they're stacked. */
+	.entries td:first-child {
+		max-width: 240px;
+	}
+
+	/* The bio photo reads better above the text than blown up beneath it. */
+	.bio td:first-child {
+		max-width: none;
+	}
+
+	/* The talks table is genuinely tabular -- let it scroll rather than
+	   collapse into unlabelled fragments. */
+	.talks {
+		display: block;
+		overflow-x: auto;
+	}
+}

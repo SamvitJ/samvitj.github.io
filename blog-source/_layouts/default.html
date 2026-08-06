@@ -4,19 +4,21 @@
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>{{ page.title }} | Samvit Jain</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes about the tech industry, startups, personal experience, and occasionally interesting papers in machine learning and computer systems.{% endif %}" />
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes about the tech industry, startups, personal experience, and occasionally interesting papers in machine learning and computer systems.{% endif %}" />
+	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+	<meta name="twitter:card" content="summary" />
+
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/text.css" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="../css/text.css" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen, projection" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102797768-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-102797768-1');
-  </script>
 </head>
 <body>
   <div id="header">
