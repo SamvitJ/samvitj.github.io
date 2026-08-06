@@ -197,7 +197,14 @@ a.wordmark:hover { color: var(--accent); }
 	content: counter(now);
 	position: absolute;
 	left: 0;
-	top: .08em;
+	/* Centre the badge on the first line of text, rather than nudging by eye:
+	   (1.0625rem body * 1.65 line-height - 1.35rem badge) / 2. */
+	top: .2rem;
+	/* Flex centres the digit regardless of line-height; setting line-height by
+	   hand mis-centres it, since border-box leaves only 1.35rem minus borders. */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 1.35rem;
 	height: 1.35rem;
 	border-radius: 999px;
@@ -206,8 +213,7 @@ a.wordmark:hover { color: var(--accent); }
 	color: var(--muted);
 	font-size: .75rem;
 	font-variant-numeric: tabular-nums;
-	line-height: 1.3rem;
-	text-align: center;
+	line-height: 1;
 }
 
 .now .now-title {
