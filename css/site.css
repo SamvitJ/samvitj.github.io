@@ -1,0 +1,361 @@
+/* ==========================================================================
+   samvitjain.com — shared stylesheet
+
+   One stylesheet for the whole site: homepage, /research, /notes,
+   /micropayments, /accel. The blog keeps its own type (blog-source/css).
+
+   NOTE: bump the ?v= on every <link> that references this file whenever you
+   edit it. Pages caches CSS for 4h but HTML for 10m, so returning visitors
+   otherwise pair new markup with a stale stylesheet.
+   ========================================================================== */
+
+/* ---- Tokens -------------------------------------------------------------- */
+
+:root {
+	--bg:          #faf9f6;
+	--bg-sunken:   #f2efe8;
+	--text:        #1b1917;
+	--muted:       #6b655c;
+	--rule:        #e4dfd5;
+	--accent:      #9c3b28;
+	--accent-weak: #b8543f;
+
+	--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+	             "Helvetica Neue", Arial, sans-serif;
+	--font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+	              "Times New Roman", serif;
+
+	--page: 44rem;      /* outer column */
+	--measure: 36rem;   /* comfortable reading measure */
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg:          #191714;
+		--bg-sunken:   #221f1b;
+		--text:        #ece7dd;
+		--muted:       #9d968b;
+		--rule:        #302c26;
+		--accent:      #e08a6d;
+		--accent-weak: #c97458;
+	}
+}
+
+/* ---- Base ---------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font-sans);
+	font-size: 1.0625rem;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border-color .15s ease, color .15s ease;
+}
+a:hover, a:focus-visible { border-bottom-color: currentColor; }
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3 {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	color: var(--text);
+}
+
+h1 { font-size: clamp(1.6rem, 1.3rem + 1.4vw, 2.25rem); margin: 0 0 .75rem; }
+h2 { font-size: clamp(1.2rem, 1.08rem + .55vw, 1.45rem); margin: 0 0 1rem; }
+h3 { font-size: 1.05rem; margin: 0 0 .35rem; }
+
+p { margin: 0 0 1.15rem; max-width: var(--measure); }
+
+/* ---- Page frame ---------------------------------------------------------- */
+
+.site {
+	width: 100%;
+	max-width: var(--page);
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+/* Listing pages carry a thumbnail column, so they get a wider measure. */
+.site--wide { max-width: 52rem; }
+
+.site-header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	padding: 2.25rem 0 1.5rem;
+	margin-bottom: 3rem;
+	border-bottom: 1px solid var(--rule);
+}
+
+.wordmark {
+	font-family: var(--font-serif);
+	font-size: 1.15rem;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	color: var(--text);
+	margin: 0;
+	border-bottom: none;
+}
+a.wordmark:hover { color: var(--accent); }
+
+.site-nav {
+	display: flex;
+	gap: 1.5rem;
+	font-size: .95rem;
+}
+.site-nav a { color: var(--muted); }
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); }
+.site-nav a[aria-current="page"] { border-bottom-color: var(--rule); }
+
+.site-footer {
+	margin: 5rem 0 3rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--rule);
+	font-size: .875rem;
+	color: var(--muted);
+}
+.site-footer a { color: var(--muted); }
+
+/* ---- Homepage hero ------------------------------------------------------- */
+
+.hero {
+	display: grid;
+	grid-template-columns: 16rem 1fr;
+	gap: 2rem;
+	align-items: start;
+	margin-bottom: 1rem;
+}
+
+/* Shown at its natural aspect ratio -- no crop. */
+.portrait {
+	width: 100%;
+	max-width: 16rem;
+	height: auto;
+	border-radius: 3px;
+	display: block;
+}
+
+.lede { font-size: 1.125rem; }
+
+/* An organisation name, emphasised but deliberately not a link. */
+.org { color: var(--accent); }
+.hero p:last-of-type { margin-bottom: 0; }
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .4rem 1.1rem;
+	list-style: none;
+	margin: 1.75rem 0 0;
+	padding: 0;
+	font-size: .95rem;
+}
+
+@media (max-width: 34rem) {
+	.hero { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+/* ---- "What I'm working on" list (homepage) ------------------------------- */
+
+.now {
+	list-style: none;
+	counter-reset: now;
+	margin: 1.5rem 0 0;
+	padding: 0;
+	max-width: var(--measure);
+}
+
+.now li {
+	counter-increment: now;
+	position: relative;
+	padding: 0 0 1.15rem 2.1rem;
+}
+.now li:last-child { padding-bottom: 0; }
+
+.now li::before {
+	content: counter(now);
+	position: absolute;
+	left: 0;
+	top: .08em;
+	width: 1.35rem;
+	height: 1.35rem;
+	border-radius: 999px;
+	border: 1px solid var(--rule);
+	background: var(--bg-sunken);
+	color: var(--muted);
+	font-size: .75rem;
+	font-variant-numeric: tabular-nums;
+	line-height: 1.3rem;
+	text-align: center;
+}
+
+.now .now-title {
+	font-weight: 600;
+	color: var(--text);
+}
+.now a.now-title { color: var(--accent); }
+.now p { margin: .15rem 0 0; color: var(--muted); font-size: .975rem; }
+
+/* ---- Research entries ---------------------------------------------------- */
+
+.section { margin-bottom: 3.5rem; }
+
+/* The top margin collapses through .section, so it sets the gap above the
+   first heading *and* the gap between sections -- max(), not sum. */
+.section > h2 {
+	margin: 3.25rem 0 0;
+	padding-bottom: .6rem;
+	border-bottom: 1px solid var(--rule);
+}
+
+.entry {
+	display: grid;
+	grid-template-columns: 13rem 1fr;
+	gap: 1.75rem;
+	align-items: start;
+	padding: 1.75rem 0;
+	border-bottom: 1px solid var(--rule);
+}
+.entry:last-child { border-bottom: none; }
+.entry:first-of-type { padding-top: 1.25rem; }
+
+.entry-thumb {
+	width: 100%;
+	border-radius: 2px;
+	background: var(--bg-sunken);
+	display: block;
+}
+
+.entry-title {
+	font-family: var(--font-serif);
+	font-size: 1.05rem;
+	font-weight: 600;
+	line-height: 1.35;
+	margin: 0 0 .45rem;
+}
+.entry-title a { color: var(--text); }
+.entry-title a:hover { color: var(--accent); }
+
+.entry-authors, .entry-venue {
+	font-size: .925rem;
+	line-height: 1.5;
+	color: var(--muted);
+	margin: 0;
+	max-width: none;
+}
+.entry-venue { margin-top: .2rem; }
+.entry-authors .me { color: var(--text); font-weight: 600; }
+
+.badge {
+	display: inline-block;
+	margin-left: .4rem;
+	padding: .05rem .45rem;
+	border: 1px solid var(--rule);
+	border-radius: 999px;
+	background: var(--bg-sunken);
+	font-size: .75rem;
+	font-weight: 500;
+	color: var(--muted);
+	letter-spacing: .01em;
+	white-space: nowrap;
+}
+
+/* margin-bottom 0 -- the base <p> rule's 1.15rem would otherwise strand the
+   Summary disclosure far below the links it belongs with. */
+.entry-links {
+	margin: .75rem 0 0;
+	font-size: .9rem;
+	color: var(--muted);
+}
+.entry-links a { color: var(--accent); }
+.entry-links .sep { margin: 0 .45rem; opacity: .5; }
+
+/* Abstract disclosure — native <details>, no JS */
+.abstract { margin-top: .5rem; }
+.abstract > summary {
+	cursor: pointer;
+	font-size: .9rem;
+	color: var(--accent);
+	width: fit-content;
+	list-style: none;
+}
+.abstract > summary::-webkit-details-marker { display: none; }
+.abstract > summary::before {
+	content: "▸";
+	display: inline-block;
+	margin-right: .35rem;
+	font-size: .7em;
+	transition: transform .15s ease;
+}
+.abstract[open] > summary::before { transform: rotate(90deg); }
+.abstract > summary:hover { text-decoration: underline; }
+.abstract p {
+	margin: .6rem 0 0;
+	padding-left: .9rem;
+	border-left: 2px solid var(--rule);
+	font-size: .925rem;
+	color: var(--muted);
+}
+
+@media (max-width: 34rem) {
+	.entry { grid-template-columns: 1fr; gap: .9rem; }
+	.entry-thumb { max-width: 14rem; }
+}
+
+/* ---- Talks --------------------------------------------------------------- */
+
+.talks { list-style: none; margin: 0; padding: 0; }
+
+.talks li {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: .25rem 1.5rem;
+	padding: .85rem 0;
+	border-bottom: 1px solid var(--rule);
+}
+.talks li:last-child { border-bottom: none; }
+
+.talk-title { font-size: .975rem; }
+.talk-where, .talk-when { font-size: .875rem; color: var(--muted); }
+.talk-when { text-align: right; white-space: nowrap; }
+
+@media (max-width: 34rem) {
+	.talks li { grid-template-columns: 1fr; }
+	.talk-when { text-align: left; }
+}
+
+/* ---- Simple document pages (notes, micropayments) ------------------------ */
+
+.prose h2 { margin-top: 2.5rem; }
+.prose blockquote {
+	margin: 1.25rem 0;
+	padding: .25rem 0 .25rem 1.1rem;
+	border-left: 2px solid var(--rule);
+	color: var(--muted);
+	font-style: italic;
+}
+.prose img { border-radius: 2px; }
+
+.linklist { list-style: none; margin: 0; padding: 0; }
+.linklist li { padding: .6rem 0; border-bottom: 1px solid var(--rule); }
+.linklist li:last-child { border-bottom: none; }
+.linklist a { color: var(--text); }
+.linklist a:hover { color: var(--accent); }
+.linklist .note { color: var(--muted); font-size: .9rem; }
