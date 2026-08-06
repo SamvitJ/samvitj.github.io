@@ -25,7 +25,7 @@
 	--font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
 	              "Times New Roman", serif;
 
-	--page: 44rem;      /* outer column */
+	--page: 48rem;      /* outer column, one width for every page */
 	--measure: 36rem;   /* comfortable reading measure */
 }
 
@@ -98,7 +98,6 @@ p { margin: 0 0 1.15rem; max-width: var(--measure); }
 }
 
 /* Listing pages carry a thumbnail column, so they get a wider measure. */
-.site--wide { max-width: 52rem; }
 
 .site-header {
 	display: flex;
@@ -111,10 +110,15 @@ p { margin: 0 0 1.15rem; max-width: var(--measure); }
 	border-bottom: 1px solid var(--rule);
 }
 
+/* The homepage renders this as an <h1> and every other page as an <a>. Without
+   an explicit line-height the h1 takes 1.25 from the heading rule while the a
+   inherits the body's 1.65, which made the header ~7px taller everywhere but
+   home. Pin it so the element type cannot change the header's height. */
 .wordmark {
 	font-family: var(--font-serif);
 	font-size: 1.15rem;
 	font-weight: 600;
+	line-height: 1.25;
 	letter-spacing: -0.01em;
 	color: var(--text);
 	margin: 0;
@@ -197,9 +201,11 @@ a.wordmark:hover { color: var(--accent); }
 	content: counter(now);
 	position: absolute;
 	left: 0;
-	/* Centre the badge on the first line of text, rather than nudging by eye:
-	   (1.0625rem body * 1.65 line-height - 1.35rem badge) / 2. */
-	top: .2rem;
+	/* (1.0625rem body * 1.65 line-height - 1.35rem badge) / 2 = .2rem centres
+	   the badge on the line box. That box includes descender space, so titles
+	   without descenders read as sitting low; .26rem is an optical correction
+	   on top of the geometric value. */
+	top: .26rem;
 	/* Flex centres the digit regardless of line-height; setting line-height by
 	   hand mis-centres it, since border-box leaves only 1.35rem minus borders. */
 	display: flex;
