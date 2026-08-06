@@ -19,7 +19,10 @@
     <meta name="twitter:description" content="Machine learning engineer at Google. Previously computer vision at AWS, Microsoft Research, and UC Berkeley." />
     <meta name="twitter:image" content="https://samvitjain.com/photo/marin.jpeg" />
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <!-- ?v= is a cache buster. GitHub Pages serves CSS with max-age=14400 but
+         HTML with max-age=600, so returning visitors would otherwise pair new
+         markup with a 4-hour-stale stylesheet. Bump on any style.css change. -->
+    <link href="css/style.css?v=2" type="text/css" rel="stylesheet" />
     <script src="js/hidebib.js" type="text/javascript"></script>
   </head>
   <body>
