@@ -30,28 +30,26 @@ Here's a laundry list of potential criteria that you might consider in evaluatin
 - [Number of employees](#number-of-employees)
 - [Strength of founders](#strength-of-founders)
 - [Strength of early employees](#strength-of-early-employees)
-- [Investor pedigree](https://samvitjain.com/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
-- [Funding history](https://samvitjain.com/blog/evaluating-startups-2/#funding-history)
-- [Location](https://samvitjain.com/blog/evaluating-startups-2/#location)
-- [Personal fit](https://samvitjain.com/blog/evaluating-startups-2/#personal-fit)
-- [Product quality](https://samvitjain.com/blog/evaluating-startups-2/#product-quality)
+- [Investor pedigree](/blog/evaluating-startups-2/#investor-pedigree) (i.e. reputation, past record)
+- [Funding history](/blog/evaluating-startups-2/#funding-history)
+- [Location](/blog/evaluating-startups-2/#location)
+- [Personal fit](/blog/evaluating-startups-2/#personal-fit)
+- [Product quality](/blog/evaluating-startups-2/#product-quality)
 
-In the remainder of the post, I'll address each of these in turn, and provide a "rating" to indicate how strongly you should consider each factor when making your decision.
+In the remainder of the post, I'll address each of these in turn, and assign an importance to each factor: how much weight it deserves in your decision.
 
 I assume that you are interested in some combination of the following: personal growth, career growth, and financial upside. A convenient truth is that these three goals tend to be tightly correlated, and joining an early-stage, fast-growing startup with strong founders and talented employees is likely to satisfy all three.
 
 This post is about how to identify such companies.
 
-### The criteria
+## The criteria
 
-#### Current traction
+### Current traction
 
-<div class="rating" data-rate="3.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="3.5">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 One fact that makes evaluating startups as a prospective employee particularly difficult is that most key metrics are not public information. Statistics such as the number of monthly or daily active users (MAUs/DAUs), annual revenue, and months of runway are often not even known to current employees, let alone available on the internet.
@@ -66,14 +64,12 @@ A famous example where these metrics sharply conflicted is [Draw Something](http
 
 The result? One of the greatest "pops" of the [social-local-mobile](../assets/evaluating-startups/social-local-mobile.pdf) app era.
 
-#### Growth rate
+### Growth rate
 
-<div class="rating" data-rate="3">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="3">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 This one is tricky. Growth figures, especially when measured over only two data points (metrics today vs. metrics last year), are often hard to evaluate, unless absolute numbers are known as well. A representative from Facebook could have reported a [2150% growth](https://en.wikipedia.org/wiki/Template:Facebook_revenue) in revenue in 2005. While Facebook was indeed growing incredibly fast at that time, that particular statistic is meaningless, as revenue was nearly zero in 2004.
@@ -88,14 +84,12 @@ Joining a company that is growing at breakneck pace might be the smartest decisi
 
 On the flip side, joining a startup that "fails" a year or two after you join may not as bad as you may think. Assuming the startup had clear potential and a high hiring bar, no one will hold it against you that the company didn't do as well as hoped. This attitude may not hold outside the San Francisco Bay Area, or the United States, but what is most threatened by spending time at a company that flounders is not your CV, but just that: your time. Staying at a company with no clear growth prospects for five years translates to five lost years you could have spent growing and learning. Note that this idea that a failed startup does not equal a black mark on your career [holds](https://blog.samaltman.com/advice-for-ambitious-19-year-olds) for both the founders and the employees. That said, you are probably less likely to regret time spent working on an enterprise that fails as a founder than as employee #50.
 
-#### Number of employees
+### Number of employees
 
-<div class="rating" data-rate="2">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="2">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 IBM has 350,000 employees today, and its market cap has hovered around $120 billion for the last twenty years. When WhatsApp was acquired by Facebook for $20 billion in February 2014, it had 55 employees.
@@ -127,14 +121,12 @@ Take this formula for what it is: a very rough **heuristic** for your ownership 
 
 For more precise predictions, please see this [calculator](https://tldroptions.io/), which takes different inputs, but offers upside estimates for a range of possible company outcomes.
 
-#### Strength of founders
+### Strength of founders
 
-<div class="rating" data-rate="4">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="5">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 Silicon Valley loves to lionize its founders. To be a successful founder is to be a statesman, a crusader, *a messiah* -- the enlightened champion of a new way of life. In fact, early CEOs often paint themselves into the founding story of a company ([1](https://www.cnet.com/news/tesla-motors-founders-now-there-are-five/), [2](https://www.businessinsider.com/ubers-history)) to buy further legitimacy: the idea being, to be the real deal, you have to be there from the beginning. And yet the Valley's most revered "founder-CEOs" (the most venerable job title in Silicon Valley) are also at times its most polarizing, its most reviled.
@@ -150,14 +142,12 @@ For now, though, let's start with a simpler question. What kinds of past experie
 - **Domain expertise** - This is valuable, but probably not strictly necessary. This Y Combinator-backed waste management company [recently raised](https://techcrunch.com/2017/07/06/an-uber-for-garbage-picks-up-steam-and-11-7-million-in-series-a-funding/) a $12 million Series A round, and includes a founder whose family has been in the waste recycling business for four generations. That sounds splendid to me, and is an attribute that investors often assign big plus points to. But being an outsider can sometimes constitute a great advantage as well. Elon Musk had no formal experience in rockets or electric cars when he started SpaceX and Tesla, two areas that seem to have extremely high barriers to entry. Moral: we probably [overestimate](https://women2.com/stories/2017/8/16/my-journey-from-struggling-actress-to-successful-tech-ceo) how hard it is for smart people to immerse themselves in new, hard problems they care about.
 
 
-#### Strength of early employees
+### Strength of early employees
 
-<div class="rating" data-rate="4.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="4.5">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 *Steve Jobs once said that the success or failure of a startup depends on the first ten employees... If anything, it's more like the first five.* - Paul Graham, [Wealth](http://paulgraham.com/wealth.html)
@@ -182,11 +172,11 @@ One could imagine a better metric for evaluating early engineering hires -- say,
 
 You might also ask: why does hiring strong early employees matter so much anyway? It matters because it is the early employees who will serve as your mentors, and often take on many of the leadership positions within the company. Besides the founders, the early hires will be the party with the biggest influence on the company's destiny. Relaxing hiring standards is tempting, but the consequences are subtle and self-perpetuating. Rowdy and misogynistic early employees, for example, will very likely build a company that is rowdy and misogynistic.
 
-*Continue reading*: **[Part II](https://samvitjain.com/blog/evaluating-startups-2/)** of Evaluating Startups
+*Continue reading*: **[Part II](/blog/evaluating-startups-2/)** of Evaluating Startups
 
 
 
-### Footnotes
+## Footnotes
 
 [^1]: The [number one rule](http://www.paulgraham.com/swan.html) of startup investing is that nearly all of an investor's returns are concentrated in a few big winners. This, combined with the difficulty of identifying the biggest winners in their infancy, means that early-stage investors go out of their way to court a large number of companies with a small chance at astronomical success.
 

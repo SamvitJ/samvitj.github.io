@@ -13,7 +13,7 @@ This topic isn't just a theoretical curiosity. Parallelizing important optimizat
 
 To orient a discussion of these papers, I thought it would be useful to dedicate one blog post to briefly developing stochastic gradient descent from "first principles." This discussion is supposed to be illustrative, and errs in favor of pedagogical clarity, over mathematical rigor.
 
-### Optimization
+## Optimization
 
 Stochastic gradient descent is an optimization algorithm. In machine learning, what exactly does an optimization algorithm optimize?
 
@@ -21,7 +21,7 @@ As you may know, supervised machine learning generally consists of two phases:[^
 
 Optimization algorithms are the means used to find these *optimal* parameters, and develop robust models. Some examples of optimization algorithms include gradient descent, the conjugate gradient method, BFGS, and L-BFGS.
 
-### From the beginning
+## From the beginning
 
 Let's begin with stochastic gradient descent's predecessor and cousin: **gradient descent**. Gradient descent is an algorithm that iteratively tweaks a model's parameters, with the goal of minimizing the discrepancy between the model's predictions and the "true" labels associated with a set of training examples.
 
@@ -59,7 +59,7 @@ We do this repeatedly until we arrive at a point where $\nabla J(\theta) = 0$. T
 
 To be totally clear, the update operation $\theta - \gamma \nabla J(\theta)$ is a *vector subtraction*. Both the parameter vector, $\theta$, and the gradient, $\nabla J(\theta)$, are \\(n\\)-dimensional vectors, where \\(n\\) denotes the number of features in our model. So every update operation in gradient descent is performed on the \\(n\\)-dimensional feature space of our model.
 
-### Stochastic Gradient Descent
+## Stochastic Gradient Descent
 
 Gradient descent has a problem. Computing the gradient of the cost function, $\nabla J(\theta)$, is very costly in practice. Recall
 $$
@@ -115,7 +115,7 @@ Though it may not be immediately obvious, theory assures us that if the learning
 
 Finally, it is worth noting that there is a middle-ground between gradient descent and stochastic gradient descent, called mini-batch gradient descent. Mini-batch gradient descent uses a randomly selected subset, or *mini-batch*, of \\(b\\) training examples at each iteration, instead of just one. Some definitions of SGD actually refer to mini-batch gradient descent. In practice, batching can lead to a more stable trajectory than in SGD, and, perhaps surprisingly, better performance as well, given that the gradient computation is properly vectorized.[^3]
 
-### Parallelization
+## Parallelization
 
 Note that stochastic gradient descent, as we have described it thus far, is a sequential algorithm. Each update operation involves both 1) reading the current parameter vector $\theta$, and 2) writing to $\theta$ a modified value. So we cannot just naively execute a series of update operations in parallel.
 
@@ -131,9 +131,9 @@ Is there any guarantee that SGD with version reconciliation would converge? What
 
 These are the questions that the literature on parallelizing stochastic gradient descent seeks to answer.
 
-*Thanks to Kiran Vodrahalli, Prem Nair, and Sanjay Jain for reviewing drafts of this post.*
+*Thanks to a number of readers for reading drafts of this post.*
 
-### Footnotes
+## Footnotes
 
 [^1]: There is also an important intermediate stage: validation, used to determine the values of our model's hyperparameters. Hyperparameters are meta-parameters that dictate how a particular model is constructed. In gradient descent, the learning rate $\gamma$ is a key hyperparameter.
 

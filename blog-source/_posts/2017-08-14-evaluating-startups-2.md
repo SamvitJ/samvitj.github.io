@@ -5,18 +5,16 @@ date: 2017-08-14 16:00:00
 comments: true
 ---
 
-*This is a continuation of a previous blog post, the first part of which you can read [here](https://samvitjain.com/blog/evaluating-startups/).*
+*This is a continuation of a previous blog post, the first part of which you can read [here](/blog/evaluating-startups/).*
 
-### The criteria, continued
+## The criteria, continued
 
-#### Investor pedigree
+### Investor pedigree
 
-<div class="rating" data-rate="4.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="4">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 If I was looking for a job, and I saw that a company was backed by Sequoia Capital, I might just be tempted to apply, knowing nothing else about the company.
@@ -35,22 +33,18 @@ Of Sequoia's over 1000 investments since 1972, 209 companies have been acquired 
 
 This is good marketing, but also really does capture the ethos of Silicon Valley.
 
-This is a criteria that I would intuitively award 5 points, but that [even investors](https://blog.wealthfront.com/choose-right-job-company/) themselves would warn against overvaluing. So I compromised, and gave it 4.5 points.
-
 Silicon Valley has a hierarchy in its investors. The top-tier is generally agreed to consist of: Sequoia, Kleiner Perkins (KPCB), Greylock, Benchmark, Accel, and Andreessen Horowitz.[^1] Other well-known venture firms include General Catalyst, New Enterprise Associates (NEA), and Lightspeed. These are the venture capital firms that, in general, attract the best founders, win the best deals, and show the highest returns.
 
 Even the best firms, however, often miss great deals, so the failure to raise funding from one of these groups does not necessarily imply weakness. This is particularly true of companies founded outside of the U.S., and of very promising founders who may have weaker connections to Silicon Valley's old guard (though these firms have gotten pretty good at identifying unknown upstarts).
 
 On the flip side, not all companies funded by top-tier venture firms are excellent places to work. It is the nature of their business that venture capital firms will invest in a large number of companies that will fail. More than that, promising companies can sometimes degenerate if their growth is achieved at the cost of their culture or values. Regardless of who is backing them, such startups are best avoided.
 
-#### Funding history
+### Funding history
 
-<div class="rating" data-rate="3.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="3.5">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 *The funding statistics in this section are based on a 2017 [article](https://techcrunch.com/2017/05/17/heres-how-likely-your-startup-is-to-get-acquired-at-any-stage/) by TechCrunch that looked at 15,600 U.S.-based tech companies founded between 2003 and 2013.*
@@ -81,14 +75,12 @@ Note also that raising an advanced stage of funding (e.g. a Series D or E round)
 
 I would recommend asking a founder or executive the following question during the interview process: what is company's current projected runway? This is an estimate for how long the company could stay afloat, given the cash in its bank and its current rate of spending (i.e. burn rate), were it not to raise any more funding. Asking this question definitely does not constitute a faux pax, and an evasive answer is a bad sign.
 
-#### Location
+### Location
 
-<div class="rating" data-rate="2.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="3">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 Every year, Wealthfront identifies a set of "career-launching" tech companies for aspiring young professionals by surveying the partners of 14 top venture capital firms. The qualifications for making the list are: 1) a revenue run rate between $20-300 million, and 2) a growth trajectory of over 50% over the next three to four years.
@@ -101,14 +93,12 @@ Wealthfront's [2017 posting](https://blog.wealthfront.com/2017-career-launching-
 
 Treat location as a low-pass filter on a company's prospects. A company based out of San Francisco, Palo Alto, Menlo Park, or Mountain View is obviously not guaranteed to be successful, but a company *not* headquartered in the Bay Area or New York (and maybe Boston, Seattle, or LA) is going to be fighting an uphill battle finding investors, attracting and retaining strong employees, and (in many cases) connecting with its early adopters.
 
-#### Personal fit
+### Personal fit
 
-<div class="rating" data-rate="4">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="4">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 I want to play devil's advocate and argue that what a company builds may not actually be that indicative of whether the company would be a good fit for you. Let's say you're interested in machine learning, but you think enterprise tech is super boring.
@@ -127,14 +117,12 @@ In [this talk](https://vimeo.com/145221295), Dustin Moskovitz, co-founder of Fac
 
 How will the work that you do add value to the world? As Moskovitz says, this is not a given for every startup. Life is too short to work for a company that does not do work that matters to you, and that matters period.
 
-#### Product quality
+### Product quality
 
-<div class="rating" data-rate="3.5">
-  <i class="star-1">★</i>
-  <i class="star-2">★</i>
-  <i class="star-3">★</i>
-  <i class="star-4">★</i>
-  <i class="star-5">★</i>
+<div class="importance" data-rate="3.5">
+  <span class="importance-label">Importance</span>
+  <span class="importance-track"><span class="importance-fill"></span></span>
+  <span class="importance-value"></span>
 </div>
 
 Last but not least is the product itself. What is the company building?
@@ -157,32 +145,30 @@ This is where the first criteria becomes useful. Early Facebook users [spent hou
 
 Of course this discussion is more relevant to consumer companies. For enterprise startups, it might be worth asking early customers what they feel about the product. What pain points does it solve for them? Will the solution scale?
 
-#### Closing thoughts
+### Closing thoughts
 
-**Verdict**
+#### Verdict
 
-So what's the verdict? Here are the criteria, as scored in this blog post:
+So what's the verdict? Here are the criteria, ranked by importance:
 
-- [Investor pedigree](#investor-pedigree) - 4.5 points
-- [Strength of early employees](https://samvitjain.com/blog/evaluating-startups/#strength-of-early-employees) - 4.5 points
-- [Strength of founders](https://samvitjain.com/blog/evaluating-startups/#strength-of-founders) - 4 points
-- [Personal fit](#personal-fit) - 4 points
-- [Current traction](https://samvitjain.com/blog/evaluating-startups/#current-traction) - 3.5 points
-- [Funding history](#funding-history) - 3.5 points
-- [Product quality](#product-quality) - 3.5 points
-- [Growth rate](https://samvitjain.com/blog/evaluating-startups/#growth-rate) - 3 points
-- [Location](#location) - 2.5 points
-- [Number of employees](https://samvitjain.com/blog/evaluating-startups/#number-of-employees) - 2 points
+- [Strength of founders](/blog/evaluating-startups/#strength-of-founders) &mdash; 5
+- [Strength of early employees](/blog/evaluating-startups/#strength-of-early-employees) &mdash; 4.5
+- [Investor pedigree](#investor-pedigree) &mdash; 4
+- [Personal fit](#personal-fit) &mdash; 4
+- [Current traction](/blog/evaluating-startups/#current-traction) &mdash; 3.5
+- [Funding history](#funding-history) &mdash; 3.5
+- [Product quality](#product-quality) &mdash; 3.5
+- [Growth rate](/blog/evaluating-startups/#growth-rate) &mdash; 3
+- [Location](#location) &mdash; 3
+- [Number of employees](/blog/evaluating-startups/#number-of-employees) &mdash; 2
 
-I deemed investor pedigree and strength of early employees to be the most important criteria (4.5 points), followed by strength of founders and personal fit (4 points), and then the current traction, funding history, and product quality (3.5 points).
+I deemed the strength of the founders to be the single most important criteria (5), followed by the strength of the early employees (4.5), and then investor pedigree and personal fit (4).
 
-One question one might ask is why the "strength of the early employees" is more important than the "strength of the founders". Granted that strength is a subjective word, the short answer here is while it is the *market* that selects the founders, it is the *founders* who hire the employees and build the company.
+One interesting truth: while it is the *market* that selects the founders, it is the *founders* who hire the employees who build the company. And the strength of the early employees actually echoes the quality of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) make or break the company, given a promising early tailwind (the market).
 
-So the strength of the early employees reflects on the judgment of the founders, the promise of their initial work, and their ability to inspire and attract great people. Arguably, these attributes together (or their absence) are what will make or break the company, given a promising early tailwind (the market).
+After the strength of the team (founders, investors, employees) and personal fit comes company velocity broadly, which includes product traction, the funding history, the product quality, and the growth rate. And historically, location has mattered a lot too.
 
-Besides the strength of the team (founders, investors, employees), the next most important criteria is broadly the "traction" and velocity of the company, which is reflected in the product traction, the funding history, the product quality, and the growth rate.
-
-**A historical perspective**
+#### A historical perspective
 
 Through the dot com bust and the rise of mobile phones, three survivors emerged from the Internet era: Google, Facebook, and Amazon. Google indexes the world's information, Facebook indexes the world's people, and Amazon indexes the world's products. Though on decidedly shakier grounds, the mobile era has spawned its own behemoths. The three enabling forces here are messaging (i.e. low-latency, mobile web-based chat), the camera (i.e. the dual-facing, integrated recording device), and location (i.e. high-precision global GPS), and their flag-bearers WhatsApp, Instagram/Snap, and Uber/Lyft.
 
@@ -190,16 +176,16 @@ In a similar way, each technological wave spawns companies of all kinds, but the
 
 Though each of the three had humble origins, even in their early days you would have found markers of greatness. The most important such marker is explosive growth. The best consumer companies are a bit like child prodigies -- they grow faster than you would think possible, racing past milestones that other, more mature companies, run by professional CEOs and seasoned C-suites, struggled to reach. Of course, like child prodigies, some flame out early (e.g. Yik Yak), while others fail to mature into healthy, cash-flow positive adults (e.g. Twitter). But every decade, two or three chart their way to adulthood fame.
 
-**Takeaways**
+#### Takeaways
 
 I'm not suggesting that a startup is only worth joining if it resembles Google circa 2000 or Facebook circa 2006, but studying the characteristics of the really successful companies is still a useful exercise. Not every startup has a glorified origin story. Companies such as Airbnb, SpaceX, and Tesla weathered many near-death experiences in their early days. In more cases than not, the cost of greatness is great struggle.
 
 So while you can't compare every company to Instagram, which [crossed](https://techcrunch.com/2010/10/13/instagram-users/) 100,000 users less than a week after its launch in October 2010, you *can* learn to spot the markers that signal that a company is promising, and on a trajectory that could take you places. I hope this piece serves as a useful guide at least for the common cases, if not for spotting the next big tech company in its infancy.
 
-*Thanks to Adrian Colyer, Chris Kuenne, Hansen Qian, Andrew Ng, and Sanjay Jain for reviewing drafts of this post.*
+*Thanks to a number of readers for reading drafts of this post.*
 
 
-### Footnotes
+## Footnotes
 
 [^1]: Andreessen Horowitz (a16z) is a bit of an outlier. Founded in 2009, it is the only venture capital firm started after 1995 to make this list. Being the newest of the lot, a16z has more to prove, but in terms of prestige, reputation, and [network centrality](https://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/) it is second-to-none. Some of its highest profile exits/IPOs include Groupon, Skype, Zynga, Nicira, Oculus VR, and GitHub.
 

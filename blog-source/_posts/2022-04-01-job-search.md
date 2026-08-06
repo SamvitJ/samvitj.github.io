@@ -113,7 +113,7 @@ Some takeaways: referrals are clearly the way to go, as expected, but blind appl
 
 ### 5. Decisions
 
-Much has already been written by others about negotiating offers and how to [pick between companies](https://samvitjain.com/blog/evaluating-startups/), so I'll keep this section brief.
+Much has already been written by others about negotiating offers and how to [pick between companies](/blog/evaluating-startups/), so I'll keep this section brief.
 
 If you find yourself drawn to the role/company that also happens to be paying the most (which IMO is more common than people would like to admit), I would run the following thought experiment: if this was your *second* highest offer (instead of your highest), would you still choose this company?
 

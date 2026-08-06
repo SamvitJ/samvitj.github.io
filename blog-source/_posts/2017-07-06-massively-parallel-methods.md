@@ -7,12 +7,12 @@ comments: true
 
 In this post, I introduce the Google DeepMind [paper](https://arxiv.org/pdf/1507.04296.pdf) "Massively Parallel Methods for Deep Reinforcement Learning" from ICML 2015, and discuss the motivation behind developing parallel implementations of useful algorithms.
 
-### Paper contributions
+## Paper contributions
 This paper presents a distributed implementation, called Gorila, of the Deep Q-Network (DQN) algorithm, which applies deep neural networks to the problem of reinforcement learning (RL). The algorithm, which was [published](https://deepmind.com/research/dqn/) in *Nature*, uses a deep convolutional network to approximate the optimal action-value function, which guides an RL agent's behavior. The core breakthrough: the agent was trained to play a set of Atari 2600 computer games based solely on the pixels of still frames and associated scores, and yet beat all previous implementations, achieving a level of performance comparable to that of professional human players.
 
 The authors of *this* paper used Gorila to play 49 Atari 2600 games in two different test settings, and did even better, beating the non-distributed DQN implementation in 31 out of 49 games in the first, and 41 out of 49 games in the second. Notably, to reach these results, their system was trained for a wall-clock time that was roughly an *order of magnitude* less than that required by the single GPU implementation.
 
-### Parallelization
+## Parallelization
 
 Gorila achieves these results by introducing parallelization along three axes:
 
@@ -24,7 +24,7 @@ Gorila achieves these results by introducing parallelization along three axes:
 
 ![<sup>**Figure 1**: The Gorila agent parallelizes the training procedure by separating out learners, actors, and the parameter server. In a single experiment, several learner processes exist and they continuously send gradients to the parameter server, and receive updated parameters. At the same time, independent actors accumulate experience in parallel, and update their Q-networks from the parameter server. (Source: [original paper](https://arxiv.org/pdf/1507.04296.pdf))</sup>](../assets/massively-parallel-methods/Gorila-architecture.png){ width=120% }
 
-### So what?
+## So what?
 
 Why is this significant? It seems obvious that if you throw more computational power at a problem (i.e. by running the algorithm on a cluster of CPUs, as opposed to a single node), performance (as measured by accuracy or head-to-head performance, given comparable training time) should improve, or alternatively, that the required training time should decrease (given comparable results). In general, what is the point of a paper that presents a distributed implementation of a well-known algorithm, and claims that performance improved?
 
@@ -48,9 +48,9 @@ Actually, the contribution can be of one of two flavors:
 
 Of these two, Gorila falls in the first category, as it demonstrates how a parallelized implementation of the DQN algorithm can outperform the original, serial implementation, but does not claim any particular asymptotic behavior. Remarkably, the authors were able to beat the single GPU implementation, which was trained for 12-14 days, in 38 out of the 49 games considered after just 1.5 days of training!
 
-*Thanks to Robert Nishihara, Roy Fox, and Sanjay Jain for reviewing drafts of this post.*
+*Thanks to a number of readers for reading drafts of this post.*
 
-### Footnotes
+## Footnotes
 
 [^1]: I used the Amazon ECU and vCPU designations as a rough benchmark for instance compute power. ECU is an abbreviation for Elastic Compute Unit, which Amazon is phasing out for the more standard vCPU (virtual CPU) designation.  
 The p2.xlarge GPU instance consists of 4 vCPUs and 12 ECUs. The closest comparable CPU instance I found, the m4.xlarge, consists of 4 vCPUs and 13 ECUs.  
