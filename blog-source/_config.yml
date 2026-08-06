@@ -1,4 +1,4 @@
-baseurl: https://www.samvitjain.com/blog
+baseurl: https://samvitjain.com/blog
 permalink: /:title/
 markdown: Pandoc
 plugins: ['jekyll-pandoc']
