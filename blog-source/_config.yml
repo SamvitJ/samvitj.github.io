@@ -1,4 +1,9 @@
-baseurl: https://samvitjain.com/blog
+# Split so that site.baseurl is a root-relative path: internal links and asset
+# hrefs then work both in production and under `jekyll serve` locally. Anything
+# that must be an absolute URL (og:url, the Disqus thread key) composes
+# site.url + site.baseurl explicitly.
+url: https://samvitjain.com
+baseurl: /blog
 permalink: /:title/
 markdown: Pandoc
 plugins: ['jekyll-pandoc']

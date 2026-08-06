@@ -27,5 +27,11 @@ sup { bottom: 1ex; }
 .post h4 { font-size: 100%; background-color: #efefef; margin-top: .5cm; margin-bottom: 0; margin-right: -1cm; padding: .2cm 0 .2cm .3cm;}
 ol li p { max-width: 38em; }
 footer { border-top: 1px solid #d5d5d5; font-size: 80%; }
-body { margin: 0 auto; padding: 0 12px; max-width: 44em; }
 img { max-width: 100%; height: auto; }
+
+/* Narrow screens only. The max-width rules on p/ul/ol and .post already keep
+   text from overflowing a phone, so the body needs no width cap -- capping it
+   here would centre the header and index on desktop, which is not the design. */
+@media (max-width: 700px) {
+	body { padding: 0 12px; }
+}

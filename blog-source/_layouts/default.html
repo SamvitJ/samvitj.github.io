@@ -12,19 +12,17 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Samvit Jain writes about the tech industry, startups, personal experience, and occasionally interesting papers in machine learning and computer systems.{% endif %}" />
-	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 	<meta name="twitter:card" content="summary" />
 
 	<!-- ?v= is a cache buster; see the note in the site's index.html. Bump it
 	     whenever text.css or style.css changes. -->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/text.css?v=2" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="../css/text.css?v=2" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css?v=2" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="../css/style.css?v=2" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/text.css?v=3" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css?v=3" type="text/css" media="screen, projection" />
 </head>
 <body>
   <div id="header">
-    <h1><a href="https://samvitjain.com">Samvit Jain</a>'s <a href="{{ site.baseurl }}">blog</a></h1>
+    <h1><a href="{{ site.url }}/">Samvit Jain</a>'s <a href="{{ site.baseurl }}/">blog</a></h1>
 <span> </span>
   </div>
   <hr />
